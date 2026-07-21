@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>CPU Trainer 3 vs dontae - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="tournament-CPU-Trainer-3-vs-dontae-20260721-165318" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1784670798
+|gametype|singles
+|player|p1|CPU Trainer 3||
+|player|p2|dontae||
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Roselia, F|
+|poke|p1|Durant, M|
+|poke|p1|Kingdra, F|
+|poke|p1|Piloswine, M|
+|poke|p1|Gouging Fire|
+|poke|p1|Scyther, M|
+|poke|p2|Spewpa, M|
+|poke|p2|Manaphy|
+|poke|p2|Wynaut, M|
+|poke|p2|Octillery, M|
+|poke|p2|Tapu Lele|
+|poke|p2|Dugtrio, M|
+|teampreview
+|
+|t:|1784670798
+|start
+|switch|p1a: Roselia|Roselia, F|241/241
+|switch|p2a: Spewpa|Spewpa, M|231/231
+|turn|1
+|
+|t:|1784670798
+|move|p1a: Roselia|Bullet Seed|p2a: Spewpa
+|-resisted|p2a: Spewpa
+|-damage|p2a: Spewpa|213/231
+|-resisted|p2a: Spewpa
+|-crit|p2a: Spewpa
+|-damage|p2a: Spewpa|186/231
+|-resisted|p2a: Spewpa
+|-damage|p2a: Spewpa|169/231
+|-hitcount|p2a: Spewpa|3
+|move|p2a: Spewpa|Tera Blast|p1a: Roselia
+|-damage|p1a: Roselia|214/241
+|
+|upkeep
+|turn|2
+|
+|t:|1784670798
+|move|p1a: Roselia|Swift|p2a: Spewpa
+|-damage|p2a: Spewpa|85/231
+|move|p2a: Spewpa|Infestation|p1a: Roselia
+|-damage|p1a: Roselia|202/241
+|-activate|p1a: Roselia|move: Infestation|[of] p2a: Spewpa
+|
+|-damage|p1a: Roselia|172/241|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1784670798
+|move|p1a: Roselia|Leaf Storm|p2a: Spewpa
+|-resisted|p2a: Spewpa
+|-damage|p2a: Spewpa|0 fnt
+|-unboost|p1a: Roselia|spa|2
+|faint|p2a: Spewpa
+|
+|-end|p1a: Roselia|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1784670798
+|switch|p2a: Wynaut|Wynaut, M|331/331
+|turn|4
+|
+|t:|1784670798
+|debug|before turn callback: mirrorcoat
+|move|p1a: Roselia|Leaf Storm|p2a: Wynaut
+|-damage|p2a: Wynaut|184/331
+|-unboost|p1a: Roselia|spa|2
+|move|p2a: Wynaut|Mirror Coat|p1a: Roselia
+|-damage|p1a: Roselia|0 fnt
+|faint|p1a: Roselia
+|
+|upkeep
+|
+|t:|1784670798
+|switch|p1a: Piloswine|Piloswine, M|404/404
+|turn|5
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Wynaut|Charm|p1a: Piloswine
+|-unboost|p1a: Piloswine|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1784670798
+|debug|before turn callback: mirrorcoat
+|move|p1a: Piloswine|Flail|p2a: Wynaut
+|debug|BP: 20
+|-damage|p2a: Wynaut|174/331
+|move|p2a: Wynaut|Mirror Coat||[still]
+|-fail|p2a: Wynaut
+|
+|upkeep
+|turn|7
+|
+|t:|1784670798
+|move|p1a: Piloswine|Substitute|p1a: Piloswine
+|-start|p1a: Piloswine|Substitute
+|-damage|p1a: Piloswine|303/404
+|move|p2a: Wynaut|Splash|p2a: Wynaut
+|-nothing
+|
+|upkeep
+|turn|8
+|
+|t:|1784670798
+|debug|before turn callback: mirrorcoat
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Wynaut|Mirror Coat||[still]
+|-fail|p2a: Wynaut
+|
+|upkeep
+|turn|9
+|
+|t:|1784670798
+|move|p1a: Piloswine|Substitute|p1a: Piloswine
+|-fail|p1a: Piloswine|move: Substitute
+|move|p2a: Wynaut|Charm||[still]
+|-fail|p2a: Wynaut
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|10
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Wynaut|Amnesia|p2a: Wynaut
+|-boost|p2a: Wynaut|spd|2
+|
+|upkeep
+|turn|11
+|
+|t:|1784670798
+|move|p1a: Piloswine|Hyper Beam|p2a: Wynaut
+|-damage|p2a: Wynaut|82/331
+|-mustrecharge|p1a: Piloswine
+|move|p2a: Wynaut|Charm||[still]
+|-fail|p2a: Wynaut
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|12
+|
+|t:|1784670798
+|debug|before turn callback: mirrorcoat
+|cant|p1a: Piloswine|recharge
+|move|p2a: Wynaut|Mirror Coat||[still]
+|-fail|p2a: Wynaut
+|
+|upkeep
+|turn|13
+|
+|t:|1784670798
+|move|p1a: Piloswine|Flail|p2a: Wynaut
+|debug|BP: 20
+|-damage|p2a: Wynaut|71/331
+|move|p2a: Wynaut|Charm||[still]
+|-fail|p2a: Wynaut
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|14
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Wynaut|Charm||[still]
+|-fail|p2a: Wynaut
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|15
+|
+|t:|1784670798
+|move|p1a: Piloswine|Flail|p2a: Wynaut
+|debug|BP: 20
+|-damage|p2a: Wynaut|60/331
+|move|p2a: Wynaut|Amnesia|p2a: Wynaut
+|-boost|p2a: Wynaut|spd|2
+|
+|upkeep
+|turn|16
+|
+|t:|1784670798
+|move|p1a: Piloswine|Substitute|p1a: Piloswine
+|-fail|p1a: Piloswine|move: Substitute
+|move|p2a: Wynaut|Amnesia|p2a: Wynaut
+|-boost|p2a: Wynaut|spd|2
+|
+|upkeep
+|turn|17
+|
+|t:|1784670798
+|debug|before turn callback: mirrorcoat
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Wynaut|Mirror Coat||[still]
+|-fail|p2a: Wynaut
+|
+|upkeep
+|turn|18
+|
+|t:|1784670798
+|move|p1a: Piloswine|Substitute|p1a: Piloswine
+|-fail|p1a: Piloswine|move: Substitute
+|move|p2a: Wynaut|Amnesia|p2a: Wynaut
+|-boost|p2a: Wynaut|spd|0
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|19
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Wynaut|Amnesia|p2a: Wynaut
+|-boost|p2a: Wynaut|spd|0
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|20
+|
+|t:|1784670798
+|debug|before turn callback: mirrorcoat
+|move|p1a: Piloswine|Endure||[still]
+|debug|Success chance: 33%
+|-fail|p1a: Piloswine
+|move|p2a: Wynaut|Mirror Coat||[still]
+|-fail|p2a: Wynaut
+|
+|upkeep
+|turn|21
+|
+|t:|1784670798
+|debug|before turn callback: mirrorcoat
+|move|p1a: Piloswine|Substitute|p1a: Piloswine
+|-fail|p1a: Piloswine|move: Substitute
+|move|p2a: Wynaut|Mirror Coat||[still]
+|-fail|p2a: Wynaut
+|
+|upkeep
+|turn|22
+|
+|t:|1784670798
+|move|p1a: Piloswine|Hyper Beam|p2a: Wynaut
+|-damage|p2a: Wynaut|11/331
+|-mustrecharge|p1a: Piloswine
+|move|p2a: Wynaut|Splash|p2a: Wynaut
+|-nothing
+|
+|upkeep
+|turn|23
+|
+|t:|1784670798
+|cant|p1a: Piloswine|recharge
+|move|p2a: Wynaut|Splash|p2a: Wynaut
+|-nothing
+|
+|upkeep
+|turn|24
+|
+|t:|1784670798
+|move|p1a: Piloswine|Flail|p2a: Wynaut
+|debug|BP: 20
+|-damage|p2a: Wynaut|0 fnt
+|faint|p2a: Wynaut
+|
+|upkeep
+|
+|t:|1784670798
+|switch|p2a: Tapu Lele|Tapu Lele|281/281
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Tapu Lele
+|turn|25
+|
+|t:|1784670798
+|move|p2a: Tapu Lele|Charge Beam|p1a: Piloswine
+|-immune|p1a: Piloswine
+|move|p1a: Piloswine|Substitute|p1a: Piloswine
+|-fail|p1a: Piloswine|move: Substitute
+|
+|upkeep
+|turn|26
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Tapu Lele|Focus Blast|p1a: Piloswine
+|-supereffective|p1a: Piloswine
+|-end|p1a: Piloswine|Substitute
+|
+|upkeep
+|turn|27
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|debug|Success chance: 33%
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Tapu Lele|Extrasensory|p1a: Piloswine
+|debug|psychic terrain boost
+|-damage|p1a: Piloswine|14/404
+|
+|upkeep
+|turn|28
+|
+|t:|1784670798
+|move|p2a: Tapu Lele|Ally Switch||[still]
+|-fail|p2a: Tapu Lele|move: Ally Switch
+|debug|move failed because it did nothing
+|move|p1a: Piloswine|Hyper Beam|p2a: Tapu Lele
+|-damage|p2a: Tapu Lele|176/281
+|-mustrecharge|p1a: Piloswine
+|
+|upkeep
+|turn|29
+|
+|t:|1784670798
+|move|p2a: Tapu Lele|Charge Beam|p1a: Piloswine
+|-immune|p1a: Piloswine
+|cant|p1a: Piloswine|recharge
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|30
+|
+|t:|1784670798
+|move|p2a: Tapu Lele|Charge Beam|p1a: Piloswine
+|-immune|p1a: Piloswine
+|move|p1a: Piloswine|Flail|p2a: Tapu Lele
+|debug|BP: 200
+|-damage|p2a: Tapu Lele|83/281
+|
+|upkeep
+|turn|31
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Tapu Lele|Charge Beam|p1a: Piloswine
+|-immune|p1a: Piloswine
+|
+|upkeep
+|turn|32
+|
+|t:|1784670798
+|move|p1a: Piloswine|Endure|p1a: Piloswine
+|debug|Success chance: 33%
+|-singleturn|p1a: Piloswine|move: Endure
+|move|p2a: Tapu Lele|Charge Beam|p1a: Piloswine
+|-immune|p1a: Piloswine
+|
+|upkeep
+|turn|33
+|
+|t:|1784670798
+|move|p2a: Tapu Lele|Ally Switch||[still]
+|-fail|p2a: Tapu Lele|move: Ally Switch
+|debug|move failed because it did nothing
+|move|p1a: Piloswine|Flail|p2a: Tapu Lele
+|debug|BP: 200
+|-damage|p2a: Tapu Lele|0 fnt
+|faint|p2a: Tapu Lele
+|
+|upkeep
+|
+|t:|1784670798
+|switch|p2a: Dugtrio|Dugtrio, M|211/211
+|turn|34
+|
+|t:|1784670798
+|move|p2a: Dugtrio|Hyper Beam|p1a: Piloswine
+|-damage|p1a: Piloswine|0 fnt
+|-mustrecharge|p2a: Dugtrio
+|faint|p1a: Piloswine
+|
+|upkeep
+|
+|t:|1784670798
+|switch|p1a: Gouging Fire|Gouging Fire|351/351
+|turn|35
+|
+|t:|1784670798
+|cant|p2a: Dugtrio|recharge
+|move|p1a: Gouging Fire|Crush Claw|p2a: Dugtrio
+|-damage|p2a: Dugtrio|113/211
+|-unboost|p2a: Dugtrio|def|1
+|
+|upkeep
+|turn|36
+|
+|t:|1784670798
+|move|p2a: Dugtrio|Foul Play|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|283/351
+|move|p1a: Gouging Fire|Crush Claw|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|upkeep
+|
+|t:|1784670798
+|switch|p2a: Octillery|Octillery, M|292/292
+|turn|37
+|
+|t:|1784670798
+|move|p1a: Gouging Fire|Heat Wave|p2a: Octillery
+|-resisted|p2a: Octillery
+|-damage|p2a: Octillery|235/292
+|move|p2a: Octillery|Blizzard|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|187/351
+|
+|upkeep
+|turn|38
+|
+|t:|1784670798
+|move|p1a: Gouging Fire|Crush Claw|p2a: Octillery
+|-damage|p2a: Octillery|163/292
+|move|p2a: Octillery|Thunder Wave|p1a: Gouging Fire
+|-status|p1a: Gouging Fire|par
+|
+|upkeep
+|turn|39
+|
+|t:|1784670798
+|move|p2a: Octillery|Acid Spray|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|151/351 par
+|-unboost|p1a: Gouging Fire|spd|2
+|move|p1a: Gouging Fire|Heat Wave|p2a: Octillery
+|-resisted|p2a: Octillery
+|-damage|p2a: Octillery|103/292
+|-status|p2a: Octillery|brn
+|
+|-damage|p2a: Octillery|85/292 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1784670798
+|move|p2a: Octillery|Thunder Wave|p1a: Gouging Fire
+|-fail|p1a: Gouging Fire|par
+|debug|move failed because it did nothing
+|move|p1a: Gouging Fire|Heat Wave|p2a: Octillery
+|-resisted|p2a: Octillery
+|-damage|p2a: Octillery|31/292 brn
+|
+|-damage|p2a: Octillery|13/292 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1784670798
+|move|p2a: Octillery|Thunder Wave|p1a: Gouging Fire
+|-fail|p1a: Gouging Fire|par
+|debug|move failed because it did nothing
+|cant|p1a: Gouging Fire|par
+|
+|-damage|p2a: Octillery|0 fnt|[from] brn
+|faint|p2a: Octillery
+|upkeep
+|
+|t:|1784670798
+|switch|p2a: Manaphy|Manaphy|341/341
+|turn|42
+|
+|t:|1784670798
+|move|p2a: Manaphy|Fling||[still]
+|-fail|p2a: Manaphy
+|cant|p1a: Gouging Fire|par
+|
+|upkeep
+|turn|43
+|
+|t:|1784670798
+|move|p2a: Manaphy|Water Pulse|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|3/351 par
+|move|p1a: Gouging Fire|Crush Claw|p2a: Manaphy
+|-damage|p2a: Manaphy|265/341
+|-unboost|p2a: Manaphy|def|1
+|
+|upkeep
+|turn|44
+|
+|t:|1784670798
+|move|p2a: Manaphy|Fling||[still]
+|-fail|p2a: Manaphy
+|cant|p1a: Gouging Fire|par
+|
+|upkeep
+|turn|45
+|
+|t:|1784670798
+|move|p2a: Manaphy|Water Pulse|p1a: Gouging Fire
+|-damage|p1a: Gouging Fire|0 fnt
+|faint|p1a: Gouging Fire
+|-end|p1a: Gouging Fire|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1784670798
+|switch|p1a: Scyther|Scyther, M|282/282
+|turn|46
+|
+|t:|1784670798
+|move|p2a: Manaphy|Protect|p2a: Manaphy
+|-singleturn|p2a: Manaphy|Protect
+|move|p1a: Scyther|Air Cutter|p2a: Manaphy
+|-activate|p2a: Manaphy|move: Protect
+|
+|upkeep
+|turn|47
+|
+|t:|1784670798
+|move|p2a: Manaphy|Water Pulse|p1a: Scyther
+|-damage|p1a: Scyther|206/282
+|move|p1a: Scyther|Air Cutter|p2a: Manaphy
+|debug|Base Power: 60
+|debug|Technician boost
+|-damage|p2a: Manaphy|196/341
+|
+|upkeep
+|turn|48
+|
+|t:|1784670798
+|move|p2a: Manaphy|Water Pulse|p1a: Scyther
+|-damage|p1a: Scyther|127/282
+|move|p1a: Scyther|Knock Off|p2a: Manaphy
+|debug|Base Power: 65
+|-damage|p2a: Manaphy|118/341
+|
+|upkeep
+|turn|49
+|
+|t:|1784670798
+|move|p2a: Manaphy|Protect|p2a: Manaphy
+|-singleturn|p2a: Manaphy|Protect
+|move|p1a: Scyther|Aerial Ace|p2a: Manaphy
+|-activate|p2a: Manaphy|move: Protect
+|
+|upkeep
+|turn|50
+|
+|t:|1784670798
+|move|p2a: Manaphy|Water Pulse|p1a: Scyther
+|-damage|p1a: Scyther|57/282
+|move|p1a: Scyther|Knock Off|p2a: Manaphy
+|debug|Base Power: 65
+|-damage|p2a: Manaphy|41/341
+|
+|upkeep
+|turn|51
+|
+|t:|1784670798
+|move|p2a: Manaphy|Water Pulse|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|upkeep
+|
+|t:|1784670798
+|switch|p1a: Durant|Durant, M|257/257
+|turn|52
+|
+|t:|1784670798
+|move|p1a: Durant|Double Team|p1a: Durant
+|-boost|p1a: Durant|evasion|1
+|move|p2a: Manaphy|Water Pulse|p1a: Durant
+|-damage|p1a: Durant|125/257
+|
+|upkeep
+|turn|53
+|
+|t:|1784670798
+|move|p1a: Durant|Swagger|p2a: Manaphy
+|-boost|p2a: Manaphy|atk|2
+|-start|p2a: Manaphy|confusion
+|-activate|p2a: Manaphy|confusion
+|move|p2a: Manaphy|Water Pulse|p1a: Durant|[miss]
+|-miss|p2a: Manaphy|p1a: Durant
+|
+|upkeep
+|turn|54
+|
+|t:|1784670798
+|move|p1a: Durant|Double Team|p1a: Durant
+|-boost|p1a: Durant|evasion|1
+|-activate|p2a: Manaphy|confusion
+|move|p2a: Manaphy|Water Pulse|p1a: Durant
+|-damage|p1a: Durant|10/257
+|
+|upkeep
+|turn|55
+|
+|t:|1784670798
+|move|p1a: Durant|Metal Claw|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|win|CPU Trainer 3</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
