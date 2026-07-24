@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>dontae vs Blue - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="tournament-dontae-vs-Blue-20260723-200320" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1784855000
+|gametype|doubles
+|player|p1|dontae|rosa-pokestar2|
+|player|p2|Blue|blue|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Regirock|
+|poke|p1|Darkrai|
+|poke|p1|Great Tusk|
+|poke|p1|Reuniclus, F|
+|poke|p1|Shaymin|
+|poke|p1|Golurk|
+|poke|p2|Aerodactyl, F|
+|poke|p2|Exeggutor, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Alakazam, M|
+|poke|p2|Arcanine, F|
+|poke|p2|Machamp, F|
+|teampreview
+|
+|t:|1784855000
+|start
+|switch|p1a: Regirock|Regirock|302/302
+|switch|p1b: Darkrai|Darkrai|344/344
+|switch|p2a: Aerodactyl|Aerodactyl, F|364/364
+|switch|p2b: Exeggutor|Exeggutor, F|394/394
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1784855000
+|move|p2a: Aerodactyl|Supersonic|p1a: Regirock
+|-start|p1a: Regirock|confusion
+|move|p1b: Darkrai|Blizzard|p2a: Aerodactyl|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Aerodactyl
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Exeggutor
+|-damage|p2a: Aerodactyl|128/364
+|-damage|p2b: Exeggutor|146/394
+|-status|p2b: Exeggutor|frz
+|-curestatus|p2b: Exeggutor|frz|[msg]
+|move|p2b: Exeggutor|Psych Up|p1a: Regirock
+|-copyboost|p2b: Exeggutor|p1a: Regirock|[from] move: Psych Up
+|-activate|p1a: Regirock|confusion
+|move|p1a: Regirock|Stomp|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|102/364
+|
+|upkeep
+|turn|2
+|
+|t:|1784855000
+|move|p2a: Aerodactyl|Supersonic||[still]
+|-fail|p2a: Aerodactyl
+|debug|move failed because it did nothing
+|move|p1b: Darkrai|X-Scissor|p2b: Exeggutor
+|-supereffective|p2b: Exeggutor
+|-damage|p2b: Exeggutor|0 fnt
+|faint|p2b: Exeggutor
+|-activate|p1a: Regirock|confusion
+|move|p1a: Regirock|Lock-On|p2a: Aerodactyl
+|-activate|p1a: Regirock|move: Lock-On|[of] p2a: Aerodactyl
+|
+|upkeep
+|
+|t:|1784855000
+|switch|p2b: Alakazam|Alakazam, M|251/251
+|turn|3
+|
+|t:|1784855000
+|move|p2a: Aerodactyl|Ominous Wind|p1b: Darkrai
+|-resisted|p1b: Darkrai
+|-damage|p1b: Darkrai|325/344
+|move|p1b: Darkrai|Giga Impact|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|53/364
+|-mustrecharge|p1b: Darkrai
+|move|p2b: Alakazam|Calm Mind|p2b: Alakazam
+|-boost|p2b: Alakazam|spa|1
+|-boost|p2b: Alakazam|spd|1
+|-end|p1a: Regirock|confusion
+|move|p1a: Regirock|Zap Cannon|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|
+|t:|1784855000
+|switch|p2a: Machamp|Machamp, F|384/384
+|turn|4
+|
+|t:|1784855000
+|cant|p1b: Darkrai|recharge
+|move|p2b: Alakazam|Psyshock|p1a: Regirock
+|-damage|p1a: Regirock|217/302
+|move|p2a: Machamp|Substitute|p2a: Machamp
+|-start|p2a: Machamp|Substitute
+|-damage|p2a: Machamp|288/384
+|move|p1a: Regirock|Lock-On||[still]
+|-fail|p1a: Regirock
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|5
+|
+|t:|1784855000
+|move|p1b: Darkrai|Foul Play|p2a: Machamp
+|-resisted|p2a: Machamp
+|-end|p2a: Machamp|Substitute
+|move|p2b: Alakazam|Calm Mind|p2b: Alakazam
+|-boost|p2b: Alakazam|spa|1
+|-boost|p2b: Alakazam|spd|1
+|move|p2a: Machamp|Flamethrower|p1b: Darkrai
+|-damage|p1b: Darkrai|276/344
+|move|p1a: Regirock|Lock-On|p2b: Alakazam
+|-activate|p1a: Regirock|move: Lock-On|[of] p2b: Alakazam
+|
+|upkeep
+|turn|6
+|
+|t:|1784855000
+|move|p1b: Darkrai|Giga Impact|p2b: Alakazam
+|-damage|p2b: Alakazam|57/251
+|-mustrecharge|p1b: Darkrai
+|move|p2b: Alakazam|Energy Ball|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|faint|p1a: Regirock
+|move|p2a: Machamp|Flamethrower|p1b: Darkrai
+|-crit|p1b: Darkrai
+|-damage|p1b: Darkrai|201/344
+|
+|upkeep
+|
+|t:|1784855000
+|switch|p1a: Shaymin|Shaymin|404/404
+|turn|7
+|
+|t:|1784855000
+|cant|p1b: Darkrai|recharge
+|move|p2b: Alakazam|Calm Mind|p2b: Alakazam
+|-boost|p2b: Alakazam|spa|1
+|-boost|p2b: Alakazam|spd|1
+|move|p1a: Shaymin|Take Down|p2a: Machamp
+|-damage|p2a: Machamp|207/384
+|-damage|p1a: Shaymin|384/404|[from] Recoil
+|move|p2a: Machamp|Giga Impact|p1a: Shaymin
+|-damage|p1a: Shaymin|253/404
+|-mustrecharge|p2a: Machamp
+|
+|upkeep
+|turn|8
+|
+|t:|1784855000
+|move|p1b: Darkrai|Foul Play|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|107/384
+|move|p2b: Alakazam|Thunder Wave|p1a: Shaymin
+|-status|p1a: Shaymin|par
+|cant|p2a: Machamp|recharge
+|cant|p1a: Shaymin|par
+|
+|upkeep
+|turn|9
+|
+|t:|1784855000
+|move|p1b: Darkrai|Foul Play|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|10/384
+|move|p2b: Alakazam|Calm Mind|p2b: Alakazam
+|-boost|p2b: Alakazam|spa|1
+|-boost|p2b: Alakazam|spd|1
+|move|p2a: Machamp|Comet Punch|p1b: Darkrai
+|-damage|p1b: Darkrai|182/344
+|-damage|p1b: Darkrai|164/344
+|-damage|p1b: Darkrai|144/344
+|-hitcount|p1b: Darkrai|3
+|move|p1a: Shaymin|Leaf Storm|p2b: Alakazam
+|-damage|p2b: Alakazam|5/251
+|-unboost|p1a: Shaymin|spa|2
+|
+|upkeep
+|turn|10
+|
+|t:|1784855000
+|move|p1b: Darkrai|Giga Impact|p2b: Alakazam
+|-damage|p2b: Alakazam|0 fnt
+|-mustrecharge|p1b: Darkrai
+|faint|p2b: Alakazam
+|move|p2a: Machamp|Comet Punch|p1a: Shaymin
+|-damage|p1a: Shaymin|236/404 par
+|-damage|p1a: Shaymin|218/404 par
+|-damage|p1a: Shaymin|200/404 par
+|-hitcount|p1a: Shaymin|3
+|move|p1a: Shaymin|Take Down|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|-damage|p1a: Shaymin|197/404 par|[from] Recoil
+|
+|upkeep
+|
+|t:|1784855000
+|switch|p2b: Arcanine|Arcanine, F|322/322
+|switch|p2a: Gyarados|Gyarados, M|331/331
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Shaymin|atk|1
+|-unboost|p1b: Darkrai|atk|1
+|turn|11
+|
+|t:|1784855000
+|cant|p1b: Darkrai|recharge
+|move|p2b: Arcanine|Leer|p1b: Darkrai|[spread] p1a,p1b
+|-unboost|p1a: Shaymin|def|1
+|-unboost|p1b: Darkrai|def|1
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|cant|p1a: Shaymin|par
+|
+|-damage|p2b: Arcanine|282/322|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1784855000
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1b: Darkrai|Foul Play|p2b: Arcanine
+|-damage|p2b: Arcanine|191/322
+|-ability|p2b: Arcanine|Justified|boost
+|-boost|p2b: Arcanine|atk|1
+|move|p2b: Arcanine|Ember|p1b: Darkrai
+|-damage|p1b: Darkrai|89/344
+|move|p1a: Shaymin|Tera Blast|p2a: Gyarados
+|-damage|p2a: Gyarados|302/331
+|
+|-damage|p2b: Arcanine|151/322|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1784855000
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1b: Darkrai|Giga Impact|p2a: Gyarados
+|-damage|p2a: Gyarados|240/331
+|-mustrecharge|p1b: Darkrai
+|move|p2b: Arcanine|Substitute|p2b: Arcanine
+|-start|p2b: Arcanine|Substitute
+|-damage|p2b: Arcanine|71/322
+|cant|p1a: Shaymin|par
+|
+|-damage|p2b: Arcanine|31/322|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1784855000
+|move|p2a: Gyarados|Whirlpool|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-damage|p1a: Shaymin|182/404 par
+|-activate|p1a: Shaymin|move: Whirlpool|[of] p2a: Gyarados
+|cant|p1b: Darkrai|recharge
+|move|p2b: Arcanine|Leer|p1b: Darkrai|[spread] p1a,p1b
+|-unboost|p1a: Shaymin|def|1
+|-unboost|p1b: Darkrai|def|1
+|cant|p1a: Shaymin|par
+|
+|-damage|p2b: Arcanine|0 fnt|[from] item: Black Sludge
+|faint|p2b: Arcanine
+|-damage|p1a: Shaymin|132/404 par|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1784855000
+|move|p2a: Gyarados|Taunt|p1a: Shaymin
+|-start|p1a: Shaymin|move: Taunt
+|move|p1b: Darkrai|Giga Impact|p2a: Gyarados
+|-damage|p2a: Gyarados|169/331
+|-mustrecharge|p1b: Darkrai
+|move|p1a: Shaymin|Leaf Storm|p2a: Gyarados
+|-damage|p2a: Gyarados|105/331
+|-unboost|p1a: Shaymin|spa|2
+|
+|-damage|p1a: Shaymin|82/404 par|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1784855000
+|move|p2a: Gyarados|Ice Beam|p1b: Darkrai
+|-damage|p1b: Darkrai|35/344
+|cant|p1b: Darkrai|recharge
+|move|p1a: Shaymin|Petal Blizzard|p2a: Gyarados|[spread] p1b,p2a
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1b: Darkrai|0 fnt
+|-damage|p2a: Gyarados|51/331
+|faint|p1b: Darkrai
+|
+|-damage|p1a: Shaymin|32/404 par|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|
+|t:|1784855000
+|switch|p1b: Great Tusk|Great Tusk|434/434
+|turn|17
+|
+|t:|1784855000
+|move|p2a: Gyarados|Whirlpool|p1a: Shaymin
+|-resisted|p1a: Shaymin
+|-damage|p1a: Shaymin|17/404 par
+|move|p1b: Great Tusk|Supercell Slam|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|win|dontae</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
