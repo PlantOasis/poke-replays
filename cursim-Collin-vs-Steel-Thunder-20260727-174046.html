@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Collin vs Steel Thunder - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Collin-vs-Steel-Thunder-20260727-174046" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785192046
+|gametype|doubles
+|player|p1|Collin|mom-alola|
+|player|p2|Steel Thunder|ingo|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Wooper-Paldea, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Snover, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Lapras, M|
+|poke|p1|Dewgong, M|
+|poke|p2|Scream Tail|
+|poke|p2|Audino, F|
+|poke|p2|Zeraora|
+|poke|p2|Revavroom, M|
+|poke|p2|Zekrom|
+|poke|p2|Duraludon, F|
+|teampreview
+|
+|t:|1785192046
+|start
+|switch|p1a: Wooper|Wooper-Paldea, F|251/251
+|switch|p1b: Corsola|Corsola-Galar, F|261/261
+|switch|p2a: Scream Tail|Scream Tail|371/371
+|switch|p2b: Audino|Audino, F|348/348
+|turn|1
+|
+|t:|1785192046
+|move|p2a: Scream Tail|Rain Dance|p2a: Scream Tail
+|-weather|RainDance
+|move|p2b: Audino|Thunder|p1b: Corsola
+|-crit|p1b: Corsola
+|-damage|p1b: Corsola|183/261
+|move|p1b: Corsola|Ancient Power|p2a: Scream Tail
+|-damage|p2a: Scream Tail|340/371
+|move|p1a: Wooper|Stomping Tantrum|p2b: Audino
+|-damage|p2b: Audino|264/348
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1785192046
+|debug|before turn callback: mirrorcoat
+|move|p2a: Scream Tail|Rain Dance||[still]
+|-fail|p2a: Scream Tail
+|debug|move failed because it did nothing
+|move|p2b: Audino|Draining Kiss|p1a: Wooper
+|-resisted|p1a: Wooper
+|-damage|p1a: Wooper|228/251
+|-heal|p2b: Audino|281/348|[from] drain|[of] p1a: Wooper
+|move|p1a: Wooper|Swallow||[still]
+|-fail|p1a: Wooper
+|move|p1b: Corsola|Mirror Coat||[still]
+|-fail|p1b: Corsola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785192046
+|move|p2a: Scream Tail|Thunderbolt|p1b: Corsola
+|-damage|p1b: Corsola|143/261
+|move|p2b: Audino|Dig||[still]
+|-prepare|p2b: Audino|Dig
+|move|p1b: Corsola|Ancient Power|p2a: Scream Tail
+|-damage|p2a: Scream Tail|309/371
+|move|p1a: Wooper|Swallow||[still]
+|-fail|p1a: Wooper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785192046
+|debug|before turn callback: mirrorcoat
+|move|p2a: Scream Tail|Psychic|p1a: Wooper
+|-supereffective|p1a: Wooper
+|-damage|p1a: Wooper|0 fnt
+|faint|p1a: Wooper
+|move|p2b: Audino|Dig|p1b: Corsola|[from] lockedmove
+|-damage|p1b: Corsola|99/261
+|-ability|p1b: Corsola|Weak Armor|boost
+|-unboost|p1b: Corsola|def|1
+|-boost|p1b: Corsola|spe|2
+|move|p1b: Corsola|Mirror Coat||[still]
+|-fail|p1b: Corsola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785192046
+|switch|p1a: Dewgong|Dewgong, M|384/384
+|turn|5
+|
+|t:|1785192046
+|move|p2a: Scream Tail|Rain Dance||[still]
+|-fail|p2a: Scream Tail
+|debug|move failed because it did nothing
+|move|p1b: Corsola|Haze|p1b: Corsola
+|-clearallboost
+|move|p1a: Dewgong|Alluring Voice|p2b: Audino
+|-damage|p2b: Audino|245/348
+|move|p2b: Audino|Draining Kiss|p1a: Dewgong
+|-damage|p1a: Dewgong|357/384
+|-heal|p2b: Audino|265/348|[from] drain|[of] p1a: Dewgong
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1785192046
+|move|p2a: Scream Tail|Rain Dance|p2a: Scream Tail
+|-weather|RainDance
+|move|p1a: Dewgong|Uproar|p2a: Scream Tail
+|-damage|p2a: Scream Tail|276/371
+|-start|p1a: Dewgong|Uproar
+|move|p2b: Audino|Thunder|p1b: Corsola
+|-damage|p1b: Corsola|44/261
+|-status|p1b: Corsola|par
+|move|p1b: Corsola|Ancient Power|p2a: Scream Tail
+|-damage|p2a: Scream Tail|239/371
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Dewgong|Uproar|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1785192046
+|debug|before turn callback: mirrorcoat
+|move|p2a: Scream Tail|Thunderbolt|p1b: Corsola
+|-damage|p1b: Corsola|1/261 par
+|move|p1a: Dewgong|Uproar|p2b: Audino|[from] lockedmove
+|-damage|p2b: Audino|220/348
+|debug|move failed because it did nothing
+|move|p2b: Audino|Thunder|p1b: Corsola
+|-damage|p1b: Corsola|0 fnt
+|faint|p1b: Corsola
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Dewgong|Uproar|[upkeep]
+|upkeep
+|
+|t:|1785192046
+|switch|p1b: Lapras|Lapras, M|401/401
+|turn|8
+|
+|t:|1785192046
+|move|p2a: Scream Tail|Rain Dance||[still]
+|-fail|p2a: Scream Tail
+|debug|move failed because it did nothing
+|move|p1a: Dewgong|Uproar|p2a: Scream Tail|[from] lockedmove
+|-damage|p2a: Scream Tail|206/371
+|debug|move failed because it did nothing
+|move|p1b: Lapras|Take Down|p2a: Scream Tail
+|-damage|p2a: Scream Tail|131/371
+|-damage|p1b: Lapras|382/401|[from] Recoil
+|move|p2b: Audino|Dig||[still]
+|-prepare|p2b: Audino|Dig
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Dewgong|Uproar
+|upkeep
+|turn|9
+|
+|t:|1785192046
+|move|p2a: Scream Tail|Thunderbolt|p1b: Lapras
+|-supereffective|p1b: Lapras
+|-damage|p1b: Lapras|280/401
+|move|p1a: Dewgong|Alluring Voice|p2a: Scream Tail
+|-damage|p2a: Scream Tail|101/371
+|move|p1b: Lapras|Sparkling Aria|p2a: Scream Tail|[spread] p1a,p2a
+|-miss|p1b: Lapras|p2b: Audino
+|debug|Spread modifier: 0.75
+|debug|rain water boost
+|-resisted|p1a: Dewgong
+|debug|Spread modifier: 0.75
+|debug|rain water boost
+|-damage|p1a: Dewgong|306/384
+|-damage|p2a: Scream Tail|17/371
+|move|p2b: Audino|Dig|p1b: Lapras|[from] lockedmove
+|-damage|p1b: Lapras|233/401
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1785192046
+|move|p2a: Scream Tail|Psychic|p1b: Lapras
+|-damage|p1b: Lapras|158/401
+|move|p1a: Dewgong|Uproar|p2b: Audino
+|-damage|p2b: Audino|178/348
+|-start|p1a: Dewgong|Uproar
+|move|p1b: Lapras|Sparkling Aria|p2b: Audino|[spread] p1a,p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|rain water boost
+|-resisted|p1a: Dewgong
+|debug|Spread modifier: 0.75
+|debug|rain water boost
+|debug|Spread modifier: 0.75
+|debug|rain water boost
+|-damage|p1a: Dewgong|253/384
+|-damage|p2a: Scream Tail|0 fnt
+|-damage|p2b: Audino|82/348
+|debug|move failed because it did nothing
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|move|p2b: Audino|Work Up|p2b: Audino
+|-boost|p2b: Audino|atk|1
+|-boost|p2b: Audino|spa|1
+|
+|-weather|none
+|-start|p1a: Dewgong|Uproar|[upkeep]
+|upkeep
+|
+|t:|1785192046
+|switch|p2a: Zekrom|Zekrom|341/341
+|-ability|p2a: Zekrom|Teravolt
+|turn|11
+|
+|t:|1785192046
+|move|p2a: Zekrom|Stealth Rock|p1a: Dewgong
+|-sidestart|p1: Collin|move: Stealth Rock
+|move|p1a: Dewgong|Uproar|p2a: Zekrom|[from] lockedmove
+|-damage|p2a: Zekrom|298/341
+|debug|move failed because it did nothing
+|move|p1b: Lapras|Muddy Water|p2a: Zekrom|[spread] p2b
+|-miss|p1b: Lapras|p2a: Zekrom
+|debug|Spread modifier: 0.75
+|-damage|p2b: Audino|12/348
+|move|p2b: Audino|Dig||[still]
+|-prepare|p2b: Audino|Dig
+|
+|-start|p1a: Dewgong|Uproar|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1785192046
+|move|p2a: Zekrom|Breaking Swipe|p1a: Dewgong|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1a: Dewgong|156/384
+|-damage|p1b: Lapras|85/401
+|-unboost|p1a: Dewgong|atk|1
+|-unboost|p1b: Lapras|atk|1
+|move|p1a: Dewgong|Uproar|p2a: Zekrom|[from] lockedmove
+|-damage|p2a: Zekrom|256/341
+|debug|move failed because it did nothing
+|move|p1b: Lapras|Sparkling Aria|p2a: Zekrom|[spread] p1a,p2a
+|-miss|p1b: Lapras|p2b: Audino
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Dewgong
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Zekrom
+|-damage|p1a: Dewgong|120/384
+|-damage|p2a: Zekrom|223/341
+|move|p2b: Audino|Dig|p1a: Dewgong|[from] lockedmove
+|-damage|p1a: Dewgong|20/384
+|
+|-end|p1a: Dewgong|Uproar
+|upkeep
+|turn|13
+|
+|t:|1785192046
+|move|p2a: Zekrom|Scale Shot|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|-hitcount|p1: Dewgong|1
+|-unboost|p2a: Zekrom|def|1
+|-boost|p2a: Zekrom|spe|1
+|move|p1b: Lapras|Take Down|p2a: Zekrom
+|-damage|p2a: Zekrom|155/341
+|-damage|p1b: Lapras|68/401|[from] Recoil
+|move|p2b: Audino|Work Up|p2b: Audino
+|-boost|p2b: Audino|atk|1
+|-boost|p2b: Audino|spa|1
+|
+|upkeep
+|
+|t:|1785192046
+|switch|p1a: Snover|Snover, M|262/262
+|-damage|p1a: Snover|197/262|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Snover
+|turn|14
+|
+|t:|1785192046
+|move|p2a: Zekrom|Stealth Rock||[still]
+|-fail|p2a: Zekrom
+|debug|move failed because it did nothing
+|move|p1b: Lapras|Muddy Water|p2a: Zekrom|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Zekrom
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zekrom|122/341
+|-damage|p2b: Audino|0 fnt
+|faint|p2b: Audino
+|move|p1a: Snover|Icy Wind|p2a: Zekrom
+|-supereffective|p2a: Zekrom
+|-damage|p2a: Zekrom|48/341
+|-unboost|p2a: Zekrom|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785192046
+|switch|p2b: Duraludon|Duraludon, F|344/344
+|turn|15
+|
+|t:|1785192046
+|move|p2b: Duraludon|Dragon Cheer|p2a: Zekrom
+|-start|p2a: Zekrom|move: Dragon Cheer
+|move|p2a: Zekrom|Scale Shot|p1b: Lapras
+|-damage|p1b: Lapras|38/401
+|-crit|p1b: Lapras
+|-damage|p1b: Lapras|0 fnt
+|faint|p1b: Lapras
+|-hitcount|p1: Lapras|2
+|-unboost|p2a: Zekrom|def|1
+|-boost|p2a: Zekrom|spe|1
+|move|p1a: Snover|Grass Knot|p2a: Zekrom
+|debug|BP: 120
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|6/341
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785192046
+|switch|p1b: Volcarona|Volcarona, F|311/311
+|-damage|p1b: Volcarona|156/311|[from] Stealth Rock
+|turn|16
+|
+|t:|1785192046
+|move|p2a: Zekrom|Scale Shot|p1b: Volcarona
+|-crit|p1b: Volcarona
+|-damage|p1b: Volcarona|90/311
+|-crit|p1b: Volcarona
+|-damage|p1b: Volcarona|24/311
+|-hitcount|p1b: Volcarona|2
+|-unboost|p2a: Zekrom|def|1
+|-boost|p2a: Zekrom|spe|1
+|move|p2b: Duraludon|Tera Blast|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|move|p1a: Snover|Wood Hammer|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|0 fnt
+|faint|p2a: Zekrom
+|-damage|p1a: Snover|195/262|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785192046
+|switch|p2a: Revavroom|Revavroom, M|301/301
+|turn|17
+|
+|t:|1785192046
+|move|p2a: Revavroom|Hyper Beam|p1a: Snover|[miss]
+|-miss|p2a: Revavroom|p1a: Snover
+|move|p2b: Duraludon|Take Down|p1a: Snover|[miss]
+|-miss|p2b: Duraludon|p1a: Snover
+|move|p1a: Snover|Grass Knot|p2a: Revavroom
+|debug|BP: 100
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|282/301
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1785192046
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|move|p2b: Duraludon|Slash|p1a: Snover
+|-damage|p1a: Snover|151/262
+|move|p1a: Snover|Grass Knot|p2a: Revavroom
+|debug|BP: 100
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|261/301
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1785192046
+|move|p2a: Revavroom|Hyper Beam|p1a: Snover
+|-damage|p1a: Snover|43/262
+|-mustrecharge|p2a: Revavroom
+|move|p2b: Duraludon|Slash|p1a: Snover
+|-damage|p1a: Snover|0 fnt
+|faint|p1a: Snover
+|
+|win|Steel Thunder</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
