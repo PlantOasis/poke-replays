@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Collin vs Daniel - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Collin-vs-Daniel-20260727-000405" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785128645
+|gametype|doubles
+|player|p1|Collin|mom-alola|
+|player|p2|Daniel|hilda-wonderlauncher|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Wooper-Paldea, F|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Snover, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Lapras, F|
+|poke|p1|Dewgong, F|
+|poke|p2|Gigalith, F|
+|poke|p2|Furfrou, M|
+|poke|p2|Infernape, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Blacephalon|
+|poke|p2|Zygarde|
+|teampreview
+|
+|t:|1785128645
+|start
+|switch|p1a: Wooper|Wooper-Paldea, F|251/251
+|switch|p1b: Corsola|Corsola-Galar, F|261/261
+|switch|p2a: Gigalith|Gigalith, F|311/311
+|switch|p2b: Furfrou|Furfrou, M|291/291
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|
+|t:|1785128645
+|move|p2b: Furfrou|Take Down|p1a: Wooper
+|-damage|p1a: Wooper|88/251
+|-damage|p2b: Furfrou|250/291|[from] Recoil
+|move|p2a: Gigalith|Confide|p1a: Wooper
+|-unboost|p1a: Wooper|spa|1
+|move|p1b: Corsola|Haze|p1b: Corsola
+|-clearallboost
+|move|p1a: Wooper|Dig||[still]
+|-prepare|p1a: Wooper|Dig
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Furfrou|232/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p1b: Corsola|245/261|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|2
+|
+|t:|1785128645
+|debug|before turn callback: mirrorcoat
+|move|p2a: Gigalith|Iron Defense|p2a: Gigalith
+|-boost|p2a: Gigalith|def|2
+|move|p1a: Wooper|Dig|p2a: Gigalith|[from] lockedmove
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|185/311
+|move|p1b: Corsola|Mirror Coat||[still]
+|-fail|p1b: Corsola
+|move|p2b: Furfrou|Roar|p1a: Wooper
+|drag|p1a: Dewgong|Dewgong, F|384/384
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Furfrou|214/291|[from] Sandstorm
+|-damage|p1a: Dewgong|360/384|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p1b: Corsola|229/261|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1785128645
+|move|p2b: Furfrou|Double Team|p2b: Furfrou
+|-boost|p2b: Furfrou|evasion|1
+|move|p1a: Dewgong|Alluring Voice|p2a: Gigalith
+|-damage|p2a: Gigalith|156/311
+|move|p2a: Gigalith|Solar Beam||[still]
+|-prepare|p2a: Gigalith|Solar Beam
+|move|p1b: Corsola|Haze|p1b: Corsola
+|-clearallboost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Furfrou|196/291|[from] Sandstorm
+|-damage|p1a: Dewgong|336/384|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p1b: Corsola|213/261|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1785128645
+|move|p2b: Furfrou|Take Down|p1a: Dewgong
+|-damage|p1a: Dewgong|236/384
+|-damage|p2b: Furfrou|171/291|[from] Recoil
+|move|p1a: Dewgong|Blizzard|p2a: Gigalith|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Gigalith|110/311
+|-damage|p2b: Furfrou|101/291
+|move|p2a: Gigalith|Solar Beam|p1a: Dewgong|[from] lockedmove
+|debug|weakened by weather
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|168/384
+|move|p1b: Corsola|Ancient Power|p2a: Gigalith
+|-damage|p2a: Gigalith|77/311
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Furfrou|83/291|[from] Sandstorm
+|-damage|p1a: Dewgong|144/384|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p1b: Corsola|197/261|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1785128645
+|move|p2b: Furfrou|Double Team|p2b: Furfrou
+|-boost|p2b: Furfrou|evasion|1
+|move|p1a: Dewgong|Uproar|p2b: Furfrou
+|-damage|p2b: Furfrou|32/291
+|-start|p1a: Dewgong|Uproar
+|move|p2a: Gigalith|Superpower|p1b: Corsola
+|-immune|p1b: Corsola
+|move|p1b: Corsola|Haze|p1b: Corsola
+|-clearallboost
+|
+|-weather|none
+|-start|p1a: Dewgong|Uproar|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1785128645
+|move|p1a: Dewgong|Uproar|p2a: Gigalith|[from] lockedmove
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|53/311
+|debug|move failed because it did nothing
+|move|p2a: Gigalith|Superpower|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|faint|p1a: Dewgong
+|move|p1b: Corsola|Curse|p2b: Furfrou
+|-start|p2b: Furfrou|Curse|[of] p1b: Corsola
+|-damage|p1b: Corsola|67/261
+|move|p2b: Furfrou|Roar|p1b: Corsola
+|drag|p1b: Snover|Snover, F|262/262
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Snover
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2b: Furfrou|0 fnt|[from] Curse
+|faint|p2b: Furfrou
+|upkeep
+|
+|t:|1785128645
+|switch|p2b: Glimmora|Glimmora, F|370/370
+|switch|p1a: Volcarona|Volcarona, M|311/311
+|turn|7
+|
+|t:|1785128645
+|move|p1a: Volcarona|Skitter Smack|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|move|p2b: Glimmora|Energy Ball|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|290/311
+|move|p1b: Snover|Icy Wind|p2b: Glimmora
+|-damage|p2b: Glimmora|316/370
+|-unboost|p2b: Glimmora|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785128645
+|switch|p2a: Zygarde|Zygarde|420/420
+|turn|8
+|
+|t:|1785128645
+|move|p2a: Zygarde|Land's Wrath|p1b: Snover|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Snover
+|-damage|p1a: Volcarona|182/311
+|-damage|p1b: Snover|226/262
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Zygarde
+|-status|p2a: Zygarde|brn
+|move|p2b: Glimmora|Giga Impact|p1b: Snover
+|-damage|p1b: Snover|170/262
+|-mustrecharge|p2b: Glimmora
+|move|p1b: Snover|Icy Wind|p2b: Glimmora|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Zygarde
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zygarde|288/420 brn
+|-damage|p2b: Glimmora|271/370
+|-unboost|p2a: Zygarde|spe|1
+|-unboost|p2b: Glimmora|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Zygarde|262/420 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1785128645
+|move|p1a: Volcarona|Skitter Smack|p2a: Zygarde
+|-damage|p2a: Zygarde|214/420 brn
+|-unboost|p2a: Zygarde|spa|1
+|move|p2a: Zygarde|Glare|p1b: Snover
+|-status|p1b: Snover|par
+|cant|p2b: Glimmora|recharge
+|cant|p1b: Snover|par
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Zygarde|188/420 brn|[from] brn
+|-activate|p2a: Zygarde|ability: Power Construct
+|detailschange|p2a: Zygarde|Zygarde-Complete
+|-heal|p2a: Zygarde|404/636 brn|[silent]
+|upkeep
+|turn|10
+|
+|t:|1785128645
+|move|p2b: Glimmora|Endure|p2b: Glimmora
+|-singleturn|p2b: Glimmora|move: Endure
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Zygarde|Land's Wrath|p1a: Volcarona|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Snover
+|-damage|p1a: Volcarona|128/311
+|-damage|p1b: Snover|149/262 par
+|move|p1b: Snover|Icy Wind|p2b: Glimmora|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Zygarde
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zygarde|260/636 brn
+|-damage|p2b: Glimmora|225/370
+|-unboost|p2a: Zygarde|spe|1
+|-unboost|p2b: Glimmora|spe|1
+|
+|-weather|none
+|-damage|p2a: Zygarde|221/636 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1785128645
+|move|p1a: Volcarona|Will-O-Wisp|p2b: Glimmora
+|-status|p2b: Glimmora|brn
+|move|p2a: Zygarde|Sludge Wave|p1b: Snover|[spread] p2b,p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Glimmora
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Snover
+|-damage|p2b: Glimmora|215/370 brn
+|-damage|p1a: Volcarona|111/311
+|-damage|p1b: Snover|43/262 par
+|move|p2b: Glimmora|Energy Ball|p1b: Snover
+|-resisted|p1b: Snover
+|-damage|p1b: Snover|0 fnt
+|faint|p1b: Snover
+|
+|-damage|p2a: Zygarde|182/636 brn|[from] brn
+|-damage|p2b: Glimmora|192/370 brn|[from] brn
+|upkeep
+|
+|t:|1785128645
+|switch|p1b: Wooper|Wooper-Paldea, F|88/251
+|turn|12
+|
+|t:|1785128645
+|move|p1a: Volcarona|Air Cutter|p2b: Glimmora|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Glimmora
+|-damage|p2a: Zygarde|106/636 brn
+|-damage|p2b: Glimmora|139/370 brn
+|move|p2a: Zygarde|Core Enforcer|p1b: Wooper|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1a: Volcarona|80/311
+|-damage|p1b: Wooper|0 fnt
+|-endability|p1a: Volcarona
+|debug|DamagingHit handler suppressed by Gastro Acid or Neutralizing Gas
+|faint|p1b: Wooper
+|move|p2b: Glimmora|Energy Ball|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|66/311
+|debug|DamagingHit handler suppressed by Gastro Acid or Neutralizing Gas
+|
+|-damage|p2a: Zygarde|67/636 brn|[from] brn
+|-damage|p2b: Glimmora|116/370 brn|[from] brn
+|upkeep
+|
+|t:|1785128645
+|switch|p1b: Lapras|Lapras, F|401/401
+|turn|13
+|
+|t:|1785128645
+|move|p1a: Volcarona|Skitter Smack|p2a: Zygarde
+|-damage|p2a: Zygarde|22/636 brn
+|-unboost|p2a: Zygarde|spa|1
+|move|p1b: Lapras|Muddy Water|p2b: Glimmora|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Glimmora
+|-damage|p2a: Zygarde|0 fnt
+|-damage|p2b: Glimmora|0 fnt
+|faint|p2a: Zygarde
+|faint|p2b: Glimmora
+|
+|upkeep
+|
+|t:|1785128645
+|switch|p2a: Blacephalon|Blacephalon|247/247
+|switch|p2b: Infernape|Infernape, M|356/356
+|turn|14
+|
+|t:|1785128645
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Blacephalon
+|debug|natural status immunity
+|debug|immune to status
+|-immune|p2a: Blacephalon
+|debug|move failed because it did nothing
+|move|p2b: Infernape|Substitute|p2b: Infernape
+|-start|p2b: Infernape|Substitute
+|-damage|p2b: Infernape|267/356
+|move|p2a: Blacephalon|Uproar|p1a: Volcarona
+|-damage|p1a: Volcarona|15/311
+|-start|p2a: Blacephalon|Uproar
+|debug|DamagingHit handler suppressed by Gastro Acid or Neutralizing Gas
+|move|p1b: Lapras|Take Down|p2b: Infernape|[miss]
+|-miss|p1b: Lapras|p2b: Infernape
+|
+|-start|p2a: Blacephalon|Uproar|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1785128645
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2b: Infernape|Fake Tears|p1b: Lapras
+|-unboost|p1b: Lapras|spd|2
+|move|p2a: Blacephalon|Uproar|p1a: Volcarona|[from] lockedmove
+|-damage|p1a: Volcarona|0 fnt
+|debug|move failed because it did nothing
+|debug|DamagingHit handler suppressed by Gastro Acid or Neutralizing Gas
+|faint|p1a: Volcarona
+|-ability|p2a: Blacephalon|Beast Boost|boost
+|-boost|p2a: Blacephalon|atk|1
+|move|p1b: Lapras|Sparkling Aria|p2a: Blacephalon|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Blacephalon
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Infernape
+|-damage|p2a: Blacephalon|61/247
+|-damage|p2b: Infernape|67/356
+|
+|-start|p2a: Blacephalon|Uproar|[upkeep]
+|upkeep
+|
+|t:|1785128645
+|switch|p1a: Corsola|Corsola-Galar, F|67/261
+|turn|16
+|
+|t:|1785128645
+|move|p2b: Infernape|Rock Slide|p1a: Corsola|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Lapras
+|-damage|p1a: Corsola|27/261
+|-damage|p1b: Lapras|321/401
+|-ability|p1a: Corsola|Weak Armor|boost
+|-unboost|p1a: Corsola|def|1
+|-boost|p1a: Corsola|spe|2
+|move|p2a: Blacephalon|Uproar|p1b: Lapras|[from] lockedmove
+|-damage|p1b: Lapras|74/401
+|debug|move failed because it did nothing
+|move|p1a: Corsola|Ancient Power|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|0 fnt
+|faint|p2a: Blacephalon
+|move|p1b: Lapras|Muddy Water|p2b: Infernape
+|-supereffective|p2b: Infernape
+|-end|p2b: Infernape|Substitute
+|
+|upkeep
+|turn|17
+|
+|t:|1785128645
+|debug|before turn callback: mirrorcoat
+|move|p2b: Infernape|Substitute|p2b: Infernape
+|-fail|p2b: Infernape|move: Substitute|[weak]
+|move|p1b: Lapras|Muddy Water|p2b: Infernape
+|-supereffective|p2b: Infernape
+|-damage|p2b: Infernape|0 fnt
+|faint|p2b: Infernape
+|
+|win|Collin</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

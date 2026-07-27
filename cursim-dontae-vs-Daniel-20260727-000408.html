@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>dontae vs Daniel - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-dontae-vs-Daniel-20260727-000408" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785128648
+|gametype|doubles
+|player|p1|dontae|rosa-pokestar2|
+|player|p2|Daniel|hilda-wonderlauncher|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Regirock|
+|poke|p1|Pecharunt|
+|poke|p1|Darkrai|
+|poke|p1|Great Tusk|
+|poke|p1|Rotom|
+|poke|p1|Decidueye-Hisui, M|
+|poke|p2|Gigalith, M|
+|poke|p2|Furfrou, F|
+|poke|p2|Infernape, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Blacephalon|
+|poke|p2|Zygarde|
+|teampreview
+|
+|t:|1785128648
+|start
+|switch|p1a: Regirock|Regirock|302/302
+|switch|p1b: Pecharunt|Pecharunt|380/380
+|switch|p2a: Gigalith|Gigalith, M|311/311
+|switch|p2b: Furfrou|Furfrou, F|291/291
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|
+|t:|1785128648
+|move|p2b: Furfrou|Headbutt|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|287/302
+|move|p1b: Pecharunt|Hex|p2b: Furfrou
+|-immune|p2b: Furfrou
+|move|p2a: Gigalith|Iron Defense|p2a: Gigalith
+|-boost|p2a: Gigalith|def|2
+|move|p1a: Regirock|Stomp|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|300/311
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Furfrou|273/291|[from] Sandstorm
+|-damage|p1b: Pecharunt|357/380|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|2
+|
+|t:|1785128648
+|move|p2b: Furfrou|Headbutt|p1b: Pecharunt
+|-immune|p1b: Pecharunt
+|move|p1b: Pecharunt|Parting Shot|p2b: Furfrou
+|-unboost|p2b: Furfrou|atk|1
+|-unboost|p2b: Furfrou|spa|1
+|
+|t:|1785128648
+|switch|p1b: Darkrai|Darkrai|344/344|[from] Parting Shot
+|move|p2a: Gigalith|Confide|p1b: Darkrai
+|-unboost|p1b: Darkrai|spa|1
+|move|p1a: Regirock|Stomp|p2b: Furfrou
+|-damage|p2b: Furfrou|244/291
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Darkrai|323/344|[from] Sandstorm
+|-damage|p2b: Furfrou|226/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|3
+|
+|t:|1785128648
+|move|p1b: Darkrai|X-Scissor|p2a: Gigalith
+|-damage|p2a: Gigalith|277/311
+|move|p2b: Furfrou|Take Down|p1b: Darkrai
+|-damage|p1b: Darkrai|268/344
+|-damage|p2b: Furfrou|212/291|[from] Recoil
+|move|p2a: Gigalith|Superpower|p1b: Darkrai
+|-supereffective|p1b: Darkrai
+|-damage|p1b: Darkrai|56/344
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|move|p1a: Regirock|Stomp|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|263/311
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Darkrai|35/344|[from] Sandstorm
+|-damage|p2b: Furfrou|194/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|4
+|
+|t:|1785128648
+|move|p1b: Darkrai|X-Scissor|p2a: Gigalith
+|-damage|p2a: Gigalith|234/311
+|move|p2b: Furfrou|Double Team|p2b: Furfrou
+|-boost|p2b: Furfrou|evasion|1
+|move|p2a: Gigalith|Solar Beam||[still]
+|-prepare|p2a: Gigalith|Solar Beam
+|move|p1a: Regirock|Lock-On|p2b: Furfrou
+|-activate|p1a: Regirock|move: Lock-On|[of] p2b: Furfrou
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Darkrai|14/344|[from] Sandstorm
+|-damage|p2b: Furfrou|176/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|5
+|
+|t:|1785128648
+|move|p1b: Darkrai|Foul Play|p2a: Gigalith
+|-damage|p2a: Gigalith|185/311
+|move|p2a: Gigalith|Solar Beam|p1a: Regirock|[from] lockedmove
+|debug|weakened by weather
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|239/302
+|move|p1a: Regirock|Lock-On||[still]
+|-fail|p1a: Regirock
+|move|p2b: Furfrou|Roar|p1a: Regirock
+|drag|p1a: Pecharunt|Pecharunt|357/380
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1785128648
+|move|p1b: Darkrai|X-Scissor|p2a: Gigalith
+|-damage|p2a: Gigalith|158/311
+|move|p2b: Furfrou|Headbutt|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p1a: Pecharunt|Hex|p2a: Gigalith
+|-damage|p2a: Gigalith|82/311
+|move|p2a: Gigalith|Superpower|p1b: Darkrai
+|-supereffective|p1b: Darkrai
+|-damage|p1b: Darkrai|0 fnt
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|faint|p1b: Darkrai
+|
+|upkeep
+|
+|t:|1785128648
+|switch|p1b: Decidueye|Decidueye-Hisui, M|380/380
+|turn|7
+|
+|t:|1785128648
+|move|p2b: Furfrou|Headbutt|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p1a: Pecharunt|Shadow Ball|p2b: Furfrou
+|-immune|p2b: Furfrou
+|move|p1b: Decidueye|Triple Arrows|p2a: Gigalith
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Gigalith
+|
+|upkeep
+|
+|t:|1785128648
+|switch|p2a: Blacephalon|Blacephalon|247/247
+|turn|8
+|
+|t:|1785128648
+|move|p2a: Blacephalon|Calm Mind|p2a: Blacephalon
+|-boost|p2a: Blacephalon|spa|1
+|-boost|p2a: Blacephalon|spd|1
+|move|p2b: Furfrou|Double Team|p2b: Furfrou
+|-boost|p2b: Furfrou|evasion|1
+|move|p1a: Pecharunt|Hex|p2a: Blacephalon
+|-supereffective|p2a: Blacephalon
+|-damage|p2a: Blacephalon|137/247
+|move|p1b: Decidueye|Triple Arrows|p2b: Furfrou
+|-supereffective|p2b: Furfrou
+|-damage|p2b: Furfrou|56/291
+|
+|upkeep
+|turn|9
+|
+|t:|1785128648
+|move|p2a: Blacephalon|Self-Destruct|p1a: Pecharunt|[spread] p1b
+|-immune|p1a: Pecharunt
+|-miss|p2a: Blacephalon|p2b: Furfrou
+|debug|Spread modifier: 0.75
+|-damage|p1b: Decidueye|182/380
+|faint|p2a: Blacephalon
+|debug|AfterFaint handler suppressed by Gastro Acid or Neutralizing Gas
+|move|p2b: Furfrou|Headbutt|p1b: Decidueye
+|-damage|p1b: Decidueye|130/380
+|move|p1a: Pecharunt|Destiny Bond|p1a: Pecharunt
+|-singlemove|p1a: Pecharunt|Destiny Bond
+|cant|p1b: Decidueye|flinch
+|
+|upkeep
+|
+|t:|1785128648
+|switch|p2a: Glimmora|Glimmora, F|370/370
+|turn|10
+|
+|t:|1785128648
+|move|p2b: Furfrou|Take Down|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p2a: Glimmora|Energy Ball|p1b: Decidueye
+|-resisted|p1b: Decidueye
+|-damage|p1b: Decidueye|65/380
+|move|p1a: Pecharunt|Destiny Bond||[still]
+|-fail|p1a: Pecharunt
+|move|p1b: Decidueye|Triple Arrows|p2b: Furfrou
+|-supereffective|p2b: Furfrou
+|-damage|p2b: Furfrou|0 fnt
+|faint|p2b: Furfrou
+|
+|upkeep
+|
+|t:|1785128648
+|switch|p2b: Zygarde|Zygarde|420/420
+|turn|11
+|
+|t:|1785128648
+|move|p2b: Zygarde|Glare|p1b: Decidueye
+|-status|p1b: Decidueye|par
+|move|p2a: Glimmora|Explosion|p1b: Decidueye|[spread] p2b,p1b
+|-immune|p1a: Pecharunt
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2b: Zygarde|347/420
+|-damage|p1b: Decidueye|0 fnt
+|faint|p2a: Glimmora
+|faint|p1b: Decidueye
+|move|p1a: Pecharunt|Hex|p2b: Zygarde
+|-damage|p2b: Zygarde|278/420
+|
+|upkeep
+|
+|t:|1785128648
+|switch|p2a: Infernape|Infernape, M|356/356
+|switch|p1b: Regirock|Regirock|239/302
+|turn|12
+|
+|t:|1785128648
+|move|p2a: Infernape|Upper Hand||[still]
+|-fail|p2a: Infernape
+|move|p2b: Zygarde|Glare|p1a: Pecharunt
+|debug|brightpowder - decreasing accuracy
+|-status|p1a: Pecharunt|par
+|move|p1b: Regirock|Stomp|p2a: Infernape
+|-damage|p2a: Infernape|288/356
+|move|p1a: Pecharunt|Shadow Ball|p2a: Infernape
+|-damage|p2a: Infernape|173/356
+|-unboost|p2a: Infernape|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1785128648
+|move|p2a: Infernape|Fake Tears|p1b: Regirock
+|-unboost|p1b: Regirock|spd|2
+|move|p2b: Zygarde|Sludge Wave|p1b: Regirock|[spread] p2a,p1a,p1b
+|debug|brightpowder - decreasing accuracy
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Pecharunt
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Regirock
+|-damage|p2a: Infernape|83/356
+|-damage|p1a: Pecharunt|345/380 par
+|-damage|p1b: Regirock|191/302
+|move|p1b: Regirock|Lock-On|p2b: Zygarde
+|-activate|p1b: Regirock|move: Lock-On|[of] p2b: Zygarde
+|move|p1a: Pecharunt|Destiny Bond|p1a: Pecharunt
+|-singlemove|p1a: Pecharunt|Destiny Bond
+|
+|upkeep
+|turn|14
+|
+|t:|1785128648
+|move|p2a: Infernape|Fake Tears|p1a: Pecharunt
+|debug|brightpowder - decreasing accuracy
+|-unboost|p1a: Pecharunt|spd|2
+|move|p2b: Zygarde|Core Enforcer|p1b: Regirock|[spread] p1a,p1b
+|debug|brightpowder - decreasing accuracy
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1a: Pecharunt|194/380 par
+|-damage|p1b: Regirock|46/302
+|move|p1b: Regirock|Stomp|p2a: Infernape
+|-damage|p2a: Infernape|18/356
+|debug|removing Destiny Bond before attack
+|move|p1a: Pecharunt|Shadow Ball|p2b: Zygarde
+|-damage|p2b: Zygarde|190/420
+|
+|-activate|p2b: Zygarde|ability: Power Construct
+|detailschange|p2b: Zygarde|Zygarde-Complete
+|-heal|p2b: Zygarde|406/636|[silent]
+|upkeep
+|turn|15
+|
+|t:|1785128648
+|move|p2a: Infernape|Rock Slide|p1a: Pecharunt|[spread] p1a
+|debug|brightpowder - decreasing accuracy
+|-miss|p2a: Infernape|p1b: Regirock
+|debug|Spread modifier: 0.75
+|-damage|p1a: Pecharunt|167/380 par
+|move|p2b: Zygarde|Core Enforcer|p1b: Regirock|[spread] p1a,p1b
+|debug|brightpowder - decreasing accuracy
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1a: Pecharunt|0 fnt
+|-damage|p1b: Regirock|0 fnt
+|faint|p1a: Pecharunt
+|faint|p1b: Regirock
+|
+|upkeep
+|
+|t:|1785128648
+|switch|p1a: Great Tusk|Great Tusk|434/434
+|switch|p1b: Rotom|Rotom|304/304
+|turn|16
+|
+|t:|1785128648
+|move|p2a: Infernape|Rock Slide|p1a: Great Tusk|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Great Tusk
+|debug|Spread modifier: 0.75
+|-damage|p1a: Great Tusk|426/434
+|-damage|p1b: Rotom|245/304
+|cant|p1b: Rotom|flinch
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p2b: Zygarde|Glare|p1b: Rotom
+|debug|natural status immunity
+|debug|immune to status
+|-immune|p1b: Rotom
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|17
+|
+|t:|1785128648
+|move|p2a: Infernape|Rock Slide|p1a: Great Tusk|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Great Tusk
+|debug|Spread modifier: 0.75
+|-damage|p1a: Great Tusk|426/434 slp
+|-damage|p1b: Rotom|186/304
+|move|p1b: Rotom|Hex|p2b: Zygarde
+|-damage|p2b: Zygarde|333/636
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Core Enforcer|p1a: Great Tusk|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1a: Great Tusk|285/434 slp
+|-damage|p1b: Rotom|116/304
+|-endability|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-endability|p1b: Rotom
+|
+|upkeep
+|turn|18
+|
+|t:|1785128648
+|move|p2a: Infernape|Upper Hand||[still]
+|-fail|p2a: Infernape
+|move|p1b: Rotom|Uproar|p2a: Infernape
+|-curestatus|p1a: Great Tusk|slp|[msg]
+|-damage|p2a: Infernape|0 fnt
+|-start|p1b: Rotom|Uproar
+|faint|p2a: Infernape
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-fail|p1a: Great Tusk|slp|[from] Uproar
+|debug|set status [slp] interrupted
+|debug|move failed because it did nothing
+|move|p2b: Zygarde|Land's Wrath|p1b: Rotom|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Rotom
+|-damage|p1a: Great Tusk|204/434
+|-damage|p1b: Rotom|0 fnt
+|faint|p1b: Rotom
+|
+|upkeep
+|turn|19
+|
+|t:|1785128648
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|326/434 slp
+|
+|upkeep
+|turn|20
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Sludge Wave|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|268/434 slp
+|
+|upkeep
+|turn|21
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|169/434 slp
+|
+|upkeep
+|turn|22
+|
+|t:|1785128648
+|-curestatus|p1a: Great Tusk|slp|[msg]
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p2b: Zygarde|Core Enforcer|p1a: Great Tusk
+|-damage|p1a: Great Tusk|257/434 slp
+|
+|upkeep
+|turn|23
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Glare||[still]
+|-fail|p2b: Zygarde
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|24
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Core Enforcer|p1a: Great Tusk
+|-damage|p1a: Great Tusk|62/434 slp
+|
+|upkeep
+|turn|25
+|
+|t:|1785128648
+|-curestatus|p1a: Great Tusk|slp|[msg]
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|329/434 slp
+|
+|upkeep
+|turn|26
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Glare||[still]
+|-fail|p2b: Zygarde
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|27
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Sludge Wave|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|269/434 slp
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|28
+|
+|t:|1785128648
+|-curestatus|p1a: Great Tusk|slp|[msg]
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|320/434 slp
+|
+|upkeep
+|turn|29
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Glare||[still]
+|-fail|p2b: Zygarde
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|30
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Glare||[still]
+|-fail|p2b: Zygarde
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|31
+|
+|t:|1785128648
+|-curestatus|p1a: Great Tusk|slp|[msg]
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p2b: Zygarde|Sludge Wave|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|374/434 slp
+|
+|upkeep
+|turn|32
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|269/434 slp
+|
+|upkeep
+|turn|33
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|164/434 slp
+|
+|upkeep
+|turn|34
+|
+|t:|1785128648
+|-curestatus|p1a: Great Tusk|slp|[msg]
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|335/434 slp
+|
+|upkeep
+|turn|35
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Land's Wrath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|224/434 slp
+|
+|upkeep
+|turn|36
+|
+|t:|1785128648
+|cant|p1a: Great Tusk|slp
+|move|p2b: Zygarde|Core Enforcer|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Daniel</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
