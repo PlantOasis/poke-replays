@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Collin vs Gavin - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Collin-vs-Gavin-20260728-160206" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785272526
+|gametype|doubles
+|player|p1|Collin|mom-alola|
+|player|p2|Gavin|blaine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Wooper-Paldea, M|
+|poke|p1|Corsola-Galar, F|
+|poke|p1|Snover, F|
+|poke|p1|Volcarona, M|
+|poke|p1|Lapras, M|
+|poke|p1|Dewgong, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Fletchinder, F|
+|poke|p2|Magearna|
+|poke|p2|Stufful, M|
+|poke|p2|Tapu Koko|
+|poke|p2|Regice|
+|teampreview
+|
+|t:|1785272526
+|start
+|switch|p1a: Wooper|Wooper-Paldea, M|251/251
+|switch|p1b: Corsola|Corsola-Galar, F|261/261
+|switch|p2a: Amoonguss|Amoonguss, F|369/369
+|switch|p2b: Fletchinder|Fletchinder, F|265/265
+|turn|1
+|
+|t:|1785272526
+|move|p2b: Fletchinder|Facade|p1a: Wooper
+|-damage|p1a: Wooper|177/251
+|move|p1b: Corsola|Ancient Power|p2b: Fletchinder
+|-supereffective|p2b: Fletchinder
+|-damage|p2b: Fletchinder|57/265
+|move|p2a: Amoonguss|Sweet Scent|p1a: Wooper|[spread] p1a,p1b
+|-unboost|p1a: Wooper|evasion|2
+|-unboost|p1b: Corsola|evasion|2
+|move|p1a: Wooper|Rock Slide|p2a: Amoonguss|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Fletchinder
+|-damage|p2a: Amoonguss|335/369
+|-damage|p2b: Fletchinder|0 fnt
+|faint|p2b: Fletchinder
+|
+|upkeep
+|
+|t:|1785272526
+|switch|p2b: Magearna|Magearna|301/301
+|turn|2
+|
+|t:|1785272526
+|move|p2b: Magearna|Tri Attack|p1b: Corsola
+|-immune|p1b: Corsola
+|move|p1b: Corsola|Haze|p1b: Corsola
+|-clearallboost
+|move|p2a: Amoonguss|Swagger|p1a: Wooper
+|-boost|p1a: Wooper|atk|2
+|-start|p1a: Wooper|confusion
+|-activate|p1a: Wooper|confusion
+|move|p1a: Wooper|Dig||[still]
+|-prepare|p1a: Wooper|Dig
+|
+|upkeep
+|turn|3
+|
+|t:|1785272526
+|move|p2b: Magearna|Trick|p1a: Wooper|[miss]
+|-miss|p2b: Magearna|p1a: Wooper
+|move|p1b: Corsola|Haze|p1b: Corsola
+|-clearallboost
+|move|p2a: Amoonguss|Spore|p1a: Wooper|[miss]
+|-miss|p2a: Amoonguss|p1a: Wooper
+|-end|p1a: Wooper|confusion
+|move|p1a: Wooper|Dig|p2b: Magearna|[from] lockedmove
+|-supereffective|p2b: Magearna
+|-damage|p2b: Magearna|185/301
+|
+|upkeep
+|turn|4
+|
+|t:|1785272526
+|debug|before turn callback: mirrorcoat
+|move|p2b: Magearna|Play Rough|p1b: Corsola
+|-damage|p1b: Corsola|171/261
+|-ability|p1b: Corsola|Weak Armor|boost
+|-unboost|p1b: Corsola|def|1
+|-boost|p1b: Corsola|spe|2
+|move|p2a: Amoonguss|Spore|p1a: Wooper
+|-status|p1a: Wooper|slp|[from] move: Spore
+|cant|p1a: Wooper|slp
+|move|p1b: Corsola|Mirror Coat||[still]
+|-fail|p1b: Corsola
+|
+|upkeep
+|turn|5
+|
+|t:|1785272526
+|move|p2b: Magearna|Disarming Voice|p1a: Wooper|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Wooper
+|debug|Spread modifier: 0.75
+|-damage|p1a: Wooper|143/251 slp
+|-damage|p1b: Corsola|138/261
+|move|p1b: Corsola|Haze|p1b: Corsola
+|-clearallboost
+|move|p2a: Amoonguss|Swagger|p1b: Corsola
+|-boost|p1b: Corsola|atk|2
+|-start|p1b: Corsola|confusion
+|cant|p1a: Wooper|slp
+|
+|upkeep
+|turn|6
+|
+|t:|1785272526
+|move|p2b: Magearna|Trick||[still]
+|-fail|p2b: Magearna
+|debug|move failed because it did nothing
+|-activate|p1b: Corsola|confusion
+|move|p1b: Corsola|Curse|p2a: Amoonguss
+|-start|p2a: Amoonguss|Curse|[of] p1b: Corsola
+|-damage|p1b: Corsola|8/261
+|move|p2a: Amoonguss|Swagger|p1a: Wooper
+|-boost|p1a: Wooper|atk|2
+|-start|p1a: Wooper|confusion
+|cant|p1a: Wooper|slp
+|
+|-damage|p2a: Amoonguss|243/369|[from] Curse
+|upkeep
+|turn|7
+|
+|t:|1785272526
+|move|p2b: Magearna|Disarming Voice|p1a: Wooper|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Wooper
+|debug|Spread modifier: 0.75
+|-damage|p1a: Wooper|111/251 slp
+|-damage|p1b: Corsola|0 fnt
+|faint|p1b: Corsola
+|-ability|p2b: Magearna|Soul-Heart|boost
+|-boost|p2b: Magearna|spa|1
+|move|p2a: Amoonguss|Spore|p1a: Wooper
+|-fail|p1a: Wooper|slp
+|debug|move failed because it did nothing
+|-curestatus|p1a: Wooper|slp|[msg]
+|-activate|p1a: Wooper|confusion
+|move|p1a: Wooper|Dig||[still]
+|-prepare|p1a: Wooper|Dig
+|
+|-damage|p2a: Amoonguss|151/369|[from] Curse
+|upkeep
+|
+|t:|1785272526
+|switch|p1b: Snover|Snover, F|262/262
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Snover
+|turn|8
+|
+|t:|1785272526
+|move|p2b: Magearna|Disarming Voice|p1a: Wooper|[spread] p1b
+|-miss|p2b: Magearna|p1a: Wooper
+|debug|Spread modifier: 0.75
+|-damage|p1b: Snover|177/262
+|move|p1b: Snover|Powder Snow|p2a: Amoonguss|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Amoonguss
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Magearna
+|-damage|p2a: Amoonguss|89/369
+|-damage|p2b: Magearna|176/301
+|move|p2a: Amoonguss|Sweet Scent|p1b: Snover|[spread] p1b
+|-miss|p2a: Amoonguss|p1a: Wooper
+|-unboost|p1b: Snover|evasion|2
+|-activate|p1a: Wooper|confusion
+|-damage|p1a: Wooper|19/251|[from] confusion
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Amoonguss|0 fnt|[from] Curse
+|faint|p2a: Amoonguss
+|-ability|p2b: Magearna|Soul-Heart|boost
+|-boost|p2b: Magearna|spa|1
+|upkeep
+|
+|t:|1785272526
+|switch|p2a: Stufful|Stufful, M|281/281
+|turn|9
+|
+|t:|1785272526
+|move|p2a: Stufful|Protect|p2a: Stufful
+|-singleturn|p2a: Stufful|Protect
+|move|p2b: Magearna|Trick||[still]
+|-fail|p2b: Magearna
+|debug|move failed because it did nothing
+|move|p1b: Snover|Wood Hammer|p2a: Stufful
+|-activate|p2a: Stufful|move: Protect
+|-end|p1a: Wooper|confusion
+|move|p1a: Wooper|Dig||[still]
+|-prepare|p1a: Wooper|Dig
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1785272526
+|move|p2b: Magearna|Trick|p1a: Wooper|[miss]
+|-miss|p2b: Magearna|p1a: Wooper
+|move|p2a: Stufful|Thrash|p1a: Wooper|[miss]
+|-miss|p2a: Stufful|p1a: Wooper
+|move|p1b: Snover|Grass Knot|p2a: Stufful
+|debug|BP: 20
+|-damage|p2a: Stufful|259/281
+|move|p1a: Wooper|Dig|p2b: Magearna|[from] lockedmove
+|-supereffective|p2b: Magearna
+|-damage|p2b: Magearna|0 fnt
+|faint|p2b: Magearna
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785272526
+|switch|p2b: Tapu Koko|Tapu Koko|281/281
+|turn|11
+|
+|t:|1785272526
+|move|p2b: Tapu Koko|Shock Wave|p1a: Wooper
+|-immune|p1a: Wooper
+|move|p2a: Stufful|Stomping Tantrum|p1b: Snover
+|debug|doubling Stomping Tantrum BP due to previous move failure
+|-resisted|p1b: Snover
+|-damage|p1b: Snover|129/262
+|move|p1b: Snover|Icy Wind|p2b: Tapu Koko|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Stufful|214/281
+|-damage|p2b: Tapu Koko|236/281
+|-unboost|p2a: Stufful|spe|1
+|-unboost|p2b: Tapu Koko|spe|1
+|move|p1a: Wooper|Swallow||[still]
+|-fail|p1a: Wooper
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1785272526
+|move|p2b: Tapu Koko|Iron Head|p1b: Snover
+|-supereffective|p1b: Snover
+|-damage|p1b: Snover|0 fnt
+|faint|p1b: Snover
+|move|p2a: Stufful|Stomping Tantrum|p1a: Wooper
+|-supereffective|p1a: Wooper
+|-damage|p1a: Wooper|0 fnt
+|faint|p1a: Wooper
+|
+|-weather|none
+|upkeep
+|
+|t:|1785272526
+|switch|p1b: Dewgong|Dewgong, M|384/384
+|switch|p1a: Volcarona|Volcarona, M|311/311
+|turn|13
+|
+|t:|1785272526
+|move|p1a: Volcarona|Skitter Smack|p2b: Tapu Koko
+|-resisted|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|203/281
+|-unboost|p2b: Tapu Koko|spa|1
+|move|p2b: Tapu Koko|Iron Head|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|260/311
+|move|p1b: Dewgong|Uproar|p2b: Tapu Koko
+|-crit|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|107/281
+|-start|p1b: Dewgong|Uproar
+|move|p2a: Stufful|Stomping Tantrum|p1b: Dewgong
+|-damage|p1b: Dewgong|312/384
+|
+|-start|p1b: Dewgong|Uproar|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1785272526
+|move|p1a: Volcarona|Skitter Smack|p2b: Tapu Koko
+|-resisted|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|77/281
+|-unboost|p2b: Tapu Koko|spa|1
+|move|p2b: Tapu Koko|Shock Wave|p1a: Volcarona
+|-damage|p1a: Volcarona|232/311
+|move|p1b: Dewgong|Uproar|p2a: Stufful|[from] lockedmove
+|-damage|p2a: Stufful|146/281
+|debug|move failed because it did nothing
+|move|p2a: Stufful|Stomping Tantrum|p1a: Volcarona
+|-damage|p1a: Volcarona|172/311
+|
+|-start|p1b: Dewgong|Uproar|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1785272526
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Stufful
+|-status|p2a: Stufful|brn
+|move|p2b: Tapu Koko|Swift|p1a: Volcarona|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1a: Volcarona|158/311
+|-damage|p1b: Dewgong|292/384
+|move|p1b: Dewgong|Uproar|p2b: Tapu Koko|[from] lockedmove
+|-damage|p2b: Tapu Koko|18/281
+|debug|move failed because it did nothing
+|move|p2a: Stufful|Thrash|p1b: Dewgong
+|-damage|p1b: Dewgong|198/384
+|
+|-damage|p2a: Stufful|129/281 brn|[from] brn
+|-end|p1b: Dewgong|Uproar
+|upkeep
+|turn|16
+|
+|t:|1785272526
+|move|p1a: Volcarona|Air Cutter|p2b: Tapu Koko|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Stufful
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Tapu Koko
+|-damage|p2a: Stufful|5/281 brn
+|-damage|p2b: Tapu Koko|0 fnt
+|faint|p2b: Tapu Koko
+|move|p1b: Dewgong|Uproar|p2a: Stufful
+|-damage|p2a: Stufful|0 fnt
+|-start|p1b: Dewgong|Uproar
+|faint|p2a: Stufful
+|
+|-start|p1b: Dewgong|Uproar|[upkeep]
+|upkeep
+|
+|t:|1785272526
+|switch|p2a: Regice|Regice|302/302
+|turn|17
+|
+|t:|1785272526
+|move|p1a: Volcarona|Air Cutter|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|256/302
+|move|p1b: Dewgong|Uproar|p2a: Regice|[from] lockedmove
+|-damage|p2a: Regice|233/302
+|debug|move failed because it did nothing
+|move|p2a: Regice|Thunder Punch|p1a: Volcarona
+|-damage|p1a: Volcarona|123/311
+|
+|-start|p1b: Dewgong|Uproar|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1785272526
+|move|p1a: Volcarona|Air Cutter|p2a: Regice
+|-damage|p2a: Regice|199/302
+|move|p1b: Dewgong|Uproar|p2a: Regice|[from] lockedmove
+|-damage|p2a: Regice|177/302
+|debug|move failed because it did nothing
+|move|p2a: Regice|Thunder Punch|p1a: Volcarona
+|-damage|p1a: Volcarona|84/311
+|-status|p2a: Regice|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|
+|-damage|p2a: Regice|159/302 brn|[from] brn
+|-end|p1b: Dewgong|Uproar
+|upkeep
+|turn|19
+|
+|t:|1785272526
+|move|p1a: Volcarona|Air Cutter|p2a: Regice
+|-damage|p2a: Regice|129/302 brn
+|move|p1b: Dewgong|Uproar|p2a: Regice
+|-damage|p2a: Regice|105/302 brn
+|-start|p1b: Dewgong|Uproar
+|move|p2a: Regice|Thunder Punch|p1b: Dewgong
+|-supereffective|p1b: Dewgong
+|-damage|p1b: Dewgong|159/384
+|
+|-damage|p2a: Regice|87/302 brn|[from] brn
+|-start|p1b: Dewgong|Uproar|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1785272526
+|move|p1a: Volcarona|Air Cutter|p2a: Regice
+|-crit|p2a: Regice
+|-damage|p2a: Regice|36/302 brn
+|move|p1b: Dewgong|Uproar|p2a: Regice|[from] lockedmove
+|-damage|p2a: Regice|13/302 brn
+|debug|move failed because it did nothing
+|move|p2a: Regice|Tera Blast|p1b: Dewgong
+|-damage|p1b: Dewgong|105/384
+|
+|-damage|p2a: Regice|0 fnt|[from] brn
+|faint|p2a: Regice
+|
+|win|Collin</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

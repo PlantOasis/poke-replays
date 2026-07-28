@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Daniel vs Gavin - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Daniel-vs-Gavin-20260728-160200" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785272520
+|gametype|doubles
+|player|p1|Daniel|hilda-wonderlauncher|
+|player|p2|Gavin|blaine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Gigalith, F|
+|poke|p1|Furfrou, F|
+|poke|p1|Infernape, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Blacephalon|
+|poke|p1|Zygarde|
+|poke|p2|Amoonguss, M|
+|poke|p2|Fletchinder, M|
+|poke|p2|Magearna|
+|poke|p2|Stufful, F|
+|poke|p2|Tapu Koko|
+|poke|p2|Regice|
+|teampreview
+|
+|t:|1785272520
+|start
+|switch|p1a: Gigalith|Gigalith, F|311/311
+|switch|p1b: Furfrou|Furfrou, F|291/291
+|switch|p2a: Amoonguss|Amoonguss, M|369/369
+|switch|p2b: Fletchinder|Fletchinder, M|265/265
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Gigalith
+|turn|1
+|
+|t:|1785272520
+|move|p1b: Furfrou|Take Down|p2b: Fletchinder
+|-damage|p2b: Fletchinder|133/265
+|-status|p1b: Furfrou|brn|[from] ability: Flame Body|[of] p2b: Fletchinder
+|-damage|p1b: Furfrou|258/291 brn|[from] Recoil
+|move|p2b: Fletchinder|Will-O-Wisp|p1a: Gigalith
+|-status|p1a: Gigalith|brn
+|move|p1a: Gigalith|Confide|p2b: Fletchinder
+|-unboost|p2b: Fletchinder|spa|1
+|move|p2a: Amoonguss|Swagger|p1a: Gigalith|[miss]
+|-miss|p2a: Amoonguss|p1a: Gigalith
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Furfrou|240/291 brn|[from] Sandstorm
+|-damage|p2b: Fletchinder|117/265|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p2a: Amoonguss|346/369|[from] Sandstorm
+|-damage|p1b: Furfrou|222/291 brn|[from] brn
+|-damage|p1a: Gigalith|292/311 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1785272520
+|move|p2b: Fletchinder|Flare Blitz|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|250/311 brn
+|-damage|p2b: Fletchinder|103/265|[from] Recoil
+|move|p1a: Gigalith|Confide|p2a: Amoonguss
+|-unboost|p2a: Amoonguss|spa|1
+|move|p2a: Amoonguss|Bullet Seed|p1b: Furfrou
+|-damage|p1b: Furfrou|207/291 brn
+|-damage|p1b: Furfrou|194/291 brn
+|-damage|p1b: Furfrou|181/291 brn
+|-damage|p1b: Furfrou|168/291 brn
+|-hitcount|p1b: Furfrou|4
+|move|p1b: Furfrou|Roar|p2b: Fletchinder
+|drag|p2b: Stufful|Stufful, F|281/281
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Furfrou|150/291 brn|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p2b: Stufful|264/281|[from] Sandstorm
+|-damage|p2a: Amoonguss|323/369|[from] Sandstorm
+|-damage|p1b: Furfrou|132/291 brn|[from] brn
+|-damage|p1a: Gigalith|231/311 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1785272520
+|move|p1a: Gigalith|Solar Beam||[still]
+|-prepare|p1a: Gigalith|Solar Beam
+|move|p2a: Amoonguss|Swagger|p1b: Furfrou|[miss]
+|-miss|p2a: Amoonguss|p1b: Furfrou
+|move|p1b: Furfrou|Roar|p2b: Stufful
+|drag|p2b: Tapu Koko|Tapu Koko|281/281
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tapu Koko|264/281|[from] Sandstorm
+|-damage|p1b: Furfrou|114/291 brn|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p2a: Amoonguss|300/369|[from] Sandstorm
+|-damage|p1b: Furfrou|96/291 brn|[from] brn
+|-damage|p1a: Gigalith|212/311 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1785272520
+|move|p2b: Tapu Koko|Shock Wave|p1a: Gigalith
+|-damage|p1a: Gigalith|155/311 brn
+|move|p1b: Furfrou|Take Down|p2b: Tapu Koko|[miss]
+|-miss|p1b: Furfrou|p2b: Tapu Koko
+|move|p1a: Gigalith|Solar Beam|p2a: Amoonguss|[from] lockedmove
+|debug|weakened by weather
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|289/369
+|move|p2a: Amoonguss|Spore||[still]
+|-fail|p2a: Amoonguss
+|debug|move failed because it did nothing
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tapu Koko|247/281|[from] Sandstorm
+|-damage|p1b: Furfrou|78/291 brn|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p2a: Amoonguss|266/369|[from] Sandstorm
+|-damage|p1b: Furfrou|60/291 brn|[from] brn
+|-damage|p1a: Gigalith|136/311 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1785272520
+|move|p2b: Tapu Koko|Shock Wave|p1a: Gigalith
+|-damage|p1a: Gigalith|85/311 brn
+|move|p1a: Gigalith|Iron Defense|p1a: Gigalith
+|-boost|p1a: Gigalith|def|2
+|move|p2a: Amoonguss|Spore||[still]
+|-fail|p2a: Amoonguss
+|debug|move failed because it did nothing
+|move|p1b: Furfrou|Roar|p2a: Amoonguss
+|drag|p2a: Fletchinder|Fletchinder, M|103/265
+|
+|-weather|none
+|-damage|p1b: Furfrou|42/291 brn|[from] brn
+|-damage|p1a: Gigalith|66/311 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1785272520
+|move|p2a: Fletchinder|Quick Attack|p1a: Gigalith
+|-resisted|p1a: Gigalith
+|-damage|p1a: Gigalith|61/311 brn
+|move|p2b: Tapu Koko|Iron Head|p1b: Furfrou
+|-damage|p1b: Furfrou|0 fnt
+|faint|p1b: Furfrou
+|move|p1a: Gigalith|Iron Defense|p1a: Gigalith
+|-boost|p1a: Gigalith|def|2
+|
+|-damage|p1a: Gigalith|42/311 brn|[from] brn
+|upkeep
+|
+|t:|1785272520
+|switch|p1b: Infernape|Infernape, F|356/356
+|turn|7
+|
+|t:|1785272520
+|move|p1b: Infernape|Rock Slide|p2b: Tapu Koko|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Fletchinder
+|debug|Spread modifier: 0.75
+|-damage|p2a: Fletchinder|0 fnt
+|-damage|p2b: Tapu Koko|194/281
+|debug|move failed because it did nothing
+|faint|p2a: Fletchinder
+|move|p2b: Tapu Koko|Withdraw|p2b: Tapu Koko
+|-boost|p2b: Tapu Koko|def|1
+|move|p1a: Gigalith|Superpower|p2b: Tapu Koko
+|-resisted|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|171/281
+|-unboost|p1a: Gigalith|atk|1
+|-unboost|p1a: Gigalith|def|1
+|
+|-damage|p1a: Gigalith|23/311 brn|[from] brn
+|upkeep
+|
+|t:|1785272520
+|switch|p2a: Regice|Regice|302/302
+|turn|8
+|
+|t:|1785272520
+|move|p1b: Infernape|Rock Slide|p2a: Regice|[spread] p2a
+|-miss|p1b: Infernape|p2b: Tapu Koko
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|222/302
+|move|p2b: Tapu Koko|Withdraw|p2b: Tapu Koko
+|-boost|p2b: Tapu Koko|def|1
+|move|p2a: Regice|Thunder Punch|p1a: Gigalith
+|-damage|p1a: Gigalith|12/311 brn
+|debug|move failed because it did nothing
+|move|p1a: Gigalith|Solar Beam||[still]
+|-prepare|p1a: Gigalith|Solar Beam
+|
+|-damage|p1a: Gigalith|0 fnt|[from] brn
+|faint|p1a: Gigalith
+|upkeep
+|
+|t:|1785272520
+|switch|p1a: Glimmora|Glimmora, F|370/370
+|turn|9
+|
+|t:|1785272520
+|move|p1a: Glimmora|Endure|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Endure
+|move|p1b: Infernape|Rock Slide|p2b: Tapu Koko|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Regice
+|debug|Spread modifier: 0.75
+|-damage|p2a: Regice|144/302
+|-damage|p2b: Tapu Koko|144/281
+|move|p2b: Tapu Koko|Iron Head|p1b: Infernape
+|-resisted|p1b: Infernape
+|-damage|p1b: Infernape|296/356
+|move|p2a: Regice|Brick Break|p1a: Glimmora
+|-damage|p1a: Glimmora|335/370
+|
+|upkeep
+|turn|10
+|
+|t:|1785272520
+|move|p1b: Infernape|Rock Slide|p2a: Regice|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Regice
+|debug|Spread modifier: 0.75
+|-damage|p2a: Regice|70/302
+|-damage|p2b: Tapu Koko|118/281
+|move|p2b: Tapu Koko|Withdraw|p2b: Tapu Koko
+|-boost|p2b: Tapu Koko|def|1
+|move|p1a: Glimmora|Energy Ball|p2b: Tapu Koko
+|-damage|p2b: Tapu Koko|0 fnt
+|faint|p2b: Tapu Koko
+|cant|p2a: Regice|flinch
+|
+|upkeep
+|
+|t:|1785272520
+|switch|p2b: Amoonguss|Amoonguss, M|266/369
+|turn|11
+|
+|t:|1785272520
+|move|p1a: Glimmora|Endure|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Endure
+|move|p1b: Infernape|Upper Hand||[still]
+|-fail|p1b: Infernape
+|move|p2a: Regice|Thunder Punch|p1b: Infernape
+|-damage|p1b: Infernape|250/356
+|move|p2b: Amoonguss|Sweet Scent|p1a: Glimmora|[spread] p1a,p1b
+|-unboost|p1a: Glimmora|evasion|2
+|-unboost|p1b: Infernape|evasion|2
+|
+|upkeep
+|turn|12
+|
+|t:|1785272520
+|move|p1b: Infernape|Rock Slide|p2a: Regice|[spread] p2b
+|-miss|p1b: Infernape|p2a: Regice
+|debug|Spread modifier: 0.75
+|-damage|p2b: Amoonguss|221/369
+|move|p1a: Glimmora|Explosion|p2b: Amoonguss|[spread] p1b,p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p1b: Infernape|135/356
+|-damage|p2a: Regice|3/302
+|-damage|p2b: Amoonguss|138/369
+|faint|p1a: Glimmora
+|move|p2a: Regice|Brick Break|p1b: Infernape
+|-damage|p1b: Infernape|86/356
+|move|p2b: Amoonguss|Sweet Scent|p1b: Infernape
+|-unboost|p1b: Infernape|evasion|2
+|
+|upkeep
+|
+|t:|1785272520
+|switch|p1a: Zygarde|Zygarde|420/420
+|turn|13
+|
+|t:|1785272520
+|move|p1b: Infernape|Fake Tears|p2b: Amoonguss
+|-unboost|p2b: Amoonguss|spd|2
+|move|p1a: Zygarde|Land's Wrath|p2a: Regice|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Regice|0 fnt
+|-damage|p2b: Amoonguss|44/369
+|faint|p2a: Regice
+|move|p2b: Amoonguss|Bullet Seed|p1b: Infernape
+|-resisted|p1b: Infernape
+|-damage|p1b: Infernape|70/356
+|-resisted|p1b: Infernape
+|-damage|p1b: Infernape|51/356
+|-hitcount|p1b: Infernape|2
+|
+|upkeep
+|
+|t:|1785272520
+|switch|p2a: Stufful|Stufful, F|264/281
+|turn|14
+|
+|t:|1785272520
+|move|p1b: Infernape|Rock Slide|p2a: Stufful|[spread] 
+|-miss|p1b: Infernape|p2a: Stufful
+|-miss|p1b: Infernape|p2b: Amoonguss
+|move|p1a: Zygarde|Core Enforcer|p2a: Stufful|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Stufful|161/281
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Stufful|Roar|p1b: Infernape
+|drag|p1b: Blacephalon|Blacephalon|247/247
+|
+|upkeep
+|
+|t:|1785272520
+|switch|p2b: Magearna|Magearna|301/301
+|turn|15
+|
+|t:|1785272520
+|move|p1b: Blacephalon|Uproar|p2a: Stufful
+|-damage|p2a: Stufful|19/281
+|-start|p1b: Blacephalon|Uproar
+|move|p2b: Magearna|Play Rough|p1a: Zygarde
+|-supereffective|p1a: Zygarde
+|-damage|p1a: Zygarde|244/420
+|move|p1a: Zygarde|Sludge Wave|p2b: Magearna|[spread] p1b,p2a
+|-immune|p2b: Magearna
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Blacephalon
+|debug|Spread modifier: 0.75
+|-damage|p1b: Blacephalon|218/247
+|-damage|p2a: Stufful|0 fnt
+|faint|p2a: Stufful
+|-ability|p2b: Magearna|Soul-Heart|boost
+|-boost|p2b: Magearna|spa|1
+|
+|-start|p1b: Blacephalon|Uproar|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1785272520
+|move|p1b: Blacephalon|Uproar|p2b: Magearna|[from] lockedmove
+|-resisted|p2b: Magearna
+|-damage|p2b: Magearna|265/301
+|debug|move failed because it did nothing
+|move|p2b: Magearna|Trick||[still]
+|-fail|p2b: Magearna
+|debug|move failed because it did nothing
+|move|p1a: Zygarde|Sludge Wave|p2b: Magearna|[spread] p1b
+|-immune|p2b: Magearna
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Blacephalon
+|-damage|p1b: Blacephalon|191/247
+|
+|-start|p1b: Blacephalon|Uproar|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1785272520
+|move|p1b: Blacephalon|Uproar|p2b: Magearna|[from] lockedmove
+|-resisted|p2b: Magearna
+|-damage|p2b: Magearna|227/301
+|debug|move failed because it did nothing
+|move|p2b: Magearna|Trick||[still]
+|-fail|p2b: Magearna
+|debug|move failed because it did nothing
+|move|p1a: Zygarde|Land's Wrath|p2b: Magearna
+|-supereffective|p2b: Magearna
+|-damage|p2b: Magearna|23/301
+|
+|-end|p1b: Blacephalon|Uproar
+|upkeep
+|turn|18
+|
+|t:|1785272520
+|move|p1b: Blacephalon|Calm Mind|p1b: Blacephalon
+|-boost|p1b: Blacephalon|spa|1
+|-boost|p1b: Blacephalon|spd|1
+|move|p2b: Magearna|Disarming Voice|p1b: Blacephalon|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-supereffective|p1a: Zygarde
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Blacephalon
+|-damage|p1a: Zygarde|112/420
+|-damage|p1b: Blacephalon|168/247
+|move|p1a: Zygarde|Glare|p2b: Magearna
+|-status|p2b: Magearna|par
+|
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete
+|-heal|p1a: Zygarde|328/636|[silent]
+|upkeep
+|turn|19
+|
+|t:|1785272520
+|move|p1b: Blacephalon|Calm Mind|p1b: Blacephalon
+|-boost|p1b: Blacephalon|spa|1
+|-boost|p1b: Blacephalon|spd|1
+|move|p1a: Zygarde|Land's Wrath|p2b: Magearna
+|-supereffective|p2b: Magearna
+|-damage|p2b: Magearna|0 fnt
+|faint|p2b: Magearna
+|
+|win|Daniel</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
