@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Gavin vs Daniel - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="tournament-Gavin-vs-Daniel-20260729-203732" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785375452
+|gametype|doubles
+|player|p1|Gavin|blaine|
+|player|p2|Daniel|hilda-wonderlauncher|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Tapu Koko|
+|poke|p1|Hydrapple, M|
+|poke|p1|Lopunny, M|
+|poke|p1|Regice|
+|poke|p1|Entei|
+|poke|p2|Gigalith, F|
+|poke|p2|Furfrou, F|
+|poke|p2|Infernape, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Blacephalon|
+|poke|p2|Zygarde|
+|teampreview
+|
+|t:|1785375452
+|start
+|switch|p1a: Magearna|Magearna|302/302
+|switch|p1b: Tapu Koko|Tapu Koko|281/281
+|switch|p2a: Gigalith|Gigalith, F|311/311
+|switch|p2b: Furfrou|Furfrou, F|291/291
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gigalith
+|turn|1
+|
+|t:|1785375452
+|move|p1b: Tapu Koko|Giga Impact|p2b: Furfrou|[miss]
+|-miss|p1b: Tapu Koko|p2b: Furfrou
+|move|p2b: Furfrou|Take Down|p1a: Magearna
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|257/302
+|-damage|p2b: Furfrou|280/291|[from] Recoil
+|move|p1a: Magearna|Ice Spinner|p2a: Gigalith
+|-damage|p2a: Gigalith|237/311
+|-fieldend|move: Electric Terrain
+|move|p2a: Gigalith|Solar Beam||[still]
+|-prepare|p2a: Gigalith|Solar Beam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tapu Koko|264/281|[from] Sandstorm
+|-damage|p2b: Furfrou|262/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|2
+|
+|t:|1785375452
+|move|p1b: Tapu Koko|Round|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|221/311
+|move|p2b: Furfrou|Take Down|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|224/302
+|-damage|p2b: Furfrou|254/291|[from] Recoil
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p2a: Gigalith|Solar Beam|p1a: Magearna|[from] lockedmove
+|debug|weakened by weather
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|200/302
+|
+|-weather|Sandstorm|[upkeep]
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p1b: Tapu Koko|247/281|[from] Sandstorm
+|-damage|p2b: Furfrou|236/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|3
+|
+|t:|1785375452
+|move|p1a: Magearna|Shift Gear|p1a: Magearna
+|-boost|p1a: Magearna|spe|2
+|-boost|p1a: Magearna|atk|1
+|move|p1b: Tapu Koko|Psych Up|p2a: Gigalith
+|-copyboost|p1b: Tapu Koko|p2a: Gigalith|[from] move: Psych Up
+|move|p2a: Gigalith|Solar Beam||[still]
+|-prepare|p2a: Gigalith|Solar Beam
+|move|p2b: Furfrou|Roar|p1a: Magearna
+|drag|p1a: Lopunny|Lopunny, M|271/271
+|debug|End handler suppressed by Embargo, Klutz or Magic Room
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tapu Koko|230/281|[from] Sandstorm
+|-damage|p1a: Lopunny|255/271|[from] Sandstorm
+|-damage|p2b: Furfrou|218/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|4
+|
+|t:|1785375452
+|move|p1b: Tapu Koko|Round|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|205/311
+|move|p1a: Lopunny|Substitute|p1a: Lopunny
+|-start|p1a: Lopunny|Substitute
+|-damage|p1a: Lopunny|188/271
+|move|p2a: Gigalith|Solar Beam|p1b: Tapu Koko|[from] lockedmove
+|debug|weakened by weather
+|-damage|p1b: Tapu Koko|199/281
+|move|p2b: Furfrou|Roar|p1a: Lopunny
+|debug|End handler suppressed by Embargo, Klutz or Magic Room
+|drag|p1a: Entei|Entei|434/434
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Entei|407/434|[from] Sandstorm
+|-damage|p1b: Tapu Koko|182/281|[from] Sandstorm
+|-damage|p2b: Furfrou|200/291|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|5
+|
+|t:|1785375452
+|move|p1a: Entei|Flame Wheel|p2b: Furfrou
+|-damage|p2b: Furfrou|158/291
+|move|p1b: Tapu Koko|Psych Up|p2b: Furfrou
+|-copyboost|p1b: Tapu Koko|p2b: Furfrou|[from] move: Psych Up
+|move|p2b: Furfrou|Headbutt|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|127/281
+|move|p2a: Gigalith|Superpower|p1b: Tapu Koko
+|-resisted|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|78/281
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1785375452
+|move|p1a: Entei|Flamethrower|p2b: Furfrou
+|-damage|p2b: Furfrou|44/291
+|move|p1b: Tapu Koko|Giga Impact|p2b: Furfrou
+|-damage|p2b: Furfrou|0 fnt
+|-mustrecharge|p1b: Tapu Koko
+|faint|p2b: Furfrou
+|move|p2a: Gigalith|Iron Defense|p2a: Gigalith
+|-boost|p2a: Gigalith|def|2
+|
+|upkeep
+|
+|t:|1785375452
+|switch|p2b: Glimmora|Glimmora, M|370/370
+|turn|7
+|
+|t:|1785375452
+|move|p1a: Entei|Flamethrower|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|154/311
+|cant|p1b: Tapu Koko|recharge
+|move|p2b: Glimmora|Explosion|p1a: Entei|[spread] p2a,p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Gigalith
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Gigalith|131/311
+|-damage|p1a: Entei|286/434
+|-damage|p1b: Tapu Koko|0 fnt
+|faint|p2b: Glimmora
+|faint|p1b: Tapu Koko
+|move|p2a: Gigalith|Iron Defense|p2a: Gigalith
+|-boost|p2a: Gigalith|def|2
+|
+|upkeep
+|
+|t:|1785375452
+|switch|p1b: Lopunny|Lopunny, M|188/271
+|switch|p2b: Infernape|Infernape, F|356/356
+|debug|End handler suppressed by Embargo, Klutz or Magic Room
+|turn|8
+|
+|t:|1785375452
+|move|p2b: Infernape|Upper Hand||[still]
+|-fail|p2b: Infernape
+|move|p1a: Entei|Dig||[still]
+|-prepare|p1a: Entei|Dig
+|move|p1b: Lopunny|Substitute|p1b: Lopunny
+|-start|p1b: Lopunny|Substitute
+|-damage|p1b: Lopunny|121/271
+|move|p2a: Gigalith|Superpower|p1a: Entei|[miss]
+|-miss|p2a: Gigalith|p1a: Entei
+|
+|upkeep
+|turn|9
+|
+|t:|1785375452
+|move|p1a: Entei|Dig|p2a: Gigalith|[from] lockedmove
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|85/311
+|move|p2b: Infernape|Fake Tears|p1a: Entei
+|-unboost|p1a: Entei|spd|2
+|move|p1b: Lopunny|Substitute|p1b: Lopunny
+|-fail|p1b: Lopunny|move: Substitute
+|move|p2a: Gigalith|Iron Defense|p2a: Gigalith
+|-boost|p2a: Gigalith|def|2
+|
+|upkeep
+|turn|10
+|
+|t:|1785375452
+|move|p2b: Infernape|Upper Hand||[still]
+|-fail|p2b: Infernape
+|move|p1a: Entei|Flamethrower|p2b: Infernape
+|-resisted|p2b: Infernape
+|-damage|p2b: Infernape|293/356
+|move|p1b: Lopunny|Substitute|p1b: Lopunny
+|-fail|p1b: Lopunny|move: Substitute
+|move|p2a: Gigalith|Superpower|p1b: Lopunny
+|-supereffective|p1b: Lopunny
+|-end|p1b: Lopunny|Substitute
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1785375452
+|move|p1a: Entei|Sandstorm|p1a: Entei
+|-weather|Sandstorm
+|move|p2b: Infernape|Substitute|p2b: Infernape
+|-start|p2b: Infernape|Substitute
+|-damage|p2b: Infernape|204/356
+|move|p1b: Lopunny|Dig||[still]
+|-prepare|p1b: Lopunny|Dig
+|move|p2a: Gigalith|Solar Beam||[still]
+|-prepare|p2a: Gigalith|Solar Beam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Entei|259/434|[from] Sandstorm
+|-damage|p2b: Infernape|182/356|[from] Sandstorm
+|debug|artificial status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|12
+|
+|t:|1785375452
+|move|p2b: Infernape|Upper Hand||[still]
+|-fail|p2b: Infernape
+|move|p1a: Entei|Flame Wheel|p2b: Infernape
+|-resisted|p2b: Infernape
+|-activate|p2b: Infernape|move: Substitute|[damage]
+|move|p1b: Lopunny|Dig|p2b: Infernape|[from] lockedmove
+|-supereffective|p2b: Infernape
+|-end|p2b: Infernape|Substitute
+|move|p2a: Gigalith|Solar Beam|p1a: Entei|[from] lockedmove
+|debug|weakened by weather
+|-resisted|p1a: Entei
+|-damage|p1a: Entei|217/434
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Entei|190/434|[from] Sandstorm
+|-damage|p2b: Infernape|160/356|[from] Sandstorm
+|-damage|p1b: Lopunny|105/271|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|13
+|
+|t:|1785375452
+|move|p1a: Entei|Flamethrower|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|52/311
+|move|p2b: Infernape|Fake Tears|p1a: Entei
+|-unboost|p1a: Entei|spd|2
+|move|p1b: Lopunny|Dig||[still]
+|-prepare|p1b: Lopunny|Dig
+|move|p2a: Gigalith|Solar Beam||[still]
+|-prepare|p2a: Gigalith|Solar Beam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Entei|163/434|[from] Sandstorm
+|-damage|p2b: Infernape|138/356|[from] Sandstorm
+|debug|artificial status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|14
+|
+|t:|1785375452
+|move|p1a: Entei|Sandstorm||[still]
+|-fail|p1a: Entei
+|debug|move failed because it did nothing
+|move|p2b: Infernape|Fake Tears|p1b: Lopunny|[miss]
+|-miss|p2b: Infernape|p1b: Lopunny
+|move|p1b: Lopunny|Dig|p2b: Infernape|[from] lockedmove
+|-supereffective|p2b: Infernape
+|-damage|p2b: Infernape|0 fnt
+|faint|p2b: Infernape
+|move|p2a: Gigalith|Solar Beam|p1b: Lopunny|[from] lockedmove
+|debug|weakened by weather
+|-damage|p1b: Lopunny|69/271
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Entei|136/434|[from] Sandstorm
+|-damage|p1b: Lopunny|53/271|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|
+|t:|1785375452
+|switch|p2b: Blacephalon|Blacephalon|247/247
+|turn|15
+|
+|t:|1785375452
+|move|p1a: Entei|Sandstorm||[still]
+|-fail|p1a: Entei
+|debug|move failed because it did nothing
+|move|p2b: Blacephalon|Calm Mind|p2b: Blacephalon
+|-boost|p2b: Blacephalon|spa|1
+|-boost|p2b: Blacephalon|spd|1
+|move|p1b: Lopunny|Hyper Beam|p2b: Blacephalon
+|-immune|p2b: Blacephalon
+|move|p2a: Gigalith|Superpower|p1a: Entei
+|-damage|p1a: Entei|59/434
+|-unboost|p2a: Gigalith|atk|1
+|-unboost|p2a: Gigalith|def|1
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1785375452
+|move|p1a: Entei|Dig||[still]
+|-prepare|p1a: Entei|Dig
+|move|p2b: Blacephalon|Fire Blast|p1b: Lopunny
+|-damage|p1b: Lopunny|0 fnt
+|faint|p1b: Lopunny
+|debug|End handler suppressed by Embargo, Klutz or Magic Room
+|-ability|p2b: Blacephalon|Beast Boost|boost
+|-boost|p2b: Blacephalon|atk|1
+|move|p2a: Gigalith|Iron Defense|p2a: Gigalith
+|-boost|p2a: Gigalith|def|2
+|
+|upkeep
+|
+|t:|1785375452
+|switch|p1b: Magearna|Magearna|200/302
+|turn|17
+|
+|t:|1785375452
+|move|p1a: Entei|Dig|p2a: Gigalith|[from] lockedmove
+|-supereffective|p2a: Gigalith
+|-damage|p2a: Gigalith|16/311
+|move|p2b: Blacephalon|Fire Blast|p1b: Magearna
+|-supereffective|p1b: Magearna
+|-damage|p1b: Magearna|0 fnt
+|faint|p1b: Magearna
+|-ability|p2b: Blacephalon|Beast Boost|boost
+|-boost|p2b: Blacephalon|atk|1
+|move|p2a: Gigalith|Solar Beam||[still]
+|-prepare|p2a: Gigalith|Solar Beam
+|
+|upkeep
+|
+|t:|1785375452
+|switch|p1b: Regice|Regice|302/302
+|turn|18
+|
+|t:|1785375452
+|move|p1a: Entei|Sandstorm|p1a: Entei
+|-weather|Sandstorm
+|move|p2b: Blacephalon|Calm Mind|p2b: Blacephalon
+|-boost|p2b: Blacephalon|spa|1
+|-boost|p2b: Blacephalon|spd|1
+|move|p2a: Gigalith|Solar Beam|p1b: Regice|[from] lockedmove
+|debug|weakened by weather
+|-damage|p1b: Regice|284/302
+|move|p1b: Regice|Brick Break|p2b: Blacephalon
+|-immune|p2b: Blacephalon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Entei|32/434|[from] Sandstorm
+|-damage|p2b: Blacephalon|232/247|[from] Sandstorm
+|-damage|p1b: Regice|266/302|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|19
+|
+|t:|1785375452
+|move|p1a: Entei|Flamethrower|p2a: Gigalith
+|-resisted|p2a: Gigalith
+|-damage|p2a: Gigalith|0 fnt
+|faint|p2a: Gigalith
+|move|p2b: Blacephalon|Fire Blast|p1b: Regice
+|-supereffective|p1b: Regice
+|-damage|p1b: Regice|0 fnt
+|faint|p1b: Regice
+|-ability|p2b: Blacephalon|Beast Boost|boost
+|-boost|p2b: Blacephalon|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Entei|5/434|[from] Sandstorm
+|-damage|p2b: Blacephalon|217/247|[from] Sandstorm
+|upkeep
+|
+|t:|1785375452
+|switch|p1b: Hydrapple|Hydrapple, M|416/416
+|switch|p2a: Zygarde|Zygarde|420/420
+|-ability|p1b: Hydrapple|Supersweet Syrup
+|-unboost|p2a: Zygarde|evasion|1
+|-unboost|p2b: Blacephalon|evasion|1
+|turn|20
+|
+|t:|1785375452
+|move|p1a: Entei|Flamethrower|p2a: Zygarde
+|-resisted|p2a: Zygarde
+|-damage|p2a: Zygarde|369/420
+|move|p2b: Blacephalon|Uproar|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|-start|p2b: Blacephalon|Uproar
+|faint|p1a: Entei
+|-ability|p2b: Blacephalon|Beast Boost|boost
+|-boost|p2b: Blacephalon|atk|1
+|move|p2a: Zygarde|Land's Wrath|p1b: Hydrapple
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|371/416
+|move|p1b: Hydrapple|Pollen Puff|p2a: Zygarde
+|-damage|p2a: Zygarde|278/420
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Blacephalon|202/247|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p1b: Hydrapple|345/416|[from] Sandstorm
+|-start|p2b: Blacephalon|Uproar|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1785375452
+|move|p2b: Blacephalon|Uproar|p1b: Hydrapple|[from] lockedmove
+|-crit|p1b: Hydrapple
+|-damage|p1b: Hydrapple|0 fnt
+|debug|move failed because it did nothing
+|faint|p1b: Hydrapple
+|
+|win|Daniel</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
