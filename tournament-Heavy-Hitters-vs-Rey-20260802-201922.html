@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Heavy Hitters vs Rey - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="tournament-Heavy-Hitters-vs-Rey-20260802-201922" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785719962
+|gametype|doubles
+|player|p1|Heavy Hitters|ingo|
+|player|p2|Rey|swimmerf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Zekrom|
+|poke|p1|Mudsdale, M|
+|poke|p1|Kingler, M|
+|poke|p1|Roaring Moon|
+|poke|p1|Duraludon, M|
+|poke|p1|Houndstone, F|
+|poke|p2|Tapu Fini|
+|poke|p2|Chi-Yu|
+|poke|p2|Iron Moth|
+|poke|p2|Vaporeon, F|
+|poke|p2|Tapu Bulu|
+|poke|p2|Stoutland, F|
+|teampreview
+|
+|t:|1785719962
+|start
+|switch|p1a: Zekrom|Zekrom|341/341
+|switch|p1b: Mudsdale|Mudsdale, M|341/341
+|switch|p2a: Tapu Fini|Tapu Fini|344/344
+|switch|p2b: Chi-Yu|Chi-Yu|251/251
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-ability|p1a: Zekrom|Teravolt
+|turn|1
+|
+|t:|1785719962
+|move|p2b: Chi-Yu|Confuse Ray|p1a: Zekrom
+|-start|p1a: Zekrom|confusion
+|-activate|p1a: Zekrom|confusion
+|-damage|p1a: Zekrom|300/341|[from] confusion
+|move|p2a: Tapu Fini|Draining Kiss|p1a: Zekrom
+|debug|Beads of Ruin SpD drop
+|-supereffective|p1a: Zekrom
+|-damage|p1a: Zekrom|160/341
+|move|p1b: Mudsdale|Low Kick|p2a: Tapu Fini
+|debug|BP: 40
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|327/344
+|
+|upkeep
+|turn|2
+|
+|t:|1785719962
+|move|p2b: Chi-Yu|Confuse Ray|p1b: Mudsdale
+|debug|add volatile [confusion] interrupted
+|-immune|p1b: Mudsdale|confusion|[from] ability: Own Tempo
+|debug|move failed because it did nothing
+|-activate|p1a: Zekrom|confusion
+|move|p1a: Zekrom|Breaking Swipe|p2b: Chi-Yu|[spread] p2b
+|debug|TryHit handler suppressed by Mold Breaker
+|-immune|p2a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-crit|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|118/251
+|-unboost|p2b: Chi-Yu|atk|1
+|debug|Update handler suppressed by Mold Breaker
+|debug|Update handler suppressed by Mold Breaker
+|move|p2a: Tapu Fini|Scald|p1a: Zekrom
+|debug|Beads of Ruin SpD drop
+|-resisted|p1a: Zekrom
+|-damage|p1a: Zekrom|106/341
+|move|p1b: Mudsdale|Double-Edge|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|225/344
+|-damage|p1b: Mudsdale|307/341|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1785719962
+|move|p2b: Chi-Yu|Fire Spin|p1b: Mudsdale
+|debug|Beads of Ruin SpD drop
+|-damage|p1b: Mudsdale|238/341
+|-activate|p1b: Mudsdale|move: Fire Spin|[of] p2b: Chi-Yu
+|-activate|p1a: Zekrom|confusion
+|move|p1a: Zekrom|Scale Shot|p2b: Chi-Yu
+|-crit|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|40/251
+|-enditem|p2b: Chi-Yu|Figy Berry|[eat]
+|-heal|p2b: Chi-Yu|123/251|[from] item: Figy Berry
+|debug|Update handler suppressed by Mold Breaker
+|-damage|p2b: Chi-Yu|72/251
+|debug|Update handler suppressed by Mold Breaker
+|-hitcount|p2b: Chi-Yu|2
+|debug|Update handler suppressed by Mold Breaker
+|-unboost|p1a: Zekrom|def|1
+|-boost|p1a: Zekrom|spe|1
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-enditem|p2a: Tapu Fini|Lum Berry|[eat]
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|-heal|p2a: Tapu Fini|344/344|[silent]
+|move|p1b: Mudsdale|Low Kick|p2b: Chi-Yu
+|debug|BP: 20
+|-supereffective|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|22/251
+|
+|-damage|p1b: Mudsdale|196/341|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1785719962
+|-activate|p1a: Zekrom|confusion
+|move|p1a: Zekrom|Stealth Rock|p2b: Chi-Yu
+|-sidestart|p2: Rey|move: Stealth Rock
+|move|p2b: Chi-Yu|Crunch|p1a: Zekrom
+|-damage|p1a: Zekrom|40/341
+|move|p2a: Tapu Fini|Scald|p1b: Mudsdale
+|debug|Beads of Ruin SpD drop
+|-supereffective|p1b: Mudsdale
+|-damage|p1b: Mudsdale|0 fnt
+|debug|move failed because it did nothing
+|faint|p1b: Mudsdale
+|
+|upkeep
+|
+|t:|1785719962
+|switch|p1b: Roaring Moon|Roaring Moon|351/351
+|turn|5
+|
+|t:|1785719962
+|-end|p1a: Zekrom|confusion
+|move|p1a: Zekrom|Stealth Rock||[still]
+|-fail|p1a: Zekrom
+|debug|move failed because it did nothing
+|move|p2b: Chi-Yu|Crunch|p1a: Zekrom
+|-damage|p1a: Zekrom|0 fnt
+|faint|p1a: Zekrom
+|move|p1b: Roaring Moon|Shadow Claw|p2b: Chi-Yu
+|-resisted|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-fail|p2a: Tapu Fini|heal
+|
+|upkeep
+|
+|t:|1785719962
+|switch|p2b: Stoutland|Stoutland, F|374/374
+|switch|p1a: Duraludon|Duraludon, M|344/344
+|-damage|p2b: Stoutland|328/374|[from] Stealth Rock
+|turn|6
+|
+|t:|1785719962
+|move|p1b: Roaring Moon|Shadow Claw|p2b: Stoutland
+|-immune|p2b: Stoutland
+|move|p1a: Duraludon|Tera Blast|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|280/344
+|move|p2a: Tapu Fini|Scald|p1b: Roaring Moon
+|-resisted|p1b: Roaring Moon
+|-damage|p1b: Roaring Moon|303/351
+|move|p2b: Stoutland|Work Up|p2b: Stoutland
+|-boost|p2b: Stoutland|atk|1
+|-boost|p2b: Stoutland|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1785719962
+|move|p1b: Roaring Moon|Stone Edge|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|199/344
+|move|p1a: Duraludon|Tera Blast|p2b: Stoutland
+|-damage|p2b: Stoutland|242/374
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p2b: Stoutland|Work Up|p2b: Stoutland
+|-boost|p2b: Stoutland|atk|1
+|-boost|p2b: Stoutland|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1785719962
+|move|p1b: Roaring Moon|Heat Wave|p2a: Tapu Fini|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-damage|p2a: Tapu Fini|185/344
+|-damage|p2b: Stoutland|192/374
+|move|p1a: Duraludon|Tera Blast|p2b: Stoutland
+|-damage|p2b: Stoutland|112/374
+|move|p2a: Tapu Fini|Draining Kiss|p1b: Roaring Moon
+|-supereffective|p1b: Roaring Moon
+|-enditem|p1b: Roaring Moon|Roseli Berry|[eat]
+|debug|-50% reduction
+|-enditem|p1b: Roaring Moon|Roseli Berry|[weaken]
+|-damage|p1b: Roaring Moon|133/351
+|-heal|p2a: Tapu Fini|313/344|[from] drain|[of] p1b: Roaring Moon
+|move|p2b: Stoutland|Mud-Slap|p1b: Roaring Moon
+|-damage|p1b: Roaring Moon|107/351
+|-unboost|p1b: Roaring Moon|accuracy|1
+|
+|upkeep
+|turn|9
+|
+|t:|1785719962
+|move|p1b: Roaring Moon|Heat Wave|p2b: Stoutland|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-damage|p2a: Tapu Fini|301/344
+|-damage|p2b: Stoutland|55/374
+|move|p1a: Duraludon|Take Down|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|242/344
+|-damage|p1a: Duraludon|329/344|[from] Recoil
+|move|p2a: Tapu Fini|Scald|p1b: Roaring Moon
+|-resisted|p1b: Roaring Moon
+|-damage|p1b: Roaring Moon|46/351
+|-status|p1b: Roaring Moon|brn
+|move|p2b: Stoutland|Dig||[still]
+|-prepare|p2b: Stoutland|Dig
+|
+|-damage|p1b: Roaring Moon|25/351 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1785719962
+|move|p1b: Roaring Moon|Facade|p2a: Tapu Fini|[miss]
+|-miss|p1b: Roaring Moon|p2a: Tapu Fini
+|move|p1a: Duraludon|Slash|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|202/344
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p2b: Stoutland|Dig|p1a: Duraludon|[from] lockedmove
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|129/344
+|
+|-damage|p1b: Roaring Moon|4/351 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1785719962
+|move|p1b: Roaring Moon|Shadow Claw|p2a: Tapu Fini|[miss]
+|-miss|p1b: Roaring Moon|p2a: Tapu Fini
+|move|p1a: Duraludon|Tera Blast|p2b: Stoutland
+|-damage|p2b: Stoutland|0 fnt
+|faint|p2b: Stoutland
+|move|p2a: Tapu Fini|Scald|p1a: Duraludon
+|-resisted|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|-damage|p1b: Roaring Moon|0 fnt|[from] brn
+|faint|p1b: Roaring Moon
+|-end|p1b: Roaring Moon|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1785719962
+|switch|p1b: Houndstone|Houndstone, F|348/348
+|switch|p1a: Kingler|Kingler, M|314/314
+|switch|p2b: Tapu Bulu|Tapu Bulu|281/281
+|-damage|p2b: Tapu Bulu|246/281|[from] Stealth Rock
+|turn|12
+|
+|t:|1785719962
+|move|p2b: Tapu Bulu|Bulk Up|p2b: Tapu Bulu
+|-boost|p2b: Tapu Bulu|atk|1
+|-boost|p2b: Tapu Bulu|def|1
+|move|p2a: Tapu Fini|Draining Kiss|p1a: Kingler
+|-damage|p1a: Kingler|133/314
+|-heal|p2a: Tapu Fini|338/344|[from] drain|[of] p1a: Kingler
+|move|p1a: Kingler|X-Scissor|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|308/344
+|move|p1b: Houndstone|Night Shade|p2b: Tapu Bulu
+|-damage|p2b: Tapu Bulu|146/281
+|
+|upkeep
+|turn|13
+|
+|t:|1785719962
+|move|p2b: Tapu Bulu|Seed Bomb|p1b: Houndstone
+|-damage|p1b: Houndstone|143/348
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Kingler|Scald|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|298/344
+|move|p1b: Houndstone|Phantom Force||[still]
+|-prepare|p1b: Houndstone|Phantom Force
+|
+|upkeep
+|turn|14
+|
+|t:|1785719962
+|move|p2b: Tapu Bulu|Bulk Up|p2b: Tapu Bulu
+|-boost|p2b: Tapu Bulu|atk|1
+|-boost|p2b: Tapu Bulu|def|1
+|move|p2a: Tapu Fini|Draining Kiss|p1b: Houndstone|[miss]
+|-miss|p2a: Tapu Fini|p1b: Houndstone
+|move|p1a: Kingler|Toxic|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|tox
+|move|p1b: Houndstone|Phantom Force|p2a: Tapu Fini|[from] lockedmove
+|-damage|p2a: Tapu Fini|213/344 tox
+|
+|-damage|p2a: Tapu Fini|192/344 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1785719962
+|move|p2b: Tapu Bulu|Wood Hammer|p1a: Kingler
+|-supereffective|p1a: Kingler
+|-damage|p1a: Kingler|0 fnt
+|faint|p1a: Kingler
+|-damage|p2b: Tapu Bulu|102/281|[from] Recoil
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-heal|p2a: Tapu Fini|344/344 slp|[silent]
+|move|p1b: Houndstone|Will-O-Wisp|p2b: Tapu Bulu|[miss]
+|-miss|p1b: Houndstone|p2b: Tapu Bulu
+|
+|upkeep
+|turn|16
+|
+|t:|1785719962
+|move|p2b: Tapu Bulu|Bulk Up|p2b: Tapu Bulu
+|-boost|p2b: Tapu Bulu|atk|1
+|-boost|p2b: Tapu Bulu|def|1
+|cant|p2a: Tapu Fini|slp
+|move|p1b: Houndstone|Phantom Force||[still]
+|-prepare|p1b: Houndstone|Phantom Force
+|
+|upkeep
+|turn|17
+|
+|t:|1785719962
+|move|p2b: Tapu Bulu|Taunt|p1b: Houndstone|[miss]
+|-miss|p2b: Tapu Bulu|p1b: Houndstone
+|cant|p2a: Tapu Fini|slp
+|move|p1b: Houndstone|Phantom Force|p2a: Tapu Fini|[from] lockedmove
+|-damage|p2a: Tapu Fini|260/344 slp
+|
+|upkeep
+|turn|18
+|
+|t:|1785719962
+|move|p2b: Tapu Bulu|Seed Bomb|p1b: Houndstone
+|-damage|p1b: Houndstone|0 fnt
+|faint|p1b: Houndstone
+|
+|win|Rey</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

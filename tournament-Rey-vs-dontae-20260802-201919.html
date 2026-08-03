@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Rey vs dontae - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="tournament-Rey-vs-dontae-20260802-201919" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785719959
+|gametype|doubles
+|player|p1|Rey|swimmerf|
+|player|p2|dontae|rosa-pokestar2|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Tapu Fini|
+|poke|p1|Chi-Yu|
+|poke|p1|Iron Moth|
+|poke|p1|Vaporeon, M|
+|poke|p1|Tapu Bulu|
+|poke|p1|Stoutland, M|
+|poke|p2|Dialga|
+|poke|p2|Melmetal|
+|poke|p2|Great Tusk|
+|poke|p2|Darkrai|
+|poke|p2|Iron Treads|
+|poke|p2|Arcanine-Hisui, M|
+|teampreview
+|
+|t:|1785719959
+|start
+|switch|p1a: Tapu Fini|Tapu Fini|344/344
+|switch|p1b: Chi-Yu|Chi-Yu|251/251
+|switch|p2a: Dialga|Dialga|404/404
+|switch|p2b: Melmetal|Melmetal|411/411
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|1
+|
+|t:|1785719959
+|move|p1b: Chi-Yu|Fire Spin|p2a: Dialga
+|debug|Beads of Ruin SpD drop
+|-damage|p2a: Dialga|335/404
+|-activate|p2a: Dialga|move: Fire Spin|[of] p1b: Chi-Yu
+|move|p2a: Dialga|Dragon Claw|p1a: Tapu Fini
+|-immune|p1a: Tapu Fini
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|move|p2b: Melmetal|Brutal Swing|p1a: Tapu Fini|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Chi-Yu
+|-damage|p1a: Tapu Fini|325/344
+|-damage|p1b: Chi-Yu|221/251
+|
+|-damage|p2a: Dialga|285/404|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1785719959
+|move|p1b: Chi-Yu|Fire Spin|p2b: Melmetal
+|debug|brightpowder - decreasing accuracy
+|debug|Beads of Ruin SpD drop
+|-supereffective|p2b: Melmetal
+|-damage|p2b: Melmetal|199/411
+|-activate|p2b: Melmetal|move: Fire Spin|[of] p1b: Chi-Yu
+|move|p2a: Dialga|Dragon Claw|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|83/251
+|move|p1a: Tapu Fini|Rest|p1a: Tapu Fini
+|-status|p1a: Tapu Fini|slp|[from] move: Rest
+|-enditem|p1a: Tapu Fini|Lum Berry|[eat]
+|-curestatus|p1a: Tapu Fini|slp|[msg]
+|-heal|p1a: Tapu Fini|344/344|[silent]
+|move|p2b: Melmetal|Brutal Swing|p1b: Chi-Yu|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Chi-Yu
+|-crit|p1b: Chi-Yu
+|-damage|p1a: Tapu Fini|323/344
+|-damage|p1b: Chi-Yu|33/251
+|-enditem|p1b: Chi-Yu|Figy Berry|[eat]
+|-heal|p1b: Chi-Yu|116/251|[from] item: Figy Berry
+|
+|-damage|p2a: Dialga|235/404|[from] move: Fire Spin|[partiallytrapped]
+|-damage|p2b: Melmetal|148/411|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1785719959
+|move|p1b: Chi-Yu|Confuse Ray|p2b: Melmetal|[miss]
+|debug|brightpowder - decreasing accuracy
+|-miss|p1b: Chi-Yu|p2b: Melmetal
+|move|p2a: Dialga|Bulldoze|p1a: Tapu Fini|[spread] p2b,p1a,p1b
+|debug|brightpowder - decreasing accuracy
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Melmetal
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Chi-Yu
+|-damage|p2b: Melmetal|86/411
+|-damage|p1a: Tapu Fini|295/344
+|-damage|p1b: Chi-Yu|30/251
+|-unboost|p2b: Melmetal|spe|1
+|-unboost|p1a: Tapu Fini|spe|1
+|-unboost|p1b: Chi-Yu|spe|1
+|move|p1a: Tapu Fini|Scald|p2b: Melmetal|[miss]
+|debug|brightpowder - decreasing accuracy
+|-miss|p1a: Tapu Fini|p2b: Melmetal
+|move|p2b: Melmetal|Brutal Swing|p1b: Chi-Yu|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Chi-Yu
+|-damage|p1a: Tapu Fini|273/344
+|-damage|p1b: Chi-Yu|0 fnt
+|faint|p1b: Chi-Yu
+|
+|-end|p2a: Dialga|Fire Spin|[partiallytrapped]|[silent]
+|-end|p2b: Melmetal|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1785719959
+|switch|p1b: Vaporeon|Vaporeon, M|464/464
+|turn|4
+|
+|t:|1785719959
+|move|p2a: Dialga|Substitute|p2a: Dialga
+|-start|p2a: Dialga|Substitute
+|-damage|p2a: Dialga|134/404
+|move|p1b: Vaporeon|Double Kick|p2b: Melmetal
+|debug|brightpowder - decreasing accuracy
+|-supereffective|p2b: Melmetal
+|-damage|p2b: Melmetal|48/411
+|-supereffective|p2b: Melmetal
+|-damage|p2b: Melmetal|12/411
+|-hitcount|p2b: Melmetal|2
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|move|p2b: Melmetal|Brutal Swing|p1b: Vaporeon|[spread] p1a,p1b
+|-activate|p2a: Dialga|ability: Telepathy
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-damage|p1a: Tapu Fini|253/344
+|-damage|p1b: Vaporeon|378/464
+|
+|upkeep
+|turn|5
+|
+|t:|1785719959
+|move|p2a: Dialga|Substitute|p2a: Dialga
+|-fail|p2a: Dialga|move: Substitute
+|move|p1b: Vaporeon|Tera Blast|p2b: Melmetal|[miss]
+|debug|brightpowder - decreasing accuracy
+|-miss|p1b: Vaporeon|p2b: Melmetal
+|move|p1a: Tapu Fini|Draining Kiss|p2a: Dialga
+|-activate|p2a: Dialga|move: Substitute|[damage]
+|-heal|p1a: Tapu Fini|324/344|[from] drain|[of] p2a: Dialga
+|move|p2b: Melmetal|Double Iron Bash|p1a: Tapu Fini
+|debug|Iron Fist boost
+|-damage|p1a: Tapu Fini|227/344
+|debug|Iron Fist boost
+|-damage|p1a: Tapu Fini|133/344
+|-hitcount|p1a: Tapu Fini|2
+|
+|upkeep
+|turn|6
+|
+|t:|1785719959
+|move|p2a: Dialga|Dragon Claw|p1a: Tapu Fini
+|-immune|p1a: Tapu Fini
+|move|p1b: Vaporeon|Mud-Slap|p2a: Dialga
+|-supereffective|p2a: Dialga
+|-end|p2a: Dialga|Substitute
+|move|p1a: Tapu Fini|Rest|p1a: Tapu Fini
+|-status|p1a: Tapu Fini|slp|[from] move: Rest
+|-heal|p1a: Tapu Fini|344/344 slp|[silent]
+|move|p2b: Melmetal|Double Iron Bash|p1a: Tapu Fini
+|debug|Iron Fist boost
+|-damage|p1a: Tapu Fini|253/344 slp
+|debug|Iron Fist boost
+|-damage|p1a: Tapu Fini|147/344 slp
+|-hitcount|p1a: Tapu Fini|2
+|
+|upkeep
+|turn|7
+|
+|t:|1785719959
+|move|p2a: Dialga|Dragon Claw|p1b: Vaporeon
+|-damage|p1b: Vaporeon|168/464
+|move|p1b: Vaporeon|Mud-Slap|p2b: Melmetal
+|debug|brightpowder - decreasing accuracy
+|-supereffective|p2b: Melmetal
+|-damage|p2b: Melmetal|0 fnt
+|faint|p2b: Melmetal
+|cant|p1a: Tapu Fini|slp
+|
+|upkeep
+|
+|t:|1785719959
+|switch|p2b: Great Tusk|Great Tusk|434/434
+|turn|8
+|
+|t:|1785719959
+|move|p2a: Dialga|Dragon Claw|p1b: Vaporeon
+|-damage|p1b: Vaporeon|0 fnt
+|faint|p1b: Vaporeon
+|move|p2b: Great Tusk|Supercell Slam|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|upkeep
+|
+|t:|1785719959
+|switch|p1a: Stoutland|Stoutland, M|374/374
+|switch|p1b: Tapu Bulu|Tapu Bulu|281/281
+|turn|9
+|
+|t:|1785719959
+|move|p2a: Dialga|Dragon Claw|p1a: Stoutland
+|-damage|p1a: Stoutland|229/374
+|move|p1b: Tapu Bulu|Taunt|p2b: Great Tusk
+|-start|p2b: Great Tusk|move: Taunt
+|move|p2b: Great Tusk|Headlong Rush|p1b: Tapu Bulu
+|-resisted|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|182/281
+|-unboost|p2b: Great Tusk|def|1
+|-unboost|p2b: Great Tusk|spd|1
+|move|p1a: Stoutland|Mud-Slap|p2b: Great Tusk
+|-damage|p2b: Great Tusk|401/434
+|-unboost|p2b: Great Tusk|accuracy|1
+|
+|upkeep
+|turn|10
+|
+|t:|1785719959
+|move|p2a: Dialga|Bulldoze|p1a: Stoutland|[spread] p2b,p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-crit|p1a: Stoutland
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Tapu Bulu
+|-damage|p2b: Great Tusk|350/434
+|-damage|p1a: Stoutland|159/374
+|-damage|p1b: Tapu Bulu|164/281
+|-unboost|p2b: Great Tusk|spe|1
+|-unboost|p1a: Stoutland|spe|1
+|-unboost|p1b: Tapu Bulu|spe|1
+|move|p1b: Tapu Bulu|Wood Hammer|p2b: Great Tusk
+|-supereffective|p2b: Great Tusk
+|-damage|p2b: Great Tusk|0 fnt
+|faint|p2b: Great Tusk
+|-end|p2b: Great Tusk|Protosynthesis|[silent]
+|-damage|p1b: Tapu Bulu|48/281|[from] Recoil
+|move|p1a: Stoutland|Work Up|p1a: Stoutland
+|-boost|p1a: Stoutland|atk|1
+|-boost|p1a: Stoutland|spa|1
+|
+|upkeep
+|
+|t:|1785719959
+|switch|p2b: Arcanine|Arcanine-Hisui, M|331/331
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Stoutland|atk|1
+|-unboost|p1b: Tapu Bulu|atk|1
+|turn|11
+|
+|t:|1785719959
+|move|p2a: Dialga|Substitute|p2a: Dialga
+|-start|p2a: Dialga|Substitute
+|-damage|p2a: Dialga|33/404
+|move|p2b: Arcanine|Stone Edge|p1a: Stoutland
+|-damage|p1a: Stoutland|0 fnt
+|faint|p1a: Stoutland
+|move|p1b: Tapu Bulu|Bulk Up|p1b: Tapu Bulu
+|-boost|p1b: Tapu Bulu|atk|1
+|-boost|p1b: Tapu Bulu|def|1
+|
+|upkeep
+|
+|t:|1785719959
+|switch|p1a: Iron Moth|Iron Moth|364/364
+|turn|12
+|
+|t:|1785719959
+|move|p1a: Iron Moth|Sludge Wave|p2a: Dialga|[spread] p2b
+|-activate|p1b: Tapu Bulu|ability: Telepathy
+|-immune|p2a: Dialga
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Arcanine
+|-damage|p2b: Arcanine|261/331
+|move|p2a: Dialga|Tera Blast|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|0 fnt
+|faint|p1b: Tapu Bulu
+|move|p2b: Arcanine|Stone Edge|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|dontae</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
