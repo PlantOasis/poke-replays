@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Abstract Son Archive vs Gavin - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Abstract-Son-Archive-vs-Gavin-20260804-130129" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785866489
+|gametype|singles
+|player|p1|Abstract Son Archive|supernerd-gen1rb|
+|player|p2|Gavin|blaine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Chandelure, F|
+|poke|p1|Arceus|
+|poke|p1|Giratina|
+|poke|p1|Exeggutor, F|
+|poke|p1|Ditto|
+|poke|p1|Tangrowth, F|
+|poke|p2|Magearna|
+|poke|p2|Tapu Koko|
+|poke|p2|Hydrapple, F|
+|poke|p2|Revavroom, F|
+|poke|p2|Marshadow|
+|poke|p2|Tinkaton, F|
+|teampreview
+|
+|t:|1785866489
+|start
+|switch|p1a: Chandelure|Chandelure, F|261/261
+|switch|p2a: Magearna|Magearna|301/301
+|turn|1
+|
+|t:|1785866489
+|move|p1a: Chandelure|Lash Out|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|279/301
+|move|p2a: Magearna|Facade|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|2
+|
+|t:|1785866489
+|move|p1a: Chandelure|Inferno|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|33/301
+|-status|p2a: Magearna|brn
+|-enditem|p2a: Magearna|Lum Berry|[eat]
+|-curestatus|p2a: Magearna|brn|[msg]
+|move|p2a: Magearna|Encore|p1a: Chandelure
+|-start|p1a: Chandelure|Encore
+|
+|upkeep
+|turn|3
+|
+|t:|1785866489
+|move|p1a: Chandelure|Inferno|p2a: Magearna
+|-supereffective|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Magearna
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p2a: Tapu Koko|Tapu Koko|281/281
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|4
+|
+|t:|1785866489
+|move|p2a: Tapu Koko|Volt Switch|p1a: Chandelure
+|debug|electric terrain boost
+|-damage|p1a: Chandelure|131/261
+|
+|t:|1785866489
+|switch|p2a: Marshadow|Marshadow|384/384|[from] Volt Switch
+|move|p1a: Chandelure|Inferno|p2a: Marshadow|[miss]
+|-miss|p1a: Chandelure|p2a: Marshadow
+|
+|upkeep
+|turn|5
+|
+|t:|1785866489
+|move|p2a: Marshadow|Agility|p2a: Marshadow
+|-boost|p2a: Marshadow|spe|2
+|move|p1a: Chandelure|Inferno|p2a: Marshadow
+|-damage|p2a: Marshadow|254/384
+|-status|p2a: Marshadow|brn
+|-enditem|p2a: Marshadow|Red Card|[of] p1a: Chandelure
+|drag|p1a: Giratina|Giratina|441/441
+|
+|-damage|p2a: Marshadow|230/384 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1785866489
+|move|p2a: Marshadow|Shadow Ball|p1a: Giratina
+|debug|Base Power: 80
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|279/441
+|move|p1a: Giratina|Phantom Force||[still]
+|-prepare|p1a: Giratina|Phantom Force
+|
+|-damage|p2a: Marshadow|206/384 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1785866489
+|move|p2a: Marshadow|Agility|p2a: Marshadow
+|-boost|p2a: Marshadow|spe|2
+|move|p1a: Giratina|Phantom Force|p2a: Marshadow|[from] lockedmove
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p2a: Tinkaton|Tinkaton, F|374/374
+|turn|8
+|
+|t:|1785866489
+|move|p2a: Tinkaton|Fake Out|p1a: Giratina
+|-immune|p1a: Giratina
+|move|p1a: Giratina|Phantom Force||[still]
+|-prepare|p1a: Giratina|Phantom Force
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1785866489
+|move|p2a: Tinkaton|Protect|p2a: Tinkaton
+|-singleturn|p2a: Tinkaton|Protect
+|move|p1a: Giratina|Phantom Force|p2a: Tinkaton|[from] lockedmove
+|-activate|p2a: Tinkaton|move: Phantom Force|[broken]
+|-damage|p2a: Tinkaton|259/374
+|
+|upkeep
+|turn|10
+|
+|t:|1785866489
+|move|p1a: Giratina|Hyper Beam|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|186/374
+|-mustrecharge|p1a: Giratina
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Giratina
+|-damage|p1a: Giratina|146/441
+|
+|upkeep
+|turn|11
+|
+|t:|1785866489
+|cant|p1a: Giratina|recharge
+|move|p2a: Tinkaton|Astonish|p1a: Giratina
+|-supereffective|p1a: Giratina
+|-damage|p1a: Giratina|112/441
+|
+|upkeep
+|turn|12
+|
+|t:|1785866489
+|move|p1a: Giratina|Bulldoze|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|84/374
+|-unboost|p2a: Tinkaton|spe|1
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Giratina
+|-damage|p1a: Giratina|0 fnt
+|faint|p1a: Giratina
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p1a: Exeggutor|Exeggutor, F|331/331
+|turn|13
+|
+|t:|1785866489
+|move|p2a: Tinkaton|Protect|p2a: Tinkaton
+|-singleturn|p2a: Tinkaton|Protect
+|move|p1a: Exeggutor|Double-Edge|p2a: Tinkaton
+|-activate|p2a: Tinkaton|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1785866489
+|move|p1a: Exeggutor|Double-Edge|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|40/374
+|-damage|p1a: Exeggutor|316/331|[from] Recoil
+|move|p2a: Tinkaton|Astonish|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|280/331
+|
+|upkeep
+|turn|15
+|
+|t:|1785866489
+|move|p1a: Exeggutor|Double-Edge|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|-damage|p1a: Exeggutor|267/331|[from] Recoil
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p2a: Hydrapple|Hydrapple, F|416/416
+|-ability|p2a: Hydrapple|Supersweet Syrup
+|-unboost|p1a: Exeggutor|evasion|1
+|turn|16
+|
+|t:|1785866489
+|move|p1a: Exeggutor|Leech Seed|p2a: Hydrapple
+|-immune|p2a: Hydrapple
+|move|p2a: Hydrapple|Pollen Puff|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p1a: Ditto|Ditto|300/300
+|turn|17
+|
+|t:|1785866489
+|move|p2a: Hydrapple|Body Slam|p1a: Ditto
+|-damage|p1a: Ditto|240/300
+|move|p1a: Ditto|Transform|p2a: Hydrapple
+|-transform|p1a: Ditto|p2a: Hydrapple
+|-ability|p1a: Ditto|Supersweet Syrup
+|-unboost|p2a: Hydrapple|evasion|1
+|
+|upkeep
+|turn|18
+|
+|t:|1785866489
+|move|p2a: Hydrapple|Pollen Puff|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|24/300
+|move|p1a: Ditto|Outrage|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|264/416
+|
+|upkeep
+|turn|19
+|
+|t:|1785866489
+|move|p1a: Ditto|Outrage|p2a: Hydrapple|[from] lockedmove
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|114/416
+|-start|p1a: Ditto|confusion|[fatigue]
+|move|p2a: Hydrapple|Outrage|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p1a: Chandelure|Chandelure, F|131/261
+|turn|20
+|
+|t:|1785866489
+|move|p1a: Chandelure|Minimize|p1a: Chandelure
+|-boost|p1a: Chandelure|evasion|2
+|move|p2a: Hydrapple|Outrage|p1a: Chandelure|[from] lockedmove
+|-damage|p1a: Chandelure|43/261
+|-enditem|p1a: Chandelure|Oran Berry|[eat]
+|-heal|p1a: Chandelure|53/261|[from] item: Oran Berry
+|-start|p2a: Hydrapple|confusion|[fatigue]
+|
+|upkeep
+|turn|21
+|
+|t:|1785866489
+|move|p1a: Chandelure|Lash Out|p2a: Hydrapple
+|-damage|p2a: Hydrapple|77/416
+|-enditem|p2a: Hydrapple|Ganlon Berry|[eat]
+|-boost|p2a: Hydrapple|def|1|[from] item: Ganlon Berry
+|-activate|p2a: Hydrapple|confusion
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|22
+|
+|t:|1785866489
+|move|p1a: Chandelure|Safeguard|p1a: Chandelure
+|-sidestart|p1: Abstract Son Archive|Safeguard
+|-activate|p2a: Hydrapple|confusion
+|-damage|p2a: Hydrapple|65/416|[from] confusion
+|
+|upkeep
+|turn|23
+|
+|t:|1785866489
+|move|p1a: Chandelure|Lash Out|p2a: Hydrapple
+|-damage|p2a: Hydrapple|40/416
+|-activate|p2a: Hydrapple|confusion
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|24
+|
+|t:|1785866489
+|move|p1a: Chandelure|Inferno|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p2a: Tapu Koko|Tapu Koko|281/281
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|25
+|
+|t:|1785866489
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1785866489
+|switch|p1a: Arceus|Arceus|444/444
+|-start|p1a: Arceus|typechange|Steel|[silent]
+|turn|26
+|
+|t:|1785866489
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|406/444
+|move|p1a: Arceus|Gunk Shot|p2a: Tapu Koko
+|-supereffective|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|17/281
+|-status|p2a: Tapu Koko|psn
+|
+|-damage|p2a: Tapu Koko|0 fnt|[from] psn
+|faint|p2a: Tapu Koko
+|-sideend|p1: Abstract Son Archive|Safeguard
+|upkeep
+|
+|t:|1785866489
+|switch|p2a: Revavroom|Revavroom, F|301/301
+|turn|27
+|
+|t:|1785866489
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|move|p1a: Arceus|Bullet Seed|p2a: Revavroom
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|295/301
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|290/301
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|284/301
+|-hitcount|p2a: Revavroom|3
+|
+|upkeep
+|turn|28
+|
+|t:|1785866489
+|move|p2a: Revavroom|Headbutt|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|372/444
+|move|p1a: Arceus|Bullet Seed|p2a: Revavroom
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|278/301
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|272/301
+|-hitcount|p2a: Revavroom|2
+|
+|upkeep
+|turn|29
+|
+|t:|1785866489
+|move|p2a: Revavroom|Headbutt|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|337/444
+|move|p1a: Arceus|Double-Edge|p2a: Revavroom
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|214/301
+|-damage|p1a: Arceus|318/444|[from] Recoil
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|30
+|
+|t:|1785866489
+|move|p2a: Revavroom|Hyper Beam|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|294/444
+|-mustrecharge|p2a: Revavroom
+|move|p1a: Arceus|Gunk Shot|p2a: Revavroom
+|-immune|p2a: Revavroom
+|
+|upkeep
+|turn|31
+|
+|t:|1785866489
+|cant|p2a: Revavroom|recharge
+|move|p1a: Arceus|Gunk Shot|p2a: Revavroom
+|-immune|p2a: Revavroom
+|
+|upkeep
+|turn|32
+|
+|t:|1785866489
+|move|p2a: Revavroom|Hyper Beam|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|269/444
+|-mustrecharge|p2a: Revavroom
+|move|p1a: Arceus|Bullet Seed|p2a: Revavroom
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|208/301
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|202/301
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|197/301
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|192/301
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|186/301
+|-hitcount|p2a: Revavroom|5
+|
+|upkeep
+|turn|33
+|
+|t:|1785866489
+|cant|p2a: Revavroom|recharge
+|move|p1a: Arceus|Hex|p2a: Revavroom
+|-damage|p2a: Revavroom|128/301
+|
+|upkeep
+|turn|34
+|
+|t:|1785866489
+|move|p2a: Revavroom|Sludge Bomb|p1a: Arceus
+|-immune|p1a: Arceus
+|move|p1a: Arceus|Gunk Shot|p2a: Revavroom
+|-immune|p2a: Revavroom
+|
+|upkeep
+|turn|35
+|
+|t:|1785866489
+|move|p2a: Revavroom|Headbutt|p1a: Arceus
+|-resisted|p1a: Arceus
+|-damage|p1a: Arceus|235/444
+|move|p1a: Arceus|Double-Edge|p2a: Revavroom
+|-resisted|p2a: Revavroom
+|-crit|p2a: Revavroom
+|-damage|p2a: Revavroom|51/301
+|-damage|p1a: Arceus|210/444|[from] Recoil
+|
+|upkeep
+|turn|36
+|
+|t:|1785866489
+|move|p2a: Revavroom|Hyper Beam|p1a: Arceus
+|-resisted|p1a: Arceus
+|-crit|p1a: Arceus
+|-damage|p1a: Arceus|174/444
+|-mustrecharge|p2a: Revavroom
+|move|p1a: Arceus|Hex|p2a: Revavroom
+|-damage|p2a: Revavroom|0 fnt
+|faint|p2a: Revavroom
+|
+|win|Abstract Son Archive</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
