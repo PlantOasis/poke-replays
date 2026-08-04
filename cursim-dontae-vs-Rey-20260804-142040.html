@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>dontae vs Rey - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-dontae-vs-Rey-20260804-142040" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785871240
+|gametype|doubles
+|player|p1|dontae|miku-ghost|
+|player|p2|Rey|swimmerf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Dialga|
+|poke|p1|Melmetal|
+|poke|p1|Great Tusk|
+|poke|p1|Darkrai|
+|poke|p1|Iron Treads|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p2|Tapu Fini|
+|poke|p2|Chi-Yu|
+|poke|p2|Iron Moth|
+|poke|p2|Vaporeon, M|
+|poke|p2|Tapu Bulu|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|t:|1785871240
+|start
+|switch|p1a: Dialga|Dialga|404/404
+|switch|p1b: Melmetal|Melmetal|411/411
+|switch|p2a: Tapu Fini|Tapu Fini|344/344
+|switch|p2b: Chi-Yu|Chi-Yu|251/251
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|turn|1
+|
+|t:|1785871240
+|move|p2b: Chi-Yu|Fire Spin|p1b: Melmetal
+|debug|brightpowder - decreasing accuracy
+|debug|Beads of Ruin SpD drop
+|-supereffective|p1b: Melmetal
+|-damage|p1b: Melmetal|181/411
+|-activate|p1b: Melmetal|move: Fire Spin|[of] p2b: Chi-Yu
+|move|p1a: Dialga|Bulldoze|p2a: Tapu Fini|[spread] p1b,p2a,p2b
+|debug|brightpowder - decreasing accuracy
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Melmetal
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Chi-Yu
+|-damage|p1b: Melmetal|123/411
+|-damage|p2a: Tapu Fini|316/344
+|-damage|p2b: Chi-Yu|153/251
+|-unboost|p1b: Melmetal|spe|1
+|-unboost|p2a: Tapu Fini|spe|1
+|-unboost|p2b: Chi-Yu|spe|1
+|move|p2a: Tapu Fini|Scald|p1b: Melmetal
+|debug|brightpowder - decreasing accuracy
+|debug|Beads of Ruin SpD drop
+|-damage|p1b: Melmetal|0 fnt
+|faint|p1b: Melmetal
+|
+|upkeep
+|
+|t:|1785871240
+|switch|p1b: Darkrai|Darkrai|344/344
+|turn|2
+|
+|t:|1785871240
+|move|p1b: Darkrai|Giga Impact|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|247/344
+|-mustrecharge|p1b: Darkrai
+|move|p1a: Dialga|Dragon Claw|p2a: Tapu Fini
+|-immune|p2a: Tapu Fini
+|move|p2b: Chi-Yu|Payback|p1a: Dialga
+|debug|Payback damage boost
+|-damage|p1a: Dialga|323/404
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1785871240
+|cant|p1b: Darkrai|recharge
+|move|p1a: Dialga|Tera Blast|p2a: Tapu Fini
+|debug|Beads of Ruin SpD drop
+|-damage|p2a: Tapu Fini|182/344
+|move|p2b: Chi-Yu|Crunch|p1b: Darkrai
+|-resisted|p1b: Darkrai
+|-damage|p1b: Darkrai|309/344
+|move|p2a: Tapu Fini|Scald|p1a: Dialga
+|debug|Beads of Ruin SpD drop
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|246/404
+|-status|p1a: Dialga|brn
+|
+|-damage|p1a: Dialga|221/404 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1785871240
+|move|p1b: Darkrai|X-Scissor|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|92/251
+|move|p1a: Dialga|Dragon Claw|p2a: Tapu Fini
+|-immune|p2a: Tapu Fini
+|move|p2b: Chi-Yu|Confuse Ray|p1b: Darkrai
+|-start|p1b: Darkrai|confusion
+|move|p2a: Tapu Fini|Draining Kiss|p1a: Dialga
+|debug|Beads of Ruin SpD drop
+|-damage|p1a: Dialga|121/404 brn
+|-heal|p2a: Tapu Fini|257/344|[from] drain|[of] p1a: Dialga
+|
+|-damage|p1a: Dialga|96/404 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1785871240
+|-activate|p1b: Darkrai|confusion
+|move|p1b: Darkrai|Blizzard|p2a: Tapu Fini|[spread] p2b
+|-miss|p1b: Darkrai|p2a: Tapu Fini
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|56/251
+|-enditem|p2b: Chi-Yu|Figy Berry|[eat]
+|-heal|p2b: Chi-Yu|139/251|[from] item: Figy Berry
+|move|p1a: Dialga|Substitute|p1a: Dialga
+|-fail|p1a: Dialga|move: Substitute|[weak]
+|move|p2b: Chi-Yu|Payback|p1b: Darkrai
+|debug|Payback damage boost
+|-resisted|p1b: Darkrai
+|-damage|p1b: Darkrai|264/344
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-damage|p1a: Dialga|71/404 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1785871240
+|-activate|p1b: Darkrai|confusion
+|-damage|p1b: Darkrai|242/344|[from] confusion
+|move|p1a: Dialga|Tera Blast|p2b: Chi-Yu
+|-crit|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|24/251
+|move|p2b: Chi-Yu|Confuse Ray|p1a: Dialga
+|-start|p1a: Dialga|confusion
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-enditem|p2a: Tapu Fini|Lum Berry|[eat]
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|-heal|p2a: Tapu Fini|344/344|[silent]
+|
+|-damage|p1a: Dialga|46/404 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1785871240
+|-activate|p1b: Darkrai|confusion
+|move|p1b: Darkrai|Foul Play|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|313/344
+|-activate|p1a: Dialga|confusion
+|-damage|p1a: Dialga|13/404 brn|[from] confusion
+|move|p2b: Chi-Yu|Fire Spin|p1b: Darkrai
+|debug|Beads of Ruin SpD drop
+|-damage|p1b: Darkrai|163/344
+|-activate|p1b: Darkrai|move: Fire Spin|[of] p2b: Chi-Yu
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-damage|p1a: Dialga|0 fnt|[from] brn
+|faint|p1a: Dialga
+|-damage|p1b: Darkrai|120/344|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|
+|t:|1785871240
+|switch|p1a: Iron Treads|Iron Treads|321/321
+|turn|8
+|
+|t:|1785871240
+|-activate|p1b: Darkrai|confusion
+|-damage|p1b: Darkrai|97/344|[from] confusion
+|move|p1a: Iron Treads|High Horsepower|p2b: Chi-Yu
+|-supereffective|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-end|p1b: Darkrai|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1785871240
+|switch|p2b: Corviknight|Corviknight, F|337/337
+|-ability|p2b: Corviknight|Pressure
+|turn|9
+|
+|t:|1785871240
+|-end|p1b: Darkrai|confusion
+|move|p1b: Darkrai|Foul Play|p2b: Corviknight
+|-damage|p2b: Corviknight|190/337
+|move|p1a: Iron Treads|Facade|p2b: Corviknight
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|149/337
+|move|p2b: Corviknight|Drill Peck|p1b: Darkrai
+|-damage|p1b: Darkrai|3/344
+|move|p2a: Tapu Fini|Scald|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1785871240
+|switch|p1a: Great Tusk|Great Tusk|434/434
+|turn|10
+|
+|t:|1785871240
+|move|p1b: Darkrai|Giga Impact|p2a: Tapu Fini|[miss]
+|-miss|p1b: Darkrai|p2a: Tapu Fini
+|move|p1a: Great Tusk|Supercell Slam|p2b: Corviknight
+|-supereffective|p2b: Corviknight
+|-crit|p2b: Corviknight
+|-damage|p2b: Corviknight|0 fnt
+|faint|p2b: Corviknight
+|move|p2a: Tapu Fini|Scald|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1785871240
+|switch|p1a: Arcanine|Arcanine-Hisui, M|331/331
+|switch|p2b: Iron Moth|Iron Moth|364/364
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Tapu Fini|atk|1
+|-fail|p2b: Iron Moth|unboost|[from] item: Clear Amulet|[of] p2b: Iron Moth
+|turn|11
+|
+|t:|1785871240
+|move|p1b: Darkrai|Foul Play|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|292/344
+|move|p2b: Iron Moth|Rest|p2b: Iron Moth
+|-fail|p2b: Iron Moth|heal
+|move|p1a: Arcanine|Stone Edge|p2b: Iron Moth|[miss]
+|-miss|p1a: Arcanine|p2b: Iron Moth
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1785871240
+|move|p1b: Darkrai|X-Scissor|p2b: Iron Moth
+|-resisted|p2b: Iron Moth
+|-damage|p2b: Iron Moth|345/364
+|move|p2b: Iron Moth|Rest|p2b: Iron Moth
+|-status|p2b: Iron Moth|slp|[from] move: Rest
+|-heal|p2b: Iron Moth|364/364 slp|[silent]
+|move|p1a: Arcanine|Flame Wheel|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|255/344
+|move|p2a: Tapu Fini|Scald|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-damage|p2b: Iron Moth|319/364 slp|[from] ability: Bad Dreams|[of] p1b: Darkrai
+|upkeep
+|turn|13
+|
+|t:|1785871240
+|move|p1b: Darkrai|Blizzard|p2a: Tapu Fini|[spread] p2a
+|-miss|p1b: Darkrai|p2b: Iron Moth
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|245/344
+|-status|p2a: Tapu Fini|frz
+|cant|p2b: Iron Moth|slp
+|-curestatus|p2a: Tapu Fini|frz|[from] move: Scald
+|move|p2a: Tapu Fini|Scald|p1b: Darkrai
+|-crit|p1b: Darkrai
+|-damage|p1b: Darkrai|0 fnt
+|debug|move failed because it did nothing
+|faint|p1b: Darkrai
+|
+|win|Rey</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
