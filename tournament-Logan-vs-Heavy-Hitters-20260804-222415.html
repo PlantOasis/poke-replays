@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Logan vs Heavy Hitters - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="tournament-Logan-vs-Heavy-Hitters-20260804-222415" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1785900255
+|gametype|doubles
+|player|p1|Logan|hiker|
+|player|p2|Heavy Hitters|ingo|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Zacian-*|
+|poke|p1|Cofagrigus, M|
+|poke|p1|Absol, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Brute Bonnet|
+|poke|p2|Zekrom|
+|poke|p2|Mudsdale, F|
+|poke|p2|Kingler, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Pidgeot, F|
+|poke|p2|Houndstone, M|
+|teampreview
+|
+|t:|1785900255
+|start
+|debug|Start handler suppressed by Gastro Acid or Neutralizing Gas
+|switch|p1a: Zacian|Zacian-Crowned|325/325
+|switch|p1b: Cofagrigus|Cofagrigus, M|257/257
+|switch|p2a: Zekrom|Zekrom|341/341
+|switch|p2b: Mudsdale|Mudsdale, F|341/341
+|-ability|p1a: Zacian|Intrepid Sword|boost
+|-boost|p1a: Zacian|atk|1
+|-ability|p2a: Zekrom|Teravolt
+|turn|1
+|
+|t:|1785900255
+|move|p1a: Zacian|Quick Guard|p1a: Zacian
+|-singleturn|p1a: Zacian|Quick Guard
+|move|p2a: Zekrom|Breaking Swipe|p1a: Zacian|[spread] p1b
+|-immune|p1a: Zacian
+|debug|Spread modifier: 0.75
+|-damage|p1b: Cofagrigus|196/257
+|-unboost|p1b: Cofagrigus|atk|1
+|-activate|p1b: Cofagrigus|ability: Mummy|Teravolt|[of] p2a: Zekrom
+|debug|Update handler suppressed by Mold Breaker
+|debug|Update handler suppressed by Mold Breaker
+|move|p2b: Mudsdale|Double-Edge|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Substitute|p1b: Cofagrigus
+|-start|p1b: Cofagrigus|Substitute
+|-damage|p1b: Cofagrigus|132/257
+|
+|upkeep
+|turn|2
+|
+|t:|1785900255
+|move|p2b: Mudsdale|Protect|p2b: Mudsdale
+|-singleturn|p2b: Mudsdale|Protect
+|move|p1a: Zacian|Air Slash|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|319/341
+|move|p2a: Zekrom|Breaking Swipe|p1b: Cofagrigus|[spread] p1b
+|-immune|p1a: Zacian
+|debug|Spread modifier: 0.75
+|-activate|p1b: Cofagrigus|move: Substitute|[damage]
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|1
+|-boost|p1b: Cofagrigus|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1785900255
+|move|p1a: Zacian|Body Slam|p2b: Mudsdale
+|-damage|p2b: Mudsdale|161/341
+|move|p2a: Zekrom|Scale Shot|p1a: Zacian
+|-immune|p1a: Zacian
+|move|p2b: Mudsdale|Double-Edge|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|1
+|-boost|p1b: Cofagrigus|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1785900255
+|move|p1a: Zacian|Quick Guard|p1a: Zacian
+|-singleturn|p1a: Zacian|Quick Guard
+|move|p2a: Zekrom|Stealth Rock|p1b: Cofagrigus
+|-sidestart|p1: Logan|move: Stealth Rock
+|move|p2b: Mudsdale|Mega Kick|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Shadow Ball|p2a: Zekrom
+|-damage|p2a: Zekrom|118/341
+|
+|upkeep
+|turn|5
+|
+|t:|1785900255
+|move|p1a: Zacian|Body Slam|p2a: Zekrom
+|-crit|p2a: Zekrom
+|-damage|p2a: Zekrom|0 fnt
+|-activate|p2a: Zekrom|ability: Mummy|Intrepid Sword|[of] p1a: Zacian
+|faint|p2a: Zekrom
+|move|p2b: Mudsdale|Low Kick|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Substitute|p1b: Cofagrigus
+|-fail|p1b: Cofagrigus|move: Substitute
+|
+|upkeep
+|
+|t:|1785900255
+|switch|p2a: Pidgeot|Pidgeot, F|370/370
+|turn|6
+|
+|t:|1785900255
+|move|p1a: Zacian|Air Slash|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-damage|p2a: Pidgeot|261/370
+|move|p2a: Pidgeot|Fly||[still]
+|-prepare|p2a: Pidgeot|Fly
+|move|p2b: Mudsdale|Mega Kick|p1a: Zacian
+|-resisted|p1a: Zacian
+|-damage|p1a: Zacian|271/325
+|-activate|p1a: Zacian|ability: Mummy|Own Tempo|[of] p2b: Mudsdale
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|1
+|-boost|p1b: Cofagrigus|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1785900255
+|move|p1a: Zacian|Air Slash|p2a: Pidgeot|[miss]
+|-miss|p1a: Zacian|p2a: Pidgeot
+|move|p2a: Pidgeot|Fly|p1b: Cofagrigus|[from] lockedmove
+|-end|p1b: Cofagrigus|Substitute
+|move|p2b: Mudsdale|Double-Edge|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Substitute|p1b: Cofagrigus
+|-start|p1b: Cofagrigus|Substitute
+|-damage|p1b: Cofagrigus|68/257
+|
+|upkeep
+|turn|8
+|
+|t:|1785900255
+|move|p1a: Zacian|Air Slash|p2a: Pidgeot
+|-damage|p2a: Pidgeot|194/370
+|move|p2a: Pidgeot|Heat Wave|p1a: Zacian|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-activate|p1b: Cofagrigus|move: Substitute|[damage]
+|debug|Spread modifier: 0.75
+|-supereffective|p1a: Zacian
+|-damage|p1a: Zacian|195/325
+|move|p2b: Mudsdale|Low Kick|p1a: Zacian
+|debug|BP: 120
+|-damage|p1a: Zacian|87/325
+|move|p1b: Cofagrigus|Substitute|p1b: Cofagrigus
+|-fail|p1b: Cofagrigus|move: Substitute
+|
+|upkeep
+|turn|9
+|
+|t:|1785900255
+|move|p2a: Pidgeot|Protect|p2a: Pidgeot
+|-singleturn|p2a: Pidgeot|Protect
+|move|p1a: Zacian|Air Slash|p2a: Pidgeot
+|-activate|p2a: Pidgeot|move: Protect
+|move|p2b: Mudsdale|Double-Edge|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|1
+|-boost|p1b: Cofagrigus|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1785900255
+|move|p2a: Pidgeot|Protect|p2a: Pidgeot
+|debug|Success chance: 33%
+|-singleturn|p2a: Pidgeot|Protect
+|move|p1a: Zacian|Quick Guard|p1a: Zacian
+|-singleturn|p1a: Zacian|Quick Guard
+|move|p2b: Mudsdale|Low Kick|p1a: Zacian
+|debug|BP: 120
+|-damage|p1a: Zacian|0 fnt
+|faint|p1a: Zacian
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|1
+|-boost|p1b: Cofagrigus|spd|1
+|
+|upkeep
+|
+|t:|1785900255
+|switch|p1a: Hatterene|Hatterene, F|256/256
+|-damage|p1a: Hatterene|224/256|[from] Stealth Rock
+|turn|11
+|
+|t:|1785900255
+|move|p2b: Mudsdale|Protect|p2b: Mudsdale
+|-singleturn|p2b: Mudsdale|Protect
+|move|p2a: Pidgeot|Headbutt|p1a: Hatterene
+|-damage|p1a: Hatterene|170/256
+|move|p1b: Cofagrigus|Shadow Ball|p2b: Mudsdale
+|-activate|p2b: Mudsdale|move: Protect
+|move|p1a: Hatterene|Rest|p1a: Hatterene
+|-status|p1a: Hatterene|slp|[from] move: Rest
+|-heal|p1a: Hatterene|256/256 slp|[silent]
+|
+|upkeep
+|turn|12
+|
+|t:|1785900255
+|move|p2a: Pidgeot|Protect|p2a: Pidgeot
+|-singleturn|p2a: Pidgeot|Protect
+|move|p2b: Mudsdale|Mega Kick|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|1
+|-boost|p1b: Cofagrigus|spd|1
+|cant|p1a: Hatterene|slp
+|
+|upkeep
+|turn|13
+|
+|t:|1785900255
+|move|p2a: Pidgeot|Protect||[still]
+|debug|Success chance: 33%
+|-fail|p2a: Pidgeot
+|move|p2b: Mudsdale|Double-Edge|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p1b: Cofagrigus|Substitute|p1b: Cofagrigus
+|-fail|p1b: Cofagrigus|move: Substitute
+|cant|p1a: Hatterene|slp
+|
+|upkeep
+|turn|14
+|
+|t:|1785900255
+|move|p2a: Pidgeot|Heat Wave|p1b: Cofagrigus|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-activate|p1b: Cofagrigus|move: Substitute|[damage]
+|debug|Spread modifier: 0.75
+|-damage|p1a: Hatterene|222/256 slp
+|move|p2b: Mudsdale|Double-Edge|p1a: Hatterene
+|-damage|p1a: Hatterene|99/256 slp
+|-damage|p2b: Mudsdale|120/341|[from] Recoil
+|move|p1b: Cofagrigus|Infestation|p2a: Pidgeot
+|-resisted|p2a: Pidgeot
+|-damage|p2a: Pidgeot|146/370
+|-activate|p2a: Pidgeot|move: Infestation|[of] p1b: Cofagrigus
+|-curestatus|p1a: Hatterene|slp|[msg]
+|move|p1a: Hatterene|Quash||[still]
+|-fail|p1a: Hatterene
+|debug|move failed because it did nothing
+|
+|-damage|p2a: Pidgeot|100/370|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1785900255
+|move|p1a: Hatterene|Endure|p1a: Hatterene
+|-singleturn|p1a: Hatterene|move: Endure
+|move|p2a: Pidgeot|Headbutt|p1a: Hatterene
+|-damage|p1a: Hatterene|48/256
+|move|p2b: Mudsdale|Double-Edge|p1a: Hatterene
+|-activate|p1a: Hatterene|move: Endure
+|-damage|p1a: Hatterene|1/256
+|-damage|p2b: Mudsdale|104/341|[from] Recoil
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|0
+|-boost|p1b: Cofagrigus|spd|0
+|debug|move failed because it did nothing
+|
+|-damage|p2a: Pidgeot|54/370|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1785900255
+|move|p2a: Pidgeot|Headbutt|p1b: Cofagrigus
+|-immune|p1b: Cofagrigus
+|move|p2b: Mudsdale|Double-Edge|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-damage|p2b: Mudsdale|103/341|[from] Recoil
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|0
+|-boost|p1b: Cofagrigus|spd|0
+|debug|move failed because it did nothing
+|
+|-damage|p2a: Pidgeot|8/370|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1785900255
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|350/350
+|-damage|p1a: Typhlosion|263/350|[from] Stealth Rock
+|-item|p2a: Pidgeot|Sky Plate|[from] ability: Frisk|[of] p1a: Typhlosion
+|turn|17
+|
+|t:|1785900255
+|move|p1a: Typhlosion|Hyper Beam|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|-mustrecharge|p1a: Typhlosion
+|faint|p2a: Pidgeot
+|move|p2b: Mudsdale|Double-Edge|p1a: Typhlosion
+|-immune|p1a: Typhlosion
+|move|p1b: Cofagrigus|Infestation|p2b: Mudsdale
+|-damage|p2b: Mudsdale|39/341
+|-activate|p2b: Mudsdale|move: Infestation|[of] p1b: Cofagrigus
+|
+|-damage|p2b: Mudsdale|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p2b: Mudsdale
+|upkeep
+|
+|t:|1785900255
+|switch|p2a: Kingler|Kingler, M|314/314
+|switch|p2b: Houndstone|Houndstone, M|348/348
+|turn|18
+|
+|t:|1785900255
+|cant|p1a: Typhlosion|recharge
+|move|p2a: Kingler|Scald|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-crit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|41/350
+|move|p2b: Houndstone|Last Respects|p1b: Cofagrigus
+|-supereffective|p1b: Cofagrigus
+|-end|p1b: Cofagrigus|Substitute
+|move|p1b: Cofagrigus|Substitute|p1b: Cofagrigus
+|-start|p1b: Cofagrigus|Substitute
+|-damage|p1b: Cofagrigus|4/257
+|
+|upkeep
+|turn|19
+|
+|t:|1785900255
+|move|p1a: Typhlosion|Focus Blast|p2a: Kingler
+|-damage|p2a: Kingler|123/314
+|move|p2a: Kingler|Toxic||[still]
+|-fail|p2a: Kingler
+|debug|move failed because it did nothing
+|move|p2b: Houndstone|Night Shade|p1b: Cofagrigus
+|-end|p1b: Cofagrigus|Substitute
+|move|p1b: Cofagrigus|Calm Mind|p1b: Cofagrigus
+|-boost|p1b: Cofagrigus|spa|0
+|-boost|p1b: Cofagrigus|spd|0
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|20
+|
+|t:|1785900255
+|move|p1a: Typhlosion|Sleep Talk||[still]
+|-fail|p1a: Typhlosion
+|move|p2a: Kingler|Giga Impact|p1a: Typhlosion
+|-immune|p1a: Typhlosion
+|move|p2b: Houndstone|Night Shade|p1b: Cofagrigus
+|-damage|p1b: Cofagrigus|0 fnt
+|faint|p1b: Cofagrigus
+|
+|upkeep
+|
+|t:|1785900255
+|switch|p1b: Brute Bonnet|Brute Bonnet|426/426
+|-damage|p1b: Brute Bonnet|373/426|[from] Stealth Rock
+|turn|21
+|
+|t:|1785900255
+|move|p1a: Typhlosion|Hyper Beam|p2b: Houndstone
+|-immune|p2b: Houndstone
+|move|p2a: Kingler|X-Scissor|p1b: Brute Bonnet
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|77/426
+|move|p2b: Houndstone|Phantom Force||[still]
+|-prepare|p2b: Houndstone|Phantom Force
+|move|p1b: Brute Bonnet|Outrage|p2b: Houndstone|[miss]
+|-miss|p1b: Brute Bonnet|p2b: Houndstone
+|
+|upkeep
+|turn|22
+|
+|t:|1785900255
+|move|p1a: Typhlosion|Night Shade|p2a: Kingler
+|-damage|p2a: Kingler|23/314
+|move|p2a: Kingler|Scald|p1b: Brute Bonnet
+|-resisted|p1b: Brute Bonnet
+|-damage|p1b: Brute Bonnet|50/426
+|move|p2b: Houndstone|Phantom Force|p1a: Typhlosion|[from] lockedmove
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|move|p1b: Brute Bonnet|Absorb|p2a: Kingler
+|-supereffective|p2a: Kingler
+|-damage|p2a: Kingler|0 fnt
+|-heal|p1b: Brute Bonnet|62/426|[from] drain|[of] p2a: Kingler
+|faint|p2a: Kingler
+|
+|upkeep
+|
+|t:|1785900255
+|switch|p1a: Absol|Absol, F|334/334
+|switch|p2a: Roaring Moon|Roaring Moon|351/351
+|-damage|p1a: Absol|293/334|[from] Stealth Rock
+|turn|23
+|
+|t:|1785900255
+|move|p2a: Roaring Moon|Heat Wave|p1a: Absol|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Brute Bonnet
+|-damage|p1a: Absol|233/334
+|-damage|p1b: Brute Bonnet|0 fnt
+|faint|p1b: Brute Bonnet
+|-end|p1b: Brute Bonnet|Protosynthesis|[silent]
+|move|p1a: Absol|Double Team|p1a: Absol
+|-boost|p1a: Absol|evasion|1
+|move|p2b: Houndstone|Will-O-Wisp|p1a: Absol|[miss]
+|-miss|p2b: Houndstone|p1a: Absol
+|
+|upkeep
+|turn|24
+|
+|t:|1785900255
+|move|p2a: Roaring Moon|Shadow Claw|p1a: Absol
+|-resisted|p1a: Absol
+|-crit|p1a: Absol
+|-damage|p1a: Absol|156/334
+|move|p1a: Absol|Facade|p2a: Roaring Moon
+|-damage|p2a: Roaring Moon|270/351
+|move|p2b: Houndstone|Last Respects|p1a: Absol
+|-resisted|p1a: Absol
+|-damage|p1a: Absol|0 fnt
+|faint|p1a: Absol
+|
+|win|Heavy Hitters</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
