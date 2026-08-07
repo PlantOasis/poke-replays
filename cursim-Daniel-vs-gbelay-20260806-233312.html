@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Daniel vs gbelay - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Daniel-vs-gbelay-20260806-233312" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786077192
+|gametype|doubles
+|player|p1|Daniel|unknown|
+|player|p2|gbelay|rocker-gen1rb|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Metang|
+|poke|p1|Sneasel, F|
+|poke|p1|Infernape, F|
+|poke|p1|Centiskorch, F|
+|poke|p1|Muk-Alola, F|
+|poke|p1|Zygarde|
+|poke|p2|Archeops, M|
+|poke|p2|Nickit, F|
+|poke|p2|Miltank, F|
+|poke|p2|Shelgon, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Marowak-Alola, F|
+|teampreview
+|
+|t:|1786077192
+|start
+|switch|p1a: Metang|Metang|262/262
+|switch|p1b: Sneasel|Sneasel, F|252/252
+|switch|p2a: Archeops|Archeops, M|291/291
+|switch|p2b: Nickit|Nickit, F|221/221
+|turn|1
+|
+|t:|1786077192
+|move|p2a: Archeops|Endure|p2a: Archeops
+|-singleturn|p2a: Archeops|move: Endure
+|move|p1b: Sneasel|Snarl|p2a: Archeops|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Nickit
+|-damage|p2a: Archeops|237/291
+|-damage|p2b: Nickit|201/221
+|-unboost|p2a: Archeops|spa|1
+|-unboost|p2b: Nickit|spa|1
+|move|p1a: Metang|Bulldoze|p2a: Archeops|[spread] p1b,p2b
+|-immune|p2a: Archeops
+|debug|Spread modifier: 0.75
+|-crit|p1b: Sneasel
+|debug|Spread modifier: 0.75
+|-damage|p1b: Sneasel|209/252
+|-damage|p2b: Nickit|135/221
+|-unboost|p1b: Sneasel|spe|1
+|-unboost|p2b: Nickit|spe|1
+|move|p2b: Nickit|Night Slash|p1b: Sneasel
+|-resisted|p1b: Sneasel
+|-damage|p1b: Sneasel|179/252
+|
+|upkeep
+|turn|2
+|
+|t:|1786077192
+|move|p2a: Archeops|Smack Down|p1a: Metang
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|227/262
+|move|p1b: Sneasel|Bite|p2b: Nickit
+|-resisted|p2b: Nickit
+|-damage|p2b: Nickit|48/221
+|move|p1a: Metang|Giga Impact|p2b: Nickit
+|-damage|p2b: Nickit|0 fnt
+|-mustrecharge|p1a: Metang
+|faint|p2b: Nickit
+|
+|upkeep
+|
+|t:|1786077192
+|switch|p2b: Shelgon|Shelgon, M|334/334
+|turn|3
+|
+|t:|1786077192
+|move|p2a: Archeops|Smack Down|p1b: Sneasel
+|-supereffective|p1b: Sneasel
+|-damage|p1b: Sneasel|0 fnt
+|faint|p1b: Sneasel
+|cant|p1a: Metang|recharge
+|move|p2b: Shelgon|Iron Defense|p2b: Shelgon
+|-boost|p2b: Shelgon|def|2
+|
+|upkeep
+|
+|t:|1786077192
+|switch|p1b: Zygarde|Zygarde|420/420
+|turn|4
+|
+|t:|1786077192
+|move|p2a: Archeops|Uproar|p1b: Zygarde
+|-damage|p1b: Zygarde|365/420
+|-start|p2a: Archeops|Uproar
+|move|p1b: Zygarde|Land's Wrath|p2b: Shelgon|[spread] p2b
+|-immune|p2a: Archeops
+|debug|Spread modifier: 0.75
+|-damage|p2b: Shelgon|283/334
+|move|p1a: Metang|Giga Impact|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|198/291
+|-mustrecharge|p1a: Metang
+|move|p2b: Shelgon|Flamethrower|p1b: Zygarde
+|-resisted|p1b: Zygarde
+|-damage|p1b: Zygarde|330/420
+|
+|-start|p2a: Archeops|Uproar|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1786077192
+|move|p2a: Archeops|Uproar|p1a: Metang|[from] lockedmove
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|198/262
+|debug|move failed because it did nothing
+|move|p1b: Zygarde|Land's Wrath|p2b: Shelgon|[spread] p2b
+|-immune|p2a: Archeops
+|debug|Spread modifier: 0.75
+|-damage|p2b: Shelgon|232/334
+|cant|p1a: Metang|recharge
+|move|p2b: Shelgon|Mud-Slap|p1a: Metang
+|-supereffective|p1a: Metang
+|-damage|p1a: Metang|166/262
+|-unboost|p1a: Metang|accuracy|1
+|
+|-start|p2a: Archeops|Uproar|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1786077192
+|move|p2a: Archeops|Uproar|p1a: Metang|[from] lockedmove
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|138/262
+|debug|move failed because it did nothing
+|move|p1b: Zygarde|Glare|p2a: Archeops
+|-status|p2a: Archeops|par
+|move|p1a: Metang|Trailblaze|p2b: Shelgon
+|-resisted|p2b: Shelgon
+|-damage|p2b: Shelgon|225/334
+|-boost|p1a: Metang|spe|1
+|move|p2b: Shelgon|Dragon Breath|p1a: Metang
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|102/262
+|
+|-end|p2a: Archeops|Uproar
+|upkeep
+|turn|7
+|
+|t:|1786077192
+|move|p1b: Zygarde|Core Enforcer|p2a: Archeops|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Shelgon
+|-damage|p2a: Archeops|72/291 par
+|-damage|p2b: Shelgon|0 fnt
+|faint|p2b: Shelgon
+|move|p1a: Metang|Giga Impact|p2a: Archeops|[miss]
+|-miss|p1a: Metang|p2a: Archeops
+|move|p2a: Archeops|Smack Down|p1b: Zygarde
+|-resisted|p1b: Zygarde
+|-damage|p1b: Zygarde|308/420
+|
+|upkeep
+|
+|t:|1786077192
+|switch|p2b: Chien-Pao|Chien-Pao|301/301
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|t:|1786077192
+|move|p2b: Chien-Pao|Snowscape|p2b: Chien-Pao
+|-weather|Snowscape
+|move|p1b: Zygarde|Sludge Wave|p2b: Chien-Pao|[spread] p2a,p2b
+|-immune|p1a: Metang
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Archeops
+|debug|Spread modifier: 0.75
+|-damage|p2a: Archeops|38/291 par
+|-damage|p2b: Chien-Pao|239/301
+|move|p1a: Metang|Confusion|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1786077192
+|switch|p2a: Miltank|Miltank, F|331/331
+|turn|9
+|
+|t:|1786077192
+|move|p2b: Chien-Pao|Snowscape||[still]
+|-fail|p2b: Chien-Pao
+|debug|move failed because it did nothing
+|move|p2a: Miltank|Sandstorm|p2a: Miltank
+|-weather|Sandstorm
+|move|p1b: Zygarde|Land's Wrath|p2a: Miltank|[spread] p2a,p2b
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Miltank|237/331
+|-damage|p2b: Chien-Pao|107/301
+|move|p1a: Metang|Giga Impact|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|1/301
+|-mustrecharge|p1a: Metang
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Chien-Pao|0 fnt|[from] Sandstorm
+|-damage|p2a: Miltank|217/331|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|faint|p2b: Chien-Pao
+|upkeep
+|
+|t:|1786077192
+|switch|p2b: Marowak|Marowak-Alola, F|324/324
+|turn|10
+|
+|t:|1786077192
+|move|p2a: Miltank|Curse|p2a: Miltank
+|-unboost|p2a: Miltank|spe|1
+|-boost|p2a: Miltank|atk|1
+|-boost|p2a: Miltank|def|1
+|move|p1b: Zygarde|Land's Wrath|p2a: Miltank|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Marowak
+|-damage|p2a: Miltank|166/331
+|-damage|p2b: Marowak|138/324
+|cant|p1a: Metang|recharge
+|move|p2b: Marowak|Blizzard|p1b: Zygarde|[spread] p1b
+|-miss|p2b: Marowak|p1a: Metang
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Zygarde
+|-damage|p1b: Zygarde|156/420
+|
+|-weather|Sandstorm|[upkeep]
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p2a: Miltank|146/331|[from] Sandstorm
+|-damage|p2b: Marowak|118/324|[from] Sandstorm
+|-activate|p1b: Zygarde|ability: Power Construct
+|detailschange|p1b: Zygarde|Zygarde-Complete
+|-heal|p1b: Zygarde|372/636|[silent]
+|upkeep
+|turn|11
+|
+|t:|1786077192
+|move|p1b: Zygarde|Sludge Wave|p2b: Marowak|[spread] p2a,p2b
+|-immune|p1a: Metang
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Marowak
+|-damage|p2a: Miltank|66/331
+|-damage|p2b: Marowak|96/324
+|move|p1a: Metang|Confusion|p2b: Marowak
+|-damage|p2b: Marowak|50/324
+|move|p2a: Miltank|Sandstorm||[still]
+|-fail|p2a: Miltank
+|debug|move failed because it did nothing
+|move|p2b: Marowak|Blizzard|p1b: Zygarde|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Metang
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Zygarde
+|-damage|p1a: Metang|82/262
+|-damage|p1b: Zygarde|228/636
+|-status|p1a: Metang|frz
+|
+|-weather|Sandstorm|[upkeep]
+|debug|natural status immunity
+|debug|weather immunity
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p2a: Miltank|46/331|[from] Sandstorm
+|-damage|p2b: Marowak|30/324|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1786077192
+|move|p1b: Zygarde|Glare|p2a: Miltank
+|-status|p2a: Miltank|par
+|cant|p1a: Metang|frz
+|move|p2b: Marowak|Flare Blitz|p1a: Metang
+|-supereffective|p1a: Metang
+|-damage|p1a: Metang|0 fnt
+|faint|p1a: Metang
+|-damage|p2b: Marowak|3/324|[from] Recoil
+|move|p2a: Miltank|Sandstorm||[still]
+|-fail|p2a: Miltank
+|debug|move failed because it did nothing
+|
+|-weather|Sandstorm|[upkeep]
+|debug|natural status immunity
+|debug|weather immunity
+|-damage|p2b: Marowak|0 fnt|[from] Sandstorm
+|-damage|p2a: Miltank|26/331 par|[from] Sandstorm
+|faint|p2b: Marowak
+|upkeep
+|
+|t:|1786077192
+|switch|p1a: Muk|Muk-Alola, F|351/351
+|turn|13
+|
+|t:|1786077192
+|move|p1b: Zygarde|Core Enforcer|p2a: Miltank
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|
+|win|Daniel</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Daniel vs Heavy Hitters - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Daniel-vs-Heavy-Hitters-20260806-233236" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786077156
+|gametype|doubles
+|player|p1|Daniel|unknown|
+|player|p2|Heavy Hitters|ingo|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Metang|
+|poke|p1|Sneasel, M|
+|poke|p1|Infernape, M|
+|poke|p1|Centiskorch, M|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Zygarde|
+|poke|p2|Zekrom|
+|poke|p2|Mudsdale, F|
+|poke|p2|Kingler, M|
+|poke|p2|Roaring Moon|
+|poke|p2|Pidgeot, M|
+|poke|p2|Houndstone, M|
+|teampreview
+|
+|t:|1786077156
+|start
+|switch|p1a: Metang|Metang|262/262
+|switch|p1b: Sneasel|Sneasel, M|252/252
+|switch|p2a: Zekrom|Zekrom|341/341
+|switch|p2b: Mudsdale|Mudsdale, F|341/341
+|-ability|p2a: Zekrom|Teravolt
+|turn|1
+|
+|t:|1786077156
+|move|p2b: Mudsdale|Protect|p2b: Mudsdale
+|-singleturn|p2b: Mudsdale|Protect
+|move|p1b: Sneasel|Toxic|p2b: Mudsdale
+|-activate|p2b: Mudsdale|move: Protect
+|move|p2a: Zekrom|Psychic|p1b: Sneasel
+|-immune|p1b: Sneasel
+|move|p1a: Metang|Trailblaze|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|329/341
+|-boost|p1a: Metang|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1786077156
+|move|p2b: Mudsdale|Protect||[still]
+|debug|Success chance: 33%
+|-fail|p2b: Mudsdale
+|move|p1b: Sneasel|Toxic|p2b: Mudsdale
+|-status|p2b: Mudsdale|tox
+|move|p2a: Zekrom|Psychic|p1b: Sneasel
+|-immune|p1b: Sneasel
+|move|p1a: Metang|Giga Impact|p2a: Zekrom|[miss]
+|-miss|p1a: Metang|p2a: Zekrom
+|
+|-damage|p2b: Mudsdale|320/341 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1786077156
+|move|p1b: Sneasel|Snarl|p2b: Mudsdale|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zekrom|295/341
+|-damage|p2b: Mudsdale|289/341 tox
+|-unboost|p2a: Zekrom|spa|1
+|-unboost|p2b: Mudsdale|spa|1
+|move|p2a: Zekrom|Psychic|p1a: Metang
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|244/262
+|debug|Update handler suppressed by Mold Breaker
+|debug|Update handler suppressed by Mold Breaker
+|cant|p1a: Metang|flinch
+|move|p2b: Mudsdale|Low Kick|p1a: Metang
+|debug|BP: 100
+|-damage|p1a: Metang|157/262
+|
+|-damage|p2b: Mudsdale|247/341 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1786077156
+|move|p2b: Mudsdale|Protect|p2b: Mudsdale
+|-singleturn|p2b: Mudsdale|Protect
+|move|p1b: Sneasel|Snarl|p2a: Zekrom|[spread] p2a
+|-activate|p2b: Mudsdale|move: Protect
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zekrom|265/341
+|-unboost|p2a: Zekrom|spa|1
+|move|p2a: Zekrom|Breaking Swipe|p1a: Metang|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Metang
+|debug|Spread modifier: 0.75
+|-damage|p1a: Metang|124/262
+|-damage|p1b: Sneasel|162/252
+|-unboost|p1a: Metang|atk|1
+|debug|TryBoost handler suppressed by Mold Breaker
+|-unboost|p1b: Sneasel|atk|1
+|debug|Update handler suppressed by Mold Breaker
+|debug|Update handler suppressed by Mold Breaker
+|move|p1a: Metang|Bulldoze|p2a: Zekrom|[spread] p1b,p2a
+|-activate|p2b: Mudsdale|move: Protect
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Zekrom
+|-damage|p1b: Sneasel|144/252
+|-damage|p2a: Zekrom|235/341
+|-unboost|p1b: Sneasel|spe|1
+|-unboost|p2a: Zekrom|spe|1
+|
+|-damage|p2b: Mudsdale|184/341 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1786077156
+|move|p2b: Mudsdale|Protect||[still]
+|debug|Success chance: 33%
+|-fail|p2b: Mudsdale
+|move|p1a: Metang|Bulldoze|p2b: Mudsdale|[spread] p1b,p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Zekrom
+|debug|Spread modifier: 0.75
+|-damage|p1b: Sneasel|123/252
+|-damage|p2a: Zekrom|205/341
+|-damage|p2b: Mudsdale|167/341 tox
+|-unboost|p1b: Sneasel|spe|1
+|-unboost|p2a: Zekrom|spe|1
+|-unboost|p2b: Mudsdale|spe|1
+|move|p1b: Sneasel|Bite|p2a: Zekrom
+|-damage|p2a: Zekrom|166/341
+|move|p2a: Zekrom|Scale Shot|p1a: Metang
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|104/262
+|debug|Update handler suppressed by Mold Breaker
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|85/262
+|debug|Update handler suppressed by Mold Breaker
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|69/262
+|debug|Update handler suppressed by Mold Breaker
+|-hitcount|p1a: Metang|3
+|debug|Update handler suppressed by Mold Breaker
+|-unboost|p2a: Zekrom|def|1
+|-boost|p2a: Zekrom|spe|1
+|
+|-damage|p2b: Mudsdale|83/341 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1786077156
+|move|p1a: Metang|Trailblaze|p2a: Zekrom
+|-resisted|p2a: Zekrom
+|-damage|p2a: Zekrom|154/341
+|-boost|p1a: Metang|spe|1
+|move|p1b: Sneasel|Bite|p2b: Mudsdale
+|-damage|p2b: Mudsdale|44/341 tox
+|move|p2a: Zekrom|Scale Shot|p1a: Metang
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|52/262
+|debug|Update handler suppressed by Mold Breaker
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|34/262
+|debug|Update handler suppressed by Mold Breaker
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|16/262
+|debug|Update handler suppressed by Mold Breaker
+|-resisted|p1a: Metang
+|-damage|p1a: Metang|0 fnt
+|debug|Update handler suppressed by Mold Breaker
+|faint|p1a: Metang
+|-hitcount|p1: Metang|4
+|debug|Update handler suppressed by Mold Breaker
+|-unboost|p2a: Zekrom|def|1
+|-boost|p2a: Zekrom|spe|1
+|move|p2b: Mudsdale|Low Kick|p1b: Sneasel
+|debug|BP: 60
+|-supereffective|p1b: Sneasel
+|-damage|p1b: Sneasel|0 fnt
+|faint|p1b: Sneasel
+|
+|-damage|p2b: Mudsdale|0 fnt|[from] psn
+|faint|p2b: Mudsdale
+|upkeep
+|
+|t:|1786077156
+|switch|p1b: Muk|Muk-Alola, M|351/351
+|switch|p1a: Zygarde|Zygarde|420/420
+|switch|p2b: Roaring Moon|Roaring Moon|351/351
+|turn|7
+|
+|t:|1786077156
+|move|p2b: Roaring Moon|Facade|p1a: Zygarde
+|-damage|p1a: Zygarde|351/420
+|move|p1a: Zygarde|Land's Wrath|p2a: Zekrom|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Zekrom
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zekrom|0 fnt
+|-damage|p2b: Roaring Moon|240/351
+|faint|p2a: Zekrom
+|move|p1b: Muk|Giga Drain|p2b: Roaring Moon
+|-resisted|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|216/351
+|
+|upkeep
+|
+|t:|1786077156
+|switch|p2a: Kingler|Kingler, M|314/314
+|turn|8
+|
+|t:|1786077156
+|move|p2b: Roaring Moon|Facade|p1b: Muk
+|-damage|p1b: Muk|274/351
+|move|p1a: Zygarde|Land's Wrath|p2a: Kingler|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Kingler|247/314
+|-damage|p2b: Roaring Moon|107/351
+|move|p2a: Kingler|Toxic|p1a: Zygarde
+|-status|p1a: Zygarde|tox
+|move|p1b: Muk|Giga Drain|p2b: Roaring Moon
+|-resisted|p2b: Roaring Moon
+|-crit|p2b: Roaring Moon
+|-damage|p2b: Roaring Moon|75/351
+|-heal|p1b: Muk|290/351|[from] drain|[of] p2b: Roaring Moon
+|
+|-damage|p1a: Zygarde|325/420 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1786077156
+|move|p2b: Roaring Moon|Heat Wave|p1b: Muk|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Zygarde
+|debug|Spread modifier: 0.75
+|-damage|p1a: Zygarde|297/420 tox
+|-damage|p1b: Muk|238/351
+|move|p1a: Zygarde|Land's Wrath|p2b: Roaring Moon|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Kingler|172/314
+|-damage|p2b: Roaring Moon|0 fnt
+|faint|p2b: Roaring Moon
+|-end|p2b: Roaring Moon|Protosynthesis|[silent]
+|move|p2a: Kingler|Scald|p1b: Muk
+|-damage|p1b: Muk|175/351
+|move|p1b: Muk|Drain Punch|p2a: Kingler
+|-damage|p2a: Kingler|127/314
+|-heal|p1b: Muk|198/351|[from] drain|[of] p2a: Kingler
+|
+|-damage|p1a: Zygarde|245/420 tox|[from] psn
+|upkeep
+|
+|t:|1786077156
+|switch|p2b: Houndstone|Houndstone, M|348/348
+|turn|10
+|
+|t:|1786077156
+|move|p1a: Zygarde|Core Enforcer|p2a: Kingler|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-crit|p2a: Kingler
+|debug|Spread modifier: 0.75
+|-damage|p2a: Kingler|0 fnt
+|-damage|p2b: Houndstone|287/348
+|faint|p2a: Kingler
+|move|p1b: Muk|Sludge Wave|p2b: Houndstone|[spread] p1a,p2b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Zygarde
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Houndstone
+|-damage|p1a: Zygarde|209/420 tox
+|-damage|p2b: Houndstone|259/348
+|move|p2b: Houndstone|Will-O-Wisp|p1b: Muk
+|-status|p1b: Muk|brn
+|
+|-damage|p1a: Zygarde|131/420 tox|[from] psn
+|-damage|p1b: Muk|177/351 brn|[from] brn
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete
+|-heal|p1a: Zygarde|347/636 tox|[silent]
+|upkeep
+|
+|t:|1786077156
+|switch|p2a: Pidgeot|Pidgeot, M|370/370
+|turn|11
+|
+|t:|1786077156
+|move|p2a: Pidgeot|Heat Wave|p1b: Muk|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Zygarde
+|debug|Spread modifier: 0.75
+|-damage|p1a: Zygarde|323/636 tox
+|-damage|p1b: Muk|132/351 brn
+|move|p1a: Zygarde|Glare|p2b: Houndstone
+|-status|p2b: Houndstone|par
+|move|p1b: Muk|Giga Drain|p2a: Pidgeot
+|-resisted|p2a: Pidgeot
+|-damage|p2a: Pidgeot|341/370
+|-heal|p1b: Muk|147/351 brn|[from] drain|[of] p2a: Pidgeot
+|move|p2b: Houndstone|Phantom Force||[still]
+|-prepare|p2b: Houndstone|Phantom Force
+|
+|-damage|p1a: Zygarde|167/636 tox|[from] psn
+|-damage|p1b: Muk|126/351 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1786077156
+|move|p2a: Pidgeot|Heat Wave|p1a: Zygarde|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Zygarde
+|debug|Spread modifier: 0.75
+|-crit|p1b: Muk
+|-damage|p1a: Zygarde|147/636 tox
+|-damage|p1b: Muk|61/351 brn
+|move|p1a: Zygarde|Sludge Wave|p2b: Houndstone|[spread] p1b,p2a
+|-miss|p1a: Zygarde|p2b: Houndstone
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Muk
+|debug|Spread modifier: 0.75
+|-damage|p1b: Muk|34/351 brn
+|-damage|p2a: Pidgeot|271/370
+|move|p1b: Muk|Sludge Wave|p2a: Pidgeot|[spread] p1a,p2a
+|-miss|p1b: Muk|p2b: Houndstone
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Zygarde
+|debug|Spread modifier: 0.75
+|-damage|p1a: Zygarde|115/636 tox
+|-damage|p2a: Pidgeot|180/370
+|debug|move failed because it did nothing
+|cant|p2b: Houndstone|par
+|
+|-damage|p1a: Zygarde|0 fnt|[from] psn
+|faint|p1a: Zygarde
+|-damage|p1b: Muk|13/351 brn|[from] brn
+|upkeep
+|
+|t:|1786077156
+|switch|p1a: Centiskorch|Centiskorch, M|341/341
+|turn|13
+|
+|t:|1786077156
+|move|p2a: Pidgeot|Protect|p2a: Pidgeot
+|-singleturn|p2a: Pidgeot|Protect
+|move|p1b: Muk|Protect|p1b: Muk
+|-singleturn|p1b: Muk|Protect
+|move|p1a: Centiskorch|Mystical Fire|p2b: Houndstone
+|-damage|p2b: Houndstone|107/348 par
+|-unboost|p2b: Houndstone|spa|1
+|move|p2b: Houndstone|Night Shade|p1b: Muk
+|-activate|p1b: Muk|move: Protect
+|
+|-damage|p1b: Muk|0 fnt|[from] brn
+|faint|p1b: Muk
+|upkeep
+|
+|t:|1786077156
+|switch|p1b: Infernape|Infernape, M|294/294
+|turn|14
+|
+|t:|1786077156
+|move|p1b: Infernape|Substitute|p1b: Infernape
+|-start|p1b: Infernape|Substitute
+|-damage|p1b: Infernape|221/294
+|move|p2a: Pidgeot|Headbutt|p1a: Centiskorch
+|-damage|p1a: Centiskorch|245/341
+|cant|p1a: Centiskorch|flinch
+|cant|p2b: Houndstone|par
+|
+|upkeep
+|turn|15
+|
+|t:|1786077156
+|move|p1b: Infernape|Aerial Ace|p2b: Houndstone
+|-damage|p2b: Houndstone|69/348 par
+|move|p2a: Pidgeot|Heat Wave|p1b: Infernape|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Infernape
+|-crit|p1b: Infernape
+|-activate|p1b: Infernape|move: Substitute|[damage]
+|debug|Spread modifier: 0.75
+|-damage|p1a: Centiskorch|203/341
+|move|p1a: Centiskorch|Sleep Talk||[still]
+|-fail|p1a: Centiskorch
+|move|p2b: Houndstone|Will-O-Wisp||[still]
+|-fail|p2b: Houndstone
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|16
+|
+|t:|1786077156
+|move|p1b: Infernape|Substitute|p1b: Infernape
+|-fail|p1b: Infernape|move: Substitute
+|move|p2a: Pidgeot|Fly||[still]
+|-prepare|p2a: Pidgeot|Fly
+|move|p1a: Centiskorch|Flame Wheel|p2b: Houndstone
+|-damage|p2b: Houndstone|0 fnt
+|faint|p2b: Houndstone
+|
+|upkeep
+|turn|17
+|
+|t:|1786077156
+|move|p1b: Infernape|Solar Beam||[still]
+|-prepare|p1b: Infernape|Solar Beam
+|move|p2a: Pidgeot|Fly|p1a: Centiskorch|[from] lockedmove
+|-supereffective|p1a: Centiskorch
+|-crit|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|turn|18
+|
+|t:|1786077156
+|move|p1b: Infernape|Solar Beam|p2a: Pidgeot|[from] lockedmove
+|-resisted|p2a: Pidgeot
+|-damage|p2a: Pidgeot|121/370
+|move|p2a: Pidgeot|Heat Wave|p1b: Infernape
+|-resisted|p1b: Infernape
+|-activate|p1b: Infernape|move: Substitute|[damage]
+|
+|upkeep
+|turn|19
+|
+|t:|1786077156
+|move|p1b: Infernape|Substitute|p1b: Infernape
+|-fail|p1b: Infernape|move: Substitute
+|move|p2a: Pidgeot|Fly||[still]
+|-prepare|p2a: Pidgeot|Fly
+|
+|upkeep
+|turn|20
+|
+|t:|1786077156
+|move|p1b: Infernape|Substitute|p1b: Infernape
+|-fail|p1b: Infernape|move: Substitute
+|move|p2a: Pidgeot|Fly|p1b: Infernape|[from] lockedmove
+|-supereffective|p1b: Infernape
+|-end|p1b: Infernape|Substitute
+|
+|upkeep
+|turn|21
+|
+|t:|1786077156
+|move|p1b: Infernape|Close Combat|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|-unboost|p1b: Infernape|def|1
+|-unboost|p1b: Infernape|spd|1
+|faint|p2a: Pidgeot
+|
+|win|Daniel</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

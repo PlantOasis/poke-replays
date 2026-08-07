@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Collin vs Cum Goblins - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Collin-vs-Cum-Goblins-20260806-233252" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786077172
+|gametype|doubles
+|player|p1|Collin|mom-alola|
+|player|p2|Cum Goblins|hiker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Lapras, F|
+|poke|p1|Coalossal, F|
+|poke|p1|Greedent, F|
+|poke|p1|Primarina, M|
+|poke|p1|Volcarona, M|
+|poke|p1|Crawdaunt, M|
+|poke|p2|Zacian-*|
+|poke|p2|Cofagrigus, F|
+|poke|p2|Palkia|
+|poke|p2|Dondozo, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Lumineon, M|
+|teampreview
+|
+|t:|1786077172
+|start
+|debug|Start handler suppressed by Gastro Acid or Neutralizing Gas
+|switch|p1a: Lapras|Lapras, F|401/401
+|switch|p1b: Coalossal|Coalossal, F|361/361
+|switch|p2a: Zacian|Zacian-Crowned|388/388
+|switch|p2b: Cofagrigus|Cofagrigus, F|257/257
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|turn|1
+|
+|t:|1786077172
+|move|p2a: Zacian|Reversal|p1a: Lapras
+|debug|BP: 20
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|333/401
+|move|p2b: Cofagrigus|Infestation|p1b: Coalossal
+|-resisted|p1b: Coalossal
+|-damage|p1b: Coalossal|353/361
+|-activate|p1b: Coalossal|move: Infestation|[of] p2b: Cofagrigus
+|move|p1b: Coalossal|Substitute|p1b: Coalossal
+|-start|p1b: Coalossal|Substitute
+|-end|p1b: Coalossal|Infestation|[partiallytrapped]|[silent]
+|-damage|p1b: Coalossal|263/361
+|move|p1a: Lapras|Avalanche|p2a: Zacian
+|debug|BP doubled for getting hit by p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|317/388
+|
+|upkeep
+|turn|2
+|
+|t:|1786077172
+|move|p2a: Zacian|Crunch|p1b: Coalossal
+|-end|p1b: Coalossal|Substitute
+|move|p1a: Lapras|Muddy Water|p2b: Cofagrigus|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zacian|256/388
+|-damage|p2b: Cofagrigus|194/257
+|-unboost|p2a: Zacian|accuracy|1
+|move|p2b: Cofagrigus|Substitute|p2b: Cofagrigus
+|-start|p2b: Cofagrigus|Substitute
+|-damage|p2b: Cofagrigus|130/257
+|move|p1b: Coalossal|Heat Crash|p2b: Cofagrigus
+|debug|BP: 100
+|-end|p2b: Cofagrigus|Substitute
+|
+|upkeep
+|turn|3
+|
+|t:|1786077172
+|move|p2a: Zacian|Solar Blade||[still]
+|-prepare|p2a: Zacian|Solar Blade
+|move|p1a: Lapras|Muddy Water|p2b: Cofagrigus|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-crit|p2a: Zacian
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zacian|169/388
+|-damage|p2b: Cofagrigus|72/257
+|move|p2b: Cofagrigus|Substitute|p2b: Cofagrigus
+|-start|p2b: Cofagrigus|Substitute
+|-damage|p2b: Cofagrigus|8/257
+|move|p1b: Coalossal|Body Press|p2b: Cofagrigus
+|-immune|p2b: Cofagrigus
+|
+|upkeep
+|turn|4
+|
+|t:|1786077172
+|move|p2a: Zacian|Solar Blade|p1a: Lapras|[from] lockedmove
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|move|p2b: Cofagrigus|Shadow Ball|p1b: Coalossal
+|-damage|p1b: Coalossal|157/361
+|move|p1b: Coalossal|Heat Crash|p2b: Cofagrigus
+|debug|BP: 100
+|-end|p2b: Cofagrigus|Substitute
+|
+|upkeep
+|
+|t:|1786077172
+|switch|p1a: Volcarona|Volcarona, M|311/311
+|turn|5
+|
+|t:|1786077172
+|move|p2a: Zacian|Body Slam|p1b: Coalossal
+|-resisted|p1b: Coalossal
+|-damage|p1b: Coalossal|104/361
+|move|p1a: Volcarona|Will-O-Wisp|p2b: Cofagrigus
+|-status|p2b: Cofagrigus|brn
+|move|p2b: Cofagrigus|Shadow Ball|p1a: Volcarona
+|-damage|p1a: Volcarona|218/311
+|-unboost|p1a: Volcarona|spd|1
+|move|p1b: Coalossal|Substitute|p1b: Coalossal
+|-start|p1b: Coalossal|Substitute
+|-damage|p1b: Coalossal|14/361
+|
+|-damage|p2b: Cofagrigus|0 fnt|[from] brn
+|faint|p2b: Cofagrigus
+|upkeep
+|
+|t:|1786077172
+|switch|p2b: Lumineon|Lumineon, M|342/342
+|turn|6
+|
+|t:|1786077172
+|move|p2a: Zacian|Reversal|p1b: Coalossal
+|debug|BP: 40
+|-supereffective|p1b: Coalossal
+|-crit|p1b: Coalossal
+|-end|p1b: Coalossal|Substitute
+|move|p2b: Lumineon|Thief|p1a: Volcarona
+|-damage|p1a: Volcarona|167/311
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p1b: Coalossal|Heat Crash|p2a: Zacian
+|debug|BP: 40
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|95/388
+|
+|upkeep
+|turn|7
+|
+|t:|1786077172
+|move|p2a: Zacian|Body Slam|p1b: Coalossal
+|-resisted|p1b: Coalossal
+|-damage|p1b: Coalossal|0 fnt
+|faint|p1b: Coalossal
+|move|p1a: Volcarona|Skitter Smack|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|84/388
+|-unboost|p2a: Zacian|spa|1
+|move|p2b: Lumineon|Hydro Pump|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|23/311
+|
+|upkeep
+|
+|t:|1786077172
+|switch|p1b: Crawdaunt|Crawdaunt, M|267/267
+|turn|8
+|
+|t:|1786077172
+|move|p2a: Zacian|Reversal|p1b: Crawdaunt
+|debug|BP: 80
+|-supereffective|p1b: Crawdaunt
+|-damage|p1b: Crawdaunt|27/267
+|move|p1a: Volcarona|Skitter Smack|p2b: Lumineon
+|-damage|p2b: Lumineon|264/342
+|-unboost|p2b: Lumineon|spa|1
+|move|p2b: Lumineon|Thief|p1b: Crawdaunt
+|-resisted|p1b: Crawdaunt
+|-damage|p1b: Crawdaunt|6/267
+|move|p1b: Crawdaunt|Water Pulse|p2b: Lumineon
+|-resisted|p2b: Lumineon
+|-damage|p2b: Lumineon|222/342
+|-start|p2b: Lumineon|confusion
+|
+|upkeep
+|turn|9
+|
+|t:|1786077172
+|move|p2a: Zacian|Reversal|p1a: Volcarona|[miss]
+|-miss|p2a: Zacian|p1a: Volcarona
+|move|p1a: Volcarona|Air Cutter|p2b: Lumineon|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Zacian
+|debug|Spread modifier: 0.75
+|-damage|p2a: Zacian|55/388
+|-damage|p2b: Lumineon|141/342
+|-activate|p2b: Lumineon|confusion
+|move|p2b: Lumineon|Hydro Pump|p1a: Volcarona|[miss]
+|-miss|p2b: Lumineon|p1a: Volcarona
+|move|p1b: Crawdaunt|Water Pulse|p2b: Lumineon
+|-resisted|p2b: Lumineon
+|-damage|p2b: Lumineon|100/342
+|
+|upkeep
+|turn|10
+|
+|t:|1786077172
+|move|p2a: Zacian|Body Slam|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-activate|p2b: Lumineon|confusion
+|move|p2b: Lumineon|Whirlpool|p1b: Crawdaunt
+|-resisted|p1b: Crawdaunt
+|-damage|p1b: Crawdaunt|0 fnt
+|faint|p1b: Crawdaunt
+|
+|upkeep
+|
+|t:|1786077172
+|switch|p1a: Greedent|Greedent, F|444/444
+|switch|p1b: Primarina|Primarina, M|302/302
+|turn|11
+|
+|t:|1786077172
+|move|p2a: Zacian|Crunch|p1a: Greedent|[miss]
+|-miss|p2a: Zacian|p1a: Greedent
+|-end|p2b: Lumineon|confusion
+|move|p2b: Lumineon|Whirlpool|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|296/302
+|-activate|p1b: Primarina|move: Whirlpool|[of] p2b: Lumineon
+|move|p1b: Primarina|Hydro Pump|p2b: Lumineon
+|-resisted|p2b: Lumineon
+|-damage|p2b: Lumineon|13/342
+|move|p1a: Greedent|Tail Whip|p2a: Zacian|[spread] p2a,p2b
+|-unboost|p2a: Zacian|def|1
+|-unboost|p2b: Lumineon|def|1
+|
+|-damage|p1b: Primarina|259/302|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1786077172
+|move|p2b: Lumineon|Protect|p2b: Lumineon
+|-singleturn|p2b: Lumineon|Protect
+|move|p2a: Zacian|Body Slam|p1b: Primarina
+|-damage|p1b: Primarina|70/302
+|-status|p1b: Primarina|par
+|move|p1b: Primarina|Hydro Pump|p2a: Zacian
+|debug|Torrent boost
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|move|p1a: Greedent|Take Down|p2b: Lumineon
+|-activate|p2b: Lumineon|move: Protect
+|
+|-damage|p1b: Primarina|33/302 par|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|
+|t:|1786077172
+|switch|p2a: Palkia|Palkia|384/384
+|turn|13
+|
+|t:|1786077172
+|move|p2b: Lumineon|Whirlpool|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|27/302 par
+|move|p2a: Palkia|Power Gem|p1a: Greedent
+|-damage|p1a: Greedent|361/444
+|move|p1b: Primarina|Hydro Pump|p2a: Palkia
+|debug|Torrent boost
+|-resisted|p2a: Palkia
+|-damage|p2a: Palkia|337/384
+|move|p1a: Greedent|Fire Fang|p2a: Palkia
+|-resisted|p2a: Palkia
+|-damage|p2a: Palkia|325/384
+|
+|-damage|p1b: Primarina|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p1b: Primarina
+|upkeep
+|turn|14
+|
+|t:|1786077172
+|move|p2b: Lumineon|Whirlpool|p1a: Greedent
+|-damage|p1a: Greedent|342/444
+|-activate|p1a: Greedent|move: Whirlpool|[of] p2b: Lumineon
+|move|p2a: Palkia|Dragon Breath|p1a: Greedent
+|-damage|p1a: Greedent|252/444
+|move|p1a: Greedent|Covet|p2b: Lumineon
+|-damage|p2b: Lumineon|0 fnt
+|faint|p2b: Lumineon
+|
+|-end|p1a: Greedent|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1786077172
+|switch|p2b: Typhlosion|Typhlosion-Hisui, F|350/350
+|turn|15
+|
+|t:|1786077172
+|move|p2b: Typhlosion|Sunny Day|p2b: Typhlosion
+|-weather|SunnyDay
+|move|p2a: Palkia|Dragon Breath|p1a: Greedent
+|-damage|p1a: Greedent|161/444
+|move|p1a: Greedent|Take Down|p2b: Typhlosion
+|-immune|p2b: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1786077172
+|move|p2b: Typhlosion|Zen Headbutt|p1a: Greedent
+|-damage|p1a: Greedent|89/444
+|move|p2a: Palkia|Dragon Breath|p1a: Greedent
+|-damage|p1a: Greedent|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Greedent
+|
+|win|Cum Goblins</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

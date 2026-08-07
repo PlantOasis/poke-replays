@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Gavin vs Rey - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Gavin-vs-Rey-20260806-233300" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786077180
+|gametype|doubles
+|player|p1|Gavin|blaine|
+|player|p2|Rey|swimmerf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Tapu Koko|
+|poke|p1|Hydrapple, M|
+|poke|p1|Marshadow|
+|poke|p1|Noivern, F|
+|poke|p1|Tinkaton, F|
+|poke|p2|Tapu Fini|
+|poke|p2|Chi-Yu|
+|poke|p2|Iron Moth|
+|poke|p2|Empoleon, F|
+|poke|p2|Tapu Bulu|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1786077180
+|start
+|switch|p1a: Magearna|Magearna|301/301
+|switch|p1b: Tapu Koko|Tapu Koko|281/281
+|switch|p2a: Tapu Fini|Tapu Fini|344/344
+|switch|p2b: Chi-Yu|Chi-Yu|251/251
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|turn|1
+|
+|t:|1786077180
+|move|p2b: Chi-Yu|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|268/301
+|-unboost|p1a: Magearna|def|1
+|move|p1b: Tapu Koko|Dazzling Gleam|p2b: Chi-Yu|[spread] p2a,p2b
+|debug|Beads of Ruin SpD drop
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-damage|p2a: Tapu Fini|256/344
+|-damage|p2b: Chi-Yu|170/251
+|move|p2a: Tapu Fini|Rest||[still]
+|-activate|p2a: Tapu Fini|move: Electric Terrain
+|debug|set status [slp] interrupted
+|-fail|p2a: Tapu Fini
+|debug|move failed because it did nothing
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|upkeep
+|turn|2
+|
+|t:|1786077180
+|move|p2b: Chi-Yu|Payback|p1b: Tapu Koko
+|debug|Payback NOT boosted
+|-resisted|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|252/281
+|move|p1b: Tapu Koko|Mean Look|p2b: Chi-Yu
+|-activate|p2b: Chi-Yu|trapped
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Magearna|Encore|p2a: Tapu Fini
+|-start|p2a: Tapu Fini|Encore
+|
+|upkeep
+|turn|3
+|
+|t:|1786077180
+|move|p2b: Chi-Yu|Confuse Ray|p1b: Tapu Koko
+|-start|p1b: Tapu Koko|confusion
+|-activate|p1b: Tapu Koko|confusion
+|move|p1b: Tapu Koko|Mean Look|p2a: Tapu Fini
+|-activate|p2a: Tapu Fini|trapped
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1786077180
+|move|p2b: Chi-Yu|Confuse Ray||[still]
+|-fail|p2b: Chi-Yu
+|debug|move failed because it did nothing
+|-end|p1b: Tapu Koko|confusion
+|move|p1b: Tapu Koko|Volt Switch|p2b: Chi-Yu
+|debug|electric terrain boost
+|-damage|p2b: Chi-Yu|47/251
+|-enditem|p2b: Chi-Yu|Figy Berry|[eat]
+|-heal|p2b: Chi-Yu|130/251|[from] item: Figy Berry
+|
+|t:|1786077180
+|switch|p1b: Marshadow|Marshadow|321/321|[from] Volt Switch
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Magearna|Ice Beam|p2b: Chi-Yu
+|-resisted|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|90/251
+|
+|upkeep
+|turn|5
+|
+|t:|1786077180
+|move|p1b: Marshadow|Brick Break|p2a: Tapu Fini
+|debug|Base Power: 75
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|211/344
+|move|p2b: Chi-Yu|Fire Spin|p1b: Marshadow
+|debug|Beads of Ruin SpD drop
+|-crit|p1b: Marshadow
+|-damage|p1b: Marshadow|224/321
+|-activate|p1b: Marshadow|move: Fire Spin|[of] p2b: Chi-Yu
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Magearna|Ice Beam|p2b: Chi-Yu
+|-resisted|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|49/251
+|
+|-damage|p1b: Marshadow|184/321|[from] move: Fire Spin|[partiallytrapped]
+|-end|p2a: Tapu Fini|Encore
+|-fieldend|move: Electric Terrain
+|upkeep
+|debug|natural status immunity
+|turn|6
+|
+|t:|1786077180
+|move|p1b: Marshadow|Blaze Kick|p2b: Chi-Yu
+|debug|Base Power: 85
+|-resisted|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|2/251
+|move|p2b: Chi-Yu|Fire Spin|p1b: Marshadow
+|debug|Beads of Ruin SpD drop
+|-damage|p1b: Marshadow|120/321
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p1a: Magearna|Ice Beam|p2a: Tapu Fini
+|debug|Beads of Ruin SpD drop
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|197/344
+|
+|-damage|p1b: Marshadow|80/321|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|debug|natural status immunity
+|turn|7
+|
+|t:|1786077180
+|move|p1b: Marshadow|Poison Jab|p2a: Tapu Fini
+|debug|Base Power: 80
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|83/344
+|move|p2b: Chi-Yu|Payback|p1b: Marshadow
+|debug|Payback damage boost
+|-damage|p1b: Marshadow|0 fnt
+|faint|p1b: Marshadow
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-enditem|p2a: Tapu Fini|Lum Berry|[eat]
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|-heal|p2a: Tapu Fini|344/344|[silent]
+|move|p1a: Magearna|Encore|p2b: Chi-Yu
+|-start|p2b: Chi-Yu|Encore
+|
+|upkeep
+|
+|t:|1786077180
+|switch|p1b: Hydrapple|Hydrapple, M|416/416
+|-ability|p1b: Hydrapple|Supersweet Syrup
+|-unboost|p2a: Tapu Fini|evasion|1
+|-unboost|p2b: Chi-Yu|evasion|1
+|turn|8
+|
+|t:|1786077180
+|move|p2b: Chi-Yu|Payback|p1a: Magearna
+|debug|Payback NOT boosted
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|259/301
+|move|p2a: Tapu Fini|Scald|p1a: Magearna
+|debug|Beads of Ruin SpD drop
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|move|p1b: Hydrapple|Nasty Plot|p1b: Hydrapple
+|-boost|p1b: Hydrapple|spa|2
+|
+|upkeep
+|
+|t:|1786077180
+|switch|p1a: Tinkaton|Tinkaton, F|374/374
+|turn|9
+|
+|t:|1786077180
+|move|p1a: Tinkaton|Skill Swap|p2b: Chi-Yu
+|-activate|p1a: Tinkaton|move: Skill Swap|Beads of Ruin|Pickpocket|[of] p2b: Chi-Yu
+|-ability|p1a: Tinkaton|Beads of Ruin
+|move|p2b: Chi-Yu|Payback|p1a: Tinkaton
+|debug|Payback damage boost
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|315/374
+|move|p2a: Tapu Fini|Draining Kiss|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|228/374
+|move|p1b: Hydrapple|Body Slam|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|0 fnt
+|faint|p2b: Chi-Yu
+|
+|upkeep
+|
+|t:|1786077180
+|switch|p2b: Corviknight|Corviknight, M|337/337
+|-ability|p2b: Corviknight|Pressure
+|turn|10
+|
+|t:|1786077180
+|move|p1a: Tinkaton|Metronome|p1a: Tinkaton
+|move|p1a: Tinkaton|Soak|p2a: Tapu Fini|[from] move: Metronome
+|-start|p2a: Tapu Fini|typechange|Water
+|move|p2a: Tapu Fini|Scald|p1b: Hydrapple
+|debug|Beads of Ruin SpD drop
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|289/416
+|move|p2b: Corviknight|Drill Peck|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|156/374
+|move|p1b: Hydrapple|Pollen Puff|p2b: Corviknight
+|debug|Beads of Ruin SpD drop
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|282/337
+|
+|upkeep
+|turn|11
+|
+|t:|1786077180
+|move|p1a: Tinkaton|Skill Swap|p2b: Corviknight
+|-activate|p1a: Tinkaton|move: Skill Swap|Pressure|Beads of Ruin|[of] p2b: Corviknight
+|-ability|p1a: Tinkaton|Pressure
+|-ability|p2b: Corviknight|Beads of Ruin
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|move|p2b: Corviknight|Pluck|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|108/374
+|move|p1b: Hydrapple|Body Slam|p2b: Corviknight
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|257/337
+|
+|upkeep
+|turn|12
+|
+|t:|1786077180
+|move|p1a: Tinkaton|Heavy Slam|p2b: Corviknight
+|debug|BP: 40
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|236/337
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-fail|p2a: Tapu Fini|heal
+|move|p2b: Corviknight|Drill Peck|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|41/374
+|move|p1b: Hydrapple|Body Slam|p2b: Corviknight
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|208/337
+|-status|p2b: Corviknight|par
+|
+|upkeep
+|turn|13
+|
+|t:|1786077180
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-fail|p2a: Tapu Fini|heal
+|move|p1b: Hydrapple|Nasty Plot|p1b: Hydrapple
+|-boost|p1b: Hydrapple|spa|2
+|move|p2b: Corviknight|Dual Wingbeat|p1b: Hydrapple
+|-supereffective|p1b: Hydrapple
+|-damage|p1b: Hydrapple|209/416
+|-supereffective|p1b: Hydrapple
+|-damage|p1b: Hydrapple|125/416
+|-hitcount|p1b: Hydrapple|2
+|
+|upkeep
+|turn|14
+|
+|t:|1786077180
+|move|p1a: Tinkaton|Metronome|p1a: Tinkaton
+|move|p1a: Tinkaton|Aqua Step|p2a: Tapu Fini|[from] move: Metronome
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|308/344
+|-boost|p1a: Tinkaton|spe|1
+|move|p2a: Tapu Fini|Draining Kiss|p1a: Tinkaton
+|debug|Beads of Ruin SpD drop
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-heal|p2a: Tapu Fini|339/344|[from] drain|[of] p1a: Tinkaton
+|faint|p1a: Tinkaton
+|debug|AfterMoveSecondary handler suppressed by Gastro Acid or Neutralizing Gas
+|move|p1b: Hydrapple|Nasty Plot|p1b: Hydrapple
+|-boost|p1b: Hydrapple|spa|2
+|move|p2b: Corviknight|Iron Defense|p2b: Corviknight
+|-boost|p2b: Corviknight|def|2
+|
+|upkeep
+|
+|t:|1786077180
+|switch|p1a: Tapu Koko|Tapu Koko|252/281
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|turn|15
+|
+|t:|1786077180
+|move|p1a: Tapu Koko|Volt Switch|p2a: Tapu Fini
+|debug|electric terrain boost
+|debug|Beads of Ruin SpD drop
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|273/344
+|
+|t:|1786077180
+|switch|p1a: Noivern|Noivern, F|374/374|[from] Volt Switch
+|move|p2a: Tapu Fini|Rest||[still]
+|-activate|p2a: Tapu Fini|move: Electric Terrain
+|debug|set status [slp] interrupted
+|-fail|p2a: Tapu Fini
+|debug|move failed because it did nothing
+|move|p1b: Hydrapple|Pollen Puff|p2b: Corviknight
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|119/337 par
+|cant|p2b: Corviknight|par
+|
+|upkeep
+|turn|16
+|
+|t:|1786077180
+|move|p1a: Noivern|Air Slash|p2a: Tapu Fini
+|debug|Beads of Ruin SpD drop
+|-damage|p2a: Tapu Fini|246/344
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|0
+|-boost|p2a: Tapu Fini|spd|0
+|debug|move failed because it did nothing
+|move|p1b: Hydrapple|Pollen Puff|p2a: Tapu Fini
+|debug|Beads of Ruin SpD drop
+|-damage|p2a: Tapu Fini|158/344
+|move|p2b: Corviknight|Pluck|p1b: Hydrapple
+|-supereffective|p1b: Hydrapple
+|-damage|p1b: Hydrapple|9/416
+|-enditem|p1b: Hydrapple|Ganlon Berry|[from] stealeat|[move] Pluck|[of] p2b: Corviknight
+|-boost|p2b: Corviknight|def|1|[from] item: Ganlon Berry
+|
+|upkeep
+|turn|17
+|
+|t:|1786077180
+|move|p1a: Noivern|Solar Beam||[still]
+|-prepare|p1a: Noivern|Solar Beam
+|move|p2a: Tapu Fini|Rest||[still]
+|-activate|p2a: Tapu Fini|move: Electric Terrain
+|debug|set status [slp] interrupted
+|-fail|p2a: Tapu Fini
+|debug|move failed because it did nothing
+|move|p1b: Hydrapple|Pollen Puff|p2a: Tapu Fini
+|debug|Beads of Ruin SpD drop
+|-damage|p2a: Tapu Fini|70/344
+|cant|p2b: Corviknight|par
+|
+|upkeep
+|turn|18
+|
+|t:|1786077180
+|move|p1a: Noivern|Solar Beam|p2b: Corviknight|[from] lockedmove
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|95/337 par
+|move|p2a: Tapu Fini|Scald|p1b: Hydrapple
+|debug|Beads of Ruin SpD drop
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|0 fnt
+|faint|p1b: Hydrapple
+|cant|p2b: Corviknight|par
+|
+|upkeep
+|
+|t:|1786077180
+|switch|p1b: Tapu Koko|Tapu Koko|252/281
+|turn|19
+|
+|t:|1786077180
+|move|p1b: Tapu Koko|Volt Switch|p2a: Tapu Fini
+|debug|electric terrain boost
+|debug|Beads of Ruin SpD drop
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|move|p1a: Noivern|Air Slash|p2b: Corviknight
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|50/337 par
+|cant|p2b: Corviknight|flinch
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1786077180
+|switch|p2a: Empoleon|Empoleon, F|372/372
+|turn|20
+|
+|t:|1786077180
+|move|p1b: Tapu Koko|Dazzling Gleam|p2a: Empoleon|[spread] p2a,p2b
+|debug|Beads of Ruin SpD drop
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Empoleon
+|debug|Spread modifier: 0.75
+|-resisted|p2b: Corviknight
+|-damage|p2a: Empoleon|306/372
+|-damage|p2b: Corviknight|3/337 par
+|move|p1a: Noivern|Super Fang|p2a: Empoleon
+|-damage|p2a: Empoleon|153/372
+|move|p2a: Empoleon|Wave Crash|p1a: Noivern
+|-resisted|p1a: Noivern
+|-crit|p1a: Noivern
+|-damage|p1a: Noivern|280/374
+|-damage|p2a: Empoleon|122/372|[from] Recoil
+|move|p2b: Corviknight|Drill Peck|p1b: Tapu Koko
+|-resisted|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|183/281
+|
+|upkeep
+|turn|21
+|
+|t:|1786077180
+|move|p1b: Tapu Koko|Rest|p1b: Tapu Koko
+|-status|p1b: Tapu Koko|slp|[from] move: Rest
+|-heal|p1b: Tapu Koko|281/281 slp|[silent]
+|move|p1a: Noivern|Air Slash|p2b: Corviknight
+|-resisted|p2b: Corviknight
+|-damage|p2b: Corviknight|0 fnt
+|faint|p2b: Corviknight
+|move|p2a: Empoleon|Drill Peck|p1b: Tapu Koko
+|-resisted|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|242/281 slp
+|
+|upkeep
+|
+|t:|1786077180
+|switch|p2b: Iron Moth|Iron Moth|364/364
+|turn|22
+|
+|t:|1786077180
+|cant|p1b: Tapu Koko|slp
+|move|p2b: Iron Moth|Meteor Beam||[still]
+|-prepare|p2b: Iron Moth|Meteor Beam
+|-boost|p2b: Iron Moth|spa|1
+|move|p1a: Noivern|Air Slash|p2b: Iron Moth
+|-damage|p2b: Iron Moth|304/364
+|move|p2a: Empoleon|Blizzard|p1b: Tapu Koko|[spread] p1b
+|-miss|p2a: Empoleon|p1a: Noivern
+|debug|Spread modifier: 0.75
+|-damage|p1b: Tapu Koko|162/281 slp
+|
+|upkeep
+|turn|23
+|
+|t:|1786077180
+|cant|p1b: Tapu Koko|slp
+|move|p2b: Iron Moth|Meteor Beam|p1a: Noivern|[from] lockedmove
+|-supereffective|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|move|p2a: Empoleon|Blizzard|p1b: Tapu Koko|[miss]
+|-miss|p2a: Empoleon|p1b: Tapu Koko
+|
+|upkeep
+|turn|24
+|
+|t:|1786077180
+|-curestatus|p1b: Tapu Koko|slp|[msg]
+|move|p1b: Tapu Koko|Volt Switch|p2b: Iron Moth
+|-damage|p2b: Iron Moth|222/364
+|move|p2b: Iron Moth|Dazzling Gleam|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|5/281
+|move|p2a: Empoleon|Blizzard|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|0 fnt
+|faint|p1b: Tapu Koko
+|
+|win|Rey</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
