@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Gavin vs Rey - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Gavin-vs-Rey-20260806-232906" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786076946
+|gametype|doubles
+|player|p1|Gavin|blaine|
+|player|p2|Rey|swimmerf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Tapu Koko|
+|poke|p1|Hydrapple, M|
+|poke|p1|Marshadow|
+|poke|p1|Noivern, F|
+|poke|p1|Tinkaton, F|
+|poke|p2|Tapu Fini|
+|poke|p2|Chi-Yu|
+|poke|p2|Iron Moth|
+|poke|p2|Empoleon, M|
+|poke|p2|Tapu Bulu|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1786076946
+|start
+|switch|p1a: Magearna|Magearna|301/301
+|switch|p1b: Tapu Koko|Tapu Koko|281/281
+|switch|p2a: Tapu Fini|Tapu Fini|344/344
+|switch|p2b: Chi-Yu|Chi-Yu|251/251
+|-ability|p2b: Chi-Yu|Beads of Ruin
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|turn|1
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|267/301
+|move|p1b: Tapu Koko|Volt Switch|p2a: Tapu Fini
+|debug|electric terrain boost
+|debug|Beads of Ruin SpD drop
+|-supereffective|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|t:|1786076946
+|switch|p1b: Hydrapple|Hydrapple, M|416/416|[from] Volt Switch
+|-ability|p1b: Hydrapple|Supersweet Syrup
+|-unboost|p2b: Chi-Yu|evasion|1
+|move|p1a: Magearna|Encore|p2b: Chi-Yu
+|-start|p2b: Chi-Yu|Encore
+|
+|upkeep
+|
+|t:|1786076946
+|switch|p2a: Tapu Bulu|Tapu Bulu|344/344
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|2
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Crunch|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|233/301
+|move|p2a: Tapu Bulu|Bullet Seed|p1a: Magearna
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|214/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-crit|p1a: Magearna
+|-damage|p1a: Magearna|186/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|168/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|147/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|127/301
+|-hitcount|p1a: Magearna|5
+|move|p1a: Magearna|Encore|p2a: Tapu Bulu
+|-start|p2a: Tapu Bulu|Encore
+|move|p1b: Hydrapple|Nasty Plot|p1b: Hydrapple
+|-boost|p1b: Hydrapple|spa|2
+|
+|-heal|p1a: Magearna|145/301|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Crunch|p1b: Hydrapple
+|-damage|p1b: Hydrapple|358/416
+|move|p2a: Tapu Bulu|Bullet Seed|p1a: Magearna
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|124/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|103/301
+|-hitcount|p1a: Magearna|2
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|move|p1b: Hydrapple|Outrage|p2a: Tapu Bulu
+|-immune|p2a: Tapu Bulu
+|
+|-heal|p1a: Magearna|121/301|[from] Grassy Terrain
+|-heal|p1b: Hydrapple|384/416|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Crunch|p1b: Hydrapple
+|-damage|p1b: Hydrapple|327/416
+|move|p2a: Tapu Bulu|Bullet Seed|p1b: Hydrapple
+|debug|grassy terrain boost
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|319/416
+|debug|grassy terrain boost
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|311/416
+|debug|grassy terrain boost
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|303/416
+|-hitcount|p1b: Hydrapple|3
+|move|p1a: Magearna|Ice Beam|p2b: Chi-Yu
+|-resisted|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|194/251
+|move|p1b: Hydrapple|Body Slam|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|143/251
+|
+|-heal|p2b: Chi-Yu|158/251|[from] Grassy Terrain
+|-heal|p1a: Magearna|139/301|[from] Grassy Terrain
+|-heal|p1b: Hydrapple|329/416|[from] Grassy Terrain
+|-end|p2b: Chi-Yu|Encore
+|upkeep
+|turn|5
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Fire Spin|p1a: Magearna
+|debug|Beads of Ruin SpD drop
+|-supereffective|p1a: Magearna
+|-damage|p1a: Magearna|29/301
+|-activate|p1a: Magearna|move: Fire Spin|[of] p2b: Chi-Yu
+|move|p2a: Tapu Bulu|Bullet Seed|p1a: Magearna
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|19/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|10/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|1/301
+|debug|grassy terrain boost
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|0 fnt
+|faint|p1a: Magearna
+|-hitcount|p1: Magearna|4
+|move|p1b: Hydrapple|Nasty Plot|p1b: Hydrapple
+|-boost|p1b: Hydrapple|spa|2
+|
+|-heal|p2b: Chi-Yu|173/251|[from] Grassy Terrain
+|-heal|p1b: Hydrapple|355/416|[from] Grassy Terrain
+|-end|p2a: Tapu Bulu|Encore
+|upkeep
+|
+|t:|1786076946
+|switch|p1a: Noivern|Noivern, F|374/374
+|turn|6
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Fire Spin|p1b: Hydrapple|[miss]
+|-miss|p2b: Chi-Yu|p1b: Hydrapple
+|move|p1a: Noivern|Air Slash|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|104/251
+|move|p2a: Tapu Bulu|Superpower|p1b: Hydrapple
+|-damage|p1b: Hydrapple|277/416
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|move|p1b: Hydrapple|Body Slam|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|293/344
+|
+|-heal|p2b: Chi-Yu|119/251|[from] Grassy Terrain
+|debug|Pokemon semi-invuln or not grounded; Grassy Terrain skipped
+|-heal|p2a: Tapu Bulu|314/344|[from] Grassy Terrain
+|-heal|p1b: Hydrapple|303/416|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Confuse Ray|p1b: Hydrapple
+|-start|p1b: Hydrapple|confusion
+|move|p1a: Noivern|Solar Beam||[still]
+|-prepare|p1a: Noivern|Solar Beam
+|move|p2a: Tapu Bulu|Superpower|p1b: Hydrapple
+|-damage|p1b: Hydrapple|254/416
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|-activate|p1b: Hydrapple|confusion
+|move|p1b: Hydrapple|Outrage|p2a: Tapu Bulu
+|-immune|p2a: Tapu Bulu
+|
+|upkeep
+|turn|8
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Confuse Ray|p1a: Noivern
+|-start|p1a: Noivern|confusion
+|-activate|p1a: Noivern|confusion
+|-damage|p1a: Noivern|350/374|[from] confusion
+|move|p2a: Tapu Bulu|Bullet Seed|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|346/374
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|342/374
+|-hitcount|p1a: Noivern|2
+|-activate|p1b: Hydrapple|confusion
+|-damage|p1b: Hydrapple|235/416|[from] confusion
+|
+|upkeep
+|turn|9
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Fire Spin|p1a: Noivern
+|debug|Beads of Ruin SpD drop
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|294/374
+|-activate|p1a: Noivern|move: Fire Spin|[of] p2b: Chi-Yu
+|-activate|p1a: Noivern|confusion
+|-damage|p1a: Noivern|268/374|[from] confusion
+|move|p2a: Tapu Bulu|Bullet Seed|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|264/374
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|260/374
+|-hitcount|p1a: Noivern|2
+|-activate|p1b: Hydrapple|confusion
+|-damage|p1b: Hydrapple|215/416|[from] confusion
+|
+|-damage|p1a: Noivern|214/374|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Crunch|p1a: Noivern
+|-damage|p1a: Noivern|148/374
+|-end|p1a: Noivern|confusion
+|move|p1a: Noivern|Leech Life|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|66/251
+|-heal|p1a: Noivern|175/374|[from] drain|[of] p2b: Chi-Yu
+|move|p2a: Tapu Bulu|Synthesis|p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|344/344
+|-activate|p1b: Hydrapple|confusion
+|-damage|p1b: Hydrapple|198/416|[from] confusion
+|
+|-damage|p1a: Noivern|129/374|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Confuse Ray|p1a: Noivern
+|-start|p1a: Noivern|confusion
+|-activate|p1a: Noivern|confusion
+|move|p1a: Noivern|Super Fang|p2b: Chi-Yu
+|-damage|p2b: Chi-Yu|33/251
+|-enditem|p2b: Chi-Yu|Figy Berry|[eat]
+|-heal|p2b: Chi-Yu|116/251|[from] item: Figy Berry
+|move|p2a: Tapu Bulu|Superpower|p1b: Hydrapple
+|-damage|p1b: Hydrapple|158/416
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|-end|p1b: Hydrapple|confusion
+|move|p1b: Hydrapple|Body Slam|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|251/344
+|
+|-damage|p1a: Noivern|83/374|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Confuse Ray||[still]
+|-fail|p2b: Chi-Yu
+|debug|move failed because it did nothing
+|-end|p1a: Noivern|confusion
+|move|p1a: Noivern|Air Slash|p2a: Tapu Bulu
+|debug|Beads of Ruin SpD drop
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|5/344
+|move|p2a: Tapu Bulu|Superpower|p1b: Hydrapple
+|-damage|p1b: Hydrapple|125/416
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|move|p1b: Hydrapple|Outrage|p2a: Tapu Bulu
+|-immune|p2a: Tapu Bulu
+|
+|-damage|p1a: Noivern|37/374|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Confuse Ray|p1b: Hydrapple
+|-start|p1b: Hydrapple|confusion
+|move|p1a: Noivern|Solar Beam||[still]
+|-prepare|p1a: Noivern|Solar Beam
+|move|p2a: Tapu Bulu|Bullet Seed|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|34/374
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|31/374
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|29/374
+|-hitcount|p1a: Noivern|3
+|-activate|p1b: Hydrapple|confusion
+|move|p1b: Hydrapple|Body Slam|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Tapu Bulu
+|
+|-damage|p1a: Noivern|0 fnt|[from] move: Fire Spin|[partiallytrapped]
+|faint|p1a: Noivern
+|upkeep
+|
+|t:|1786076946
+|switch|p1a: Tapu Koko|Tapu Koko|281/281
+|switch|p2a: Corviknight|Corviknight, M|337/337
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Tapu Koko
+|-ability|p2a: Corviknight|Pressure
+|turn|14
+|
+|t:|1786076946
+|move|p2b: Chi-Yu|Payback|p1a: Tapu Koko
+|debug|Payback NOT boosted
+|-resisted|p1a: Tapu Koko
+|-damage|p1a: Tapu Koko|249/281
+|move|p1a: Tapu Koko|Volt Switch|p2a: Corviknight
+|debug|electric terrain boost
+|debug|Beads of Ruin SpD drop
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|t:|1786076946
+|switch|p1a: Tinkaton|Tinkaton, F|374/374|[from] Volt Switch
+|-activate|p1b: Hydrapple|confusion
+|move|p1b: Hydrapple|Nasty Plot|p1b: Hydrapple
+|-boost|p1b: Hydrapple|spa|2
+|
+|upkeep
+|
+|t:|1786076946
+|switch|p2a: Empoleon|Empoleon, M|372/372
+|turn|15
+|
+|t:|1786076946
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|move|p2b: Chi-Yu|Crunch|p1b: Hydrapple
+|-damage|p1b: Hydrapple|68/416
+|-enditem|p1b: Hydrapple|Ganlon Berry|[eat]
+|-boost|p1b: Hydrapple|def|1|[from] item: Ganlon Berry
+|move|p2a: Empoleon|Blizzard|p1a: Tinkaton|[spread] p1a,p1b
+|debug|Beads of Ruin SpD drop
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Tinkaton
+|debug|Beads of Ruin SpD drop
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Hydrapple
+|-damage|p1a: Tinkaton|328/374
+|-damage|p1b: Hydrapple|0 fnt
+|faint|p1b: Hydrapple
+|
+|upkeep
+|
+|t:|1786076946
+|switch|p1b: Tapu Koko|Tapu Koko|249/281
+|turn|16
+|
+|t:|1786076946
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|move|p2b: Chi-Yu|Payback|p1b: Tapu Koko
+|debug|Payback NOT boosted
+|-resisted|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|219/281
+|move|p1b: Tapu Koko|Volt Switch|p2a: Empoleon
+|debug|electric terrain boost
+|debug|Beads of Ruin SpD drop
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|t:|1786076946
+|switch|p1b: Marshadow|Marshadow|321/321|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1786076946
+|switch|p2a: Iron Moth|Iron Moth|364/364
+|-activate|p2a: Iron Moth|ability: Quark Drive
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|17
+|
+|t:|1786076946
+|move|p1b: Marshadow|Poison Jab|p2b: Chi-Yu
+|debug|Base Power: 80
+|-damage|p2b: Chi-Yu|36/251
+|move|p1a: Tinkaton|Heavy Slam|p2a: Iron Moth
+|debug|BP: 80
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|173/364
+|move|p2b: Chi-Yu|Fire Spin|p1b: Marshadow
+|debug|Beads of Ruin SpD drop
+|-damage|p1b: Marshadow|258/321
+|-activate|p1b: Marshadow|move: Fire Spin|[of] p2b: Chi-Yu
+|move|p2a: Iron Moth|Dazzling Gleam|p1b: Marshadow|[spread] p1a,p1b
+|debug|Quark Drive spa boost
+|debug|Beads of Ruin SpD drop
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Tinkaton
+|debug|Quark Drive spa boost
+|debug|Beads of Ruin SpD drop
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Marshadow
+|-damage|p1a: Tinkaton|268/374
+|-damage|p1b: Marshadow|70/321
+|
+|-damage|p1b: Marshadow|30/321|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|debug|natural status immunity
+|turn|18
+|
+|t:|1786076946
+|move|p1b: Marshadow|Poison Jab|p2b: Chi-Yu
+|debug|Base Power: 80
+|-damage|p2b: Chi-Yu|0 fnt
+|debug|move failed because it did nothing
+|faint|p2b: Chi-Yu
+|move|p1a: Tinkaton|Skill Swap||[still]
+|-fail|p1a: Tinkaton
+|move|p2a: Iron Moth|Sludge Wave|p1b: Marshadow|[spread] p1b
+|-immune|p1a: Tinkaton
+|debug|Quark Drive spa boost
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|0 fnt
+|debug|move failed because it did nothing
+|faint|p1b: Marshadow
+|
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Moth|Quark Drive
+|upkeep
+|
+|t:|1786076946
+|switch|p1b: Tapu Koko|Tapu Koko|219/281
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|-activate|p2a: Iron Moth|ability: Quark Drive
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|19
+|
+|t:|1786076946
+|move|p1a: Tinkaton|Heavy Slam|p2a: Iron Moth
+|debug|BP: 80
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|win|Gavin</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

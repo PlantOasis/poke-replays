@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Gavin vs gbelay - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Gavin-vs-gbelay-20260806-232850" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786076930
+|gametype|doubles
+|player|p1|Gavin|blaine|
+|player|p2|gbelay|rocker-gen1rb|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Magearna|
+|poke|p1|Tapu Koko|
+|poke|p1|Hydrapple, M|
+|poke|p1|Marshadow|
+|poke|p1|Noivern, F|
+|poke|p1|Tinkaton, F|
+|poke|p2|Archeops, M|
+|poke|p2|Nickit, M|
+|poke|p2|Miltank, F|
+|poke|p2|Shelgon, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Marowak-Alola, F|
+|teampreview
+|
+|t:|1786076930
+|start
+|switch|p1a: Magearna|Magearna|301/301
+|switch|p1b: Tapu Koko|Tapu Koko|281/281
+|switch|p2a: Archeops|Archeops, M|291/291
+|switch|p2b: Nickit|Nickit, M|221/221
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Tapu Koko
+|turn|1
+|
+|t:|1786076930
+|move|p1b: Tapu Koko|Rest|p1b: Tapu Koko
+|-fail|p1b: Tapu Koko|heal
+|move|p2a: Archeops|Smack Down|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|152/281
+|move|p1a: Magearna|Facade|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|259/291
+|move|p2b: Nickit|Knock Off|p1a: Magearna
+|-resisted|p1a: Magearna
+|-damage|p1a: Magearna|262/301
+|-enditem|p1a: Magearna|Lum Berry|[from] move: Knock Off|[of] p2b: Nickit
+|
+|upkeep
+|turn|2
+|
+|t:|1786076930
+|move|p2a: Archeops|Endure|p2a: Archeops
+|-singleturn|p2a: Archeops|move: Endure
+|move|p1b: Tapu Koko|Rest||[still]
+|-activate|p1b: Tapu Koko|move: Electric Terrain
+|debug|set status [slp] interrupted
+|-fail|p1b: Tapu Koko
+|debug|move failed because it did nothing
+|move|p1a: Magearna|Facade|p2a: Archeops
+|-resisted|p2a: Archeops
+|-damage|p2a: Archeops|227/291
+|move|p2b: Nickit|Knock Off|p1b: Tapu Koko
+|-resisted|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|101/281
+|-enditem|p1b: Tapu Koko|Focus Sash|[from] move: Knock Off|[of] p2b: Nickit
+|
+|upkeep
+|turn|3
+|
+|t:|1786076930
+|move|p2b: Nickit|Endure|p2b: Nickit
+|-singleturn|p2b: Nickit|move: Endure
+|move|p1b: Tapu Koko|Rest||[still]
+|-activate|p1b: Tapu Koko|move: Electric Terrain
+|debug|set status [slp] interrupted
+|-fail|p1b: Tapu Koko
+|debug|move failed because it did nothing
+|move|p2a: Archeops|Smack Down|p1b: Tapu Koko
+|-damage|p1b: Tapu Koko|0 fnt
+|faint|p1b: Tapu Koko
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Ice Beam|p2a: Archeops
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|faint|p2a: Archeops
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|upkeep
+|
+|t:|1786076930
+|switch|p1b: Marshadow|Marshadow|321/321
+|switch|p2a: Marowak|Marowak-Alola, F|324/324
+|turn|4
+|
+|t:|1786076930
+|move|p2b: Nickit|Endure||[still]
+|debug|Success chance: 33%
+|-fail|p2b: Nickit
+|move|p1b: Marshadow|Blaze Kick|p2a: Marowak
+|debug|Base Power: 85
+|-resisted|p2a: Marowak
+|-damage|p2a: Marowak|285/324
+|move|p1a: Magearna|Facade|p2a: Marowak
+|-immune|p2a: Marowak
+|move|p2a: Marowak|Curse|p1a: Magearna
+|-start|p1a: Magearna|Curse|[of] p2a: Marowak
+|-damage|p2a: Marowak|123/324
+|
+|-damage|p1a: Magearna|187/301|[from] Curse
+|upkeep
+|turn|5
+|
+|t:|1786076930
+|move|p1b: Marshadow|Shadow Ball|p2a: Marowak
+|debug|Base Power: 80
+|-supereffective|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Iron Defense|p1a: Magearna
+|-boost|p1a: Magearna|def|2
+|move|p2b: Nickit|Night Slash|p1b: Marshadow
+|-damage|p1b: Marshadow|239/321
+|
+|-damage|p1a: Magearna|112/301|[from] Curse
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1786076930
+|switch|p2a: Shelgon|Shelgon, M|334/334
+|turn|6
+|
+|t:|1786076930
+|move|p2b: Nickit|Endure|p2b: Nickit
+|-singleturn|p2b: Nickit|move: Endure
+|move|p1b: Marshadow|Brick Break|p2b: Nickit
+|debug|Base Power: 75
+|-supereffective|p2b: Nickit
+|-activate|p2b: Nickit|move: Endure
+|-damage|p2b: Nickit|1/221
+|move|p1a: Magearna|Ice Beam|p2b: Nickit
+|-activate|p2b: Nickit|move: Endure
+|-damage|p2b: Nickit|1/221
+|-status|p2b: Nickit|frz
+|move|p2a: Shelgon|Dragon Breath|p1a: Magearna
+|-immune|p1a: Magearna
+|
+|-damage|p1a: Magearna|37/301|[from] Curse
+|upkeep
+|turn|7
+|
+|t:|1786076930
+|move|p1b: Marshadow|Poison Jab|p2b: Nickit
+|debug|Base Power: 80
+|-damage|p2b: Nickit|0 fnt
+|debug|move failed because it did nothing
+|faint|p2b: Nickit
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|move|p1a: Magearna|Ice Beam|p2a: Shelgon
+|-supereffective|p2a: Shelgon
+|-damage|p2a: Shelgon|0 fnt
+|faint|p2a: Shelgon
+|-ability|p1a: Magearna|Soul-Heart|boost
+|-boost|p1a: Magearna|spa|1
+|
+|-damage|p1a: Magearna|0 fnt|[from] Curse
+|faint|p1a: Magearna
+|upkeep
+|
+|t:|1786076930
+|switch|p1a: Tinkaton|Tinkaton, F|374/374
+|switch|p2b: Chien-Pao|Chien-Pao|301/301
+|switch|p2a: Miltank|Miltank, F|331/331
+|-ability|p2b: Chien-Pao|Sword of Ruin
+|turn|8
+|
+|t:|1786076930
+|move|p2b: Chien-Pao|Scary Face|p1a: Tinkaton
+|-unboost|p1a: Tinkaton|spe|2
+|move|p1b: Marshadow|Brick Break|p2a: Miltank
+|debug|Base Power: 75
+|debug|Sword of Ruin Def drop
+|-supereffective|p2a: Miltank
+|-damage|p2a: Miltank|85/331
+|move|p2a: Miltank|Rollout|p1b: Marshadow
+|debug|BP: 30
+|debug|Sword of Ruin Def drop
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|215/321
+|move|p1a: Tinkaton|Heavy Slam|p2b: Chien-Pao
+|debug|BP: 40
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|193/301
+|
+|upkeep
+|turn|9
+|
+|t:|1786076930
+|move|p2b: Chien-Pao|Ruination|p1b: Marshadow
+|-damage|p1b: Marshadow|108/321
+|move|p1b: Marshadow|Shadow Ball|p2a: Miltank
+|-immune|p2a: Miltank
+|move|p2a: Miltank|Rollout|p1b: Marshadow|[from] lockedmove
+|debug|BP: 60
+|debug|Sword of Ruin Def drop
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|58/321
+|move|p1a: Tinkaton|Skill Swap|p2a: Miltank
+|-activate|p1a: Tinkaton|move: Skill Swap|Sap Sipper|Pickpocket|[of] p2a: Miltank
+|
+|upkeep
+|turn|10
+|
+|t:|1786076930
+|move|p2b: Chien-Pao|Scary Face|p1b: Marshadow
+|-unboost|p1b: Marshadow|spe|2
+|move|p2a: Miltank|Rollout|p1b: Marshadow|[from] lockedmove
+|debug|BP: 120
+|debug|Sword of Ruin Def drop
+|-resisted|p1b: Marshadow
+|-damage|p1b: Marshadow|0 fnt
+|faint|p1b: Marshadow
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|
+|upkeep
+|
+|t:|1786076930
+|switch|p1b: Hydrapple|Hydrapple, M|416/416
+|-ability|p1b: Hydrapple|Supersweet Syrup
+|-unboost|p2a: Miltank|evasion|1
+|-unboost|p2b: Chien-Pao|evasion|1
+|turn|11
+|
+|t:|1786076930
+|move|p2b: Chien-Pao|Ruination|p1b: Hydrapple
+|-damage|p1b: Hydrapple|208/416
+|move|p2a: Miltank|Rollout|p1b: Hydrapple|[from] lockedmove
+|debug|BP: 240
+|debug|Sword of Ruin Def drop
+|-damage|p1b: Hydrapple|2/416
+|-enditem|p1b: Hydrapple|Ganlon Berry|[eat]
+|-boost|p1b: Hydrapple|def|1|[from] item: Ganlon Berry
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|move|p1b: Hydrapple|Body Slam|p2a: Miltank
+|debug|Sword of Ruin Def drop
+|-damage|p2a: Miltank|31/331
+|
+|upkeep
+|turn|12
+|
+|t:|1786076930
+|move|p2b: Chien-Pao|Snowscape|p2b: Chien-Pao
+|-weather|Snowscape
+|move|p2a: Miltank|Rollout|p1b: Hydrapple|[from] lockedmove
+|debug|BP: 480
+|debug|Sword of Ruin Def drop
+|-damage|p1b: Hydrapple|0 fnt
+|faint|p1b: Hydrapple
+|move|p1a: Tinkaton|Skill Swap|p2b: Chien-Pao
+|-activate|p1a: Tinkaton|move: Skill Swap|Sword of Ruin|Sap Sipper|[of] p2b: Chien-Pao
+|-ability|p1a: Tinkaton|Sword of Ruin
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1786076930
+|switch|p1b: Noivern|Noivern, F|374/374
+|turn|13
+|
+|t:|1786076930
+|move|p2b: Chien-Pao|Snarl|p1b: Noivern|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|-resisted|p1a: Tinkaton
+|debug|Spread modifier: 0.75
+|-damage|p1a: Tinkaton|347/374
+|-damage|p1b: Noivern|316/374
+|-unboost|p1a: Tinkaton|spa|1
+|-unboost|p1b: Noivern|spa|1
+|move|p2a: Miltank|Sandstorm|p2a: Miltank
+|-weather|Sandstorm
+|move|p1b: Noivern|Solar Beam||[still]
+|-prepare|p1b: Noivern|Solar Beam
+|move|p1a: Tinkaton|Metronome|p1a: Tinkaton
+|move|p1a: Tinkaton|Scratch|p2a: Miltank|[from] move: Metronome
+|debug|Sword of Ruin Def drop
+|-damage|p2a: Miltank|0 fnt
+|faint|p2a: Miltank
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Chien-Pao|175/301|[from] Sandstorm
+|-damage|p1b: Noivern|293/374|[from] Sandstorm
+|debug|natural status immunity
+|debug|weather immunity
+|upkeep
+|turn|14
+|
+|t:|1786076930
+|move|p2b: Chien-Pao|Ruination|p1a: Tinkaton
+|-damage|p1a: Tinkaton|174/374
+|move|p1b: Noivern|Solar Beam|p2b: Chien-Pao|[from] lockedmove
+|-ability|p2b: Chien-Pao|Sap Sipper|boost
+|-boost|p2b: Chien-Pao|atk|1
+|move|p1a: Tinkaton|Heavy Slam|p2b: Chien-Pao
+|debug|BP: 40
+|debug|Sword of Ruin Def drop
+|-supereffective|p2b: Chien-Pao
+|-damage|p2b: Chien-Pao|0 fnt
+|faint|p2b: Chien-Pao
+|
+|win|Gavin</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
