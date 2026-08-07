@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Collin vs Gavin - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Collin-vs-Gavin-20260806-233613" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786077373
+|gametype|singles
+|player|p1|Collin|mom-alola|
+|player|p2|Gavin|blaine|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Lapras, F|
+|poke|p1|Coalossal, M|
+|poke|p1|Greedent, M|
+|poke|p1|Primarina, M|
+|poke|p1|Volcarona, F|
+|poke|p1|Crawdaunt, M|
+|poke|p2|Magearna|
+|poke|p2|Tapu Koko|
+|poke|p2|Hydrapple, M|
+|poke|p2|Marshadow|
+|poke|p2|Noivern, F|
+|poke|p2|Tinkaton, F|
+|teampreview
+|
+|t:|1786077373
+|start
+|switch|p1a: Lapras|Lapras, F|401/401
+|switch|p2a: Magearna|Magearna|301/301
+|turn|1
+|
+|t:|1786077373
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|move|p1a: Lapras|Muddy Water|p2a: Magearna
+|-damage|p2a: Magearna|222/301
+|
+|upkeep
+|turn|2
+|
+|t:|1786077373
+|move|p2a: Magearna|Encore|p1a: Lapras
+|-start|p1a: Lapras|Encore
+|move|p1a: Lapras|Muddy Water|p2a: Magearna
+|-damage|p2a: Magearna|149/301
+|
+|upkeep
+|turn|3
+|
+|t:|1786077373
+|move|p2a: Magearna|Facade|p1a: Lapras
+|-damage|p1a: Lapras|338/401
+|move|p1a: Lapras|Muddy Water|p2a: Magearna|[miss]
+|-miss|p1a: Lapras|p2a: Magearna
+|
+|upkeep
+|turn|4
+|
+|t:|1786077373
+|move|p2a: Magearna|Encore||[still]
+|-fail|p2a: Magearna
+|debug|move failed because it did nothing
+|move|p1a: Lapras|Muddy Water|p2a: Magearna|[miss]
+|-miss|p1a: Lapras|p2a: Magearna
+|
+|-end|p1a: Lapras|Encore
+|upkeep
+|turn|5
+|
+|t:|1786077373
+|move|p2a: Magearna|Iron Defense|p2a: Magearna
+|-boost|p2a: Magearna|def|2
+|move|p1a: Lapras|Muddy Water|p2a: Magearna
+|-damage|p2a: Magearna|73/301
+|
+|upkeep
+|turn|6
+|
+|t:|1786077373
+|move|p2a: Magearna|Ice Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|312/401
+|debug|natural status immunity
+|debug|immune to status
+|debug|move failed because it did nothing
+|move|p1a: Lapras|Sparkling Aria|p2a: Magearna
+|-damage|p2a: Magearna|1/301
+|
+|upkeep
+|turn|7
+|
+|t:|1786077373
+|move|p2a: Magearna|Ice Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|289/401
+|move|p1a: Lapras|Take Down|p2a: Magearna
+|-resisted|p2a: Magearna
+|-damage|p2a: Magearna|0 fnt
+|faint|p2a: Magearna
+|-damage|p1a: Lapras|288/401|[from] Recoil
+|
+|upkeep
+|
+|t:|1786077373
+|switch|p2a: Tinkaton|Tinkaton, F|374/374
+|turn|8
+|
+|t:|1786077373
+|move|p2a: Tinkaton|Metronome|p2a: Tinkaton
+|move|p2a: Tinkaton|Frost Breath|p1a: Lapras|[from] move: Metronome
+|-resisted|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|275/401
+|move|p1a: Lapras|Sparkling Aria|p2a: Tinkaton
+|-damage|p2a: Tinkaton|274/374
+|
+|upkeep
+|turn|9
+|
+|t:|1786077373
+|move|p2a: Tinkaton|Metronome|p2a: Tinkaton
+|move|p2a: Tinkaton|Fly||[from] move: Metronome|[still]
+|-prepare|p2a: Tinkaton|Fly
+|move|p1a: Lapras|Avalanche|p2a: Tinkaton|[miss]
+|-miss|p1a: Lapras|p2a: Tinkaton
+|
+|upkeep
+|turn|10
+|
+|t:|1786077373
+|move|p2a: Tinkaton|Fly|p1a: Lapras|[from] lockedmove
+|-damage|p1a: Lapras|220/401
+|move|p1a: Lapras|Muddy Water|p2a: Tinkaton
+|-damage|p2a: Tinkaton|180/374
+|
+|upkeep
+|turn|11
+|
+|t:|1786077373
+|move|p2a: Tinkaton|Skill Swap|p1a: Lapras
+|-activate|p2a: Tinkaton|move: Skill Swap|Hydration|Pickpocket|[of] p1a: Lapras
+|move|p1a: Lapras|Avalanche|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|129/374
+|
+|upkeep
+|turn|12
+|
+|t:|1786077373
+|move|p2a: Tinkaton|Skill Swap|p1a: Lapras
+|-activate|p2a: Tinkaton|move: Skill Swap|Pickpocket|Hydration|[of] p1a: Lapras
+|move|p1a: Lapras|Avalanche|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|83/374
+|
+|upkeep
+|turn|13
+|
+|t:|1786077373
+|move|p2a: Tinkaton|Heavy Slam|p1a: Lapras
+|debug|BP: 40
+|-damage|p1a: Lapras|183/401
+|move|p1a: Lapras|Sparkling Aria|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Tinkaton
+|debug|AfterMoveSecondary handler suppressed by Gastro Acid or Neutralizing Gas
+|
+|upkeep
+|
+|t:|1786077373
+|switch|p2a: Marshadow|Marshadow|321/321
+|turn|14
+|
+|t:|1786077373
+|move|p2a: Marshadow|Brick Break|p1a: Lapras
+|debug|Base Power: 75
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|upkeep
+|
+|t:|1786077373
+|switch|p1a: Primarina|Primarina, M|302/302
+|turn|15
+|
+|t:|1786077373
+|move|p2a: Marshadow|Shadow Ball|p1a: Primarina
+|debug|Base Power: 80
+|-damage|p1a: Primarina|248/302
+|-unboost|p1a: Primarina|spd|1
+|move|p1a: Primarina|Acrobatics|p2a: Marshadow
+|debug|BP doubled for no item
+|-supereffective|p2a: Marshadow
+|-damage|p2a: Marshadow|145/321
+|
+|upkeep
+|turn|16
+|
+|t:|1786077373
+|move|p2a: Marshadow|Poison Jab|p1a: Primarina
+|debug|Base Power: 80
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|54/302
+|move|p1a: Primarina|Sleep Talk||[still]
+|-fail|p1a: Primarina
+|
+|upkeep
+|turn|17
+|
+|t:|1786077373
+|move|p2a: Marshadow|Brick Break|p1a: Primarina
+|debug|Base Power: 75
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1786077373
+|switch|p1a: Coalossal|Coalossal, M|361/361
+|turn|18
+|
+|t:|1786077373
+|move|p2a: Marshadow|Blaze Kick|p1a: Coalossal
+|debug|Base Power: 85
+|-resisted|p1a: Coalossal
+|-damage|p1a: Coalossal|347/361
+|debug|natural status immunity
+|debug|immune to status
+|debug|move failed because it did nothing
+|-ability|p1a: Coalossal|Steam Engine|boost
+|-boost|p1a: Coalossal|spe|6
+|move|p1a: Coalossal|Heat Crash|p2a: Marshadow
+|debug|BP: 120
+|-damage|p2a: Marshadow|0 fnt
+|faint|p2a: Marshadow
+|
+|upkeep
+|
+|t:|1786077373
+|switch|p2a: Hydrapple|Hydrapple, M|416/416
+|-ability|p2a: Hydrapple|Supersweet Syrup
+|-unboost|p1a: Coalossal|evasion|1
+|turn|19
+|
+|t:|1786077373
+|move|p1a: Coalossal|Heat Crash|p2a: Hydrapple
+|debug|BP: 80
+|-damage|p2a: Hydrapple|355/416
+|move|p2a: Hydrapple|Outrage|p1a: Coalossal
+|-crit|p1a: Coalossal
+|-damage|p1a: Coalossal|223/361
+|
+|upkeep
+|turn|20
+|
+|t:|1786077373
+|move|p1a: Coalossal|Body Press|p2a: Hydrapple
+|-damage|p2a: Hydrapple|298/416
+|move|p2a: Hydrapple|Outrage|p1a: Coalossal|[from] lockedmove
+|-damage|p1a: Coalossal|145/361
+|-start|p2a: Hydrapple|confusion|[fatigue]
+|
+|upkeep
+|turn|21
+|
+|t:|1786077373
+|move|p1a: Coalossal|Body Press|p2a: Hydrapple
+|-damage|p2a: Hydrapple|235/416
+|-activate|p2a: Hydrapple|confusion
+|-damage|p2a: Hydrapple|217/416|[from] confusion
+|
+|upkeep
+|turn|22
+|
+|t:|1786077373
+|move|p1a: Coalossal|Body Press|p2a: Hydrapple
+|-damage|p2a: Hydrapple|159/416
+|-activate|p2a: Hydrapple|confusion
+|-damage|p2a: Hydrapple|140/416|[from] confusion
+|
+|upkeep
+|turn|23
+|
+|t:|1786077373
+|move|p1a: Coalossal|Substitute|p1a: Coalossal
+|-start|p1a: Coalossal|Substitute
+|-damage|p1a: Coalossal|55/361
+|-activate|p2a: Hydrapple|confusion
+|-damage|p2a: Hydrapple|122/416|[from] confusion
+|
+|upkeep
+|turn|24
+|
+|t:|1786077373
+|move|p1a: Coalossal|Substitute|p1a: Coalossal
+|-fail|p1a: Coalossal|move: Substitute
+|-end|p2a: Hydrapple|confusion
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|25
+|
+|t:|1786077373
+|move|p1a: Coalossal|Smokescreen|p2a: Hydrapple
+|-unboost|p2a: Hydrapple|accuracy|1
+|move|p2a: Hydrapple|Outrage|p1a: Coalossal
+|-activate|p1a: Coalossal|move: Substitute|[damage]
+|
+|upkeep
+|turn|26
+|
+|t:|1786077373
+|move|p1a: Coalossal|Heat Crash|p2a: Hydrapple
+|debug|BP: 80
+|-damage|p2a: Hydrapple|62/416
+|-enditem|p2a: Hydrapple|Ganlon Berry|[eat]
+|-boost|p2a: Hydrapple|def|1|[from] item: Ganlon Berry
+|move|p2a: Hydrapple|Outrage|p1a: Coalossal|[from] lockedmove
+|-crit|p1a: Coalossal
+|-end|p1a: Coalossal|Substitute
+|
+|upkeep
+|turn|27
+|
+|t:|1786077373
+|move|p1a: Coalossal|Substitute|p1a: Coalossal
+|-fail|p1a: Coalossal|move: Substitute|[weak]
+|move|p2a: Hydrapple|Outrage|p1a: Coalossal|[from] lockedmove
+|-damage|p1a: Coalossal|0 fnt
+|faint|p1a: Coalossal
+|-start|p2a: Hydrapple|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1786077373
+|switch|p1a: Volcarona|Volcarona, F|311/311
+|turn|28
+|
+|t:|1786077373
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|-activate|p2a: Hydrapple|confusion
+|-damage|p2a: Hydrapple|50/416|[from] confusion
+|
+|upkeep
+|turn|29
+|
+|t:|1786077373
+|move|p1a: Volcarona|Air Cutter|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1786077373
+|switch|p2a: Tapu Koko|Tapu Koko|281/281
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|30
+|
+|t:|1786077373
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tapu Koko|Rest|p2a: Tapu Koko
+|-fail|p2a: Tapu Koko|heal
+|
+|upkeep
+|turn|31
+|
+|t:|1786077373
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tapu Koko|Rest|p2a: Tapu Koko
+|-fail|p2a: Tapu Koko|heal
+|
+|upkeep
+|turn|32
+|
+|t:|1786077373
+|move|p1a: Volcarona|Air Cutter|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|184/281
+|move|p2a: Tapu Koko|Rest||[still]
+|-activate|p2a: Tapu Koko|move: Electric Terrain
+|debug|set status [slp] interrupted
+|-fail|p2a: Tapu Koko
+|debug|move failed because it did nothing
+|
+|upkeep
+|turn|33
+|
+|t:|1786077373
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|296/311
+|
+|upkeep
+|turn|34
+|
+|t:|1786077373
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Tapu Koko
+|-status|p2a: Tapu Koko|brn
+|move|p2a: Tapu Koko|Rest||[still]
+|-activate|p2a: Tapu Koko|move: Electric Terrain
+|debug|set status [slp] interrupted
+|-fail|p2a: Tapu Koko
+|debug|move failed because it did nothing
+|
+|-damage|p2a: Tapu Koko|167/281 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|35
+|
+|t:|1786077373
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Tapu Koko
+|-fail|p2a: Tapu Koko|brn
+|debug|move failed because it did nothing
+|move|p2a: Tapu Koko|Volt Switch|p1a: Volcarona
+|-damage|p1a: Volcarona|269/311
+|
+|t:|1786077373
+|switch|p2a: Noivern|Noivern, F|374/374|[from] Volt Switch
+|
+|upkeep
+|turn|36
+|
+|t:|1786077373
+|move|p1a: Volcarona|Skitter Smack|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|350/374
+|-unboost|p2a: Noivern|spa|1
+|move|p2a: Noivern|Solar Beam||[still]
+|-prepare|p2a: Noivern|Solar Beam
+|
+|upkeep
+|turn|37
+|
+|t:|1786077373
+|move|p1a: Volcarona|Air Cutter|p2a: Noivern
+|-damage|p2a: Noivern|121/374
+|move|p2a: Noivern|Solar Beam|p1a: Volcarona|[from] lockedmove
+|debug|Negating (sp)atk boost/penalty.
+|debug|Negating (sp)def boost/penalty.
+|-resisted|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|245/311
+|
+|upkeep
+|turn|38
+|
+|t:|1786077373
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Noivern|Air Slash|p1a: Volcarona|[miss]
+|-miss|p2a: Noivern|p1a: Volcarona
+|
+|upkeep
+|turn|39
+|
+|t:|1786077373
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Noivern|Leech Life|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|220/311
+|-heal|p2a: Noivern|134/374|[from] drain|[of] p1a: Volcarona
+|
+|upkeep
+|turn|40
+|
+|t:|1786077373
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Noivern
+|-status|p2a: Noivern|brn
+|move|p2a: Noivern|Leech Life|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|207/311
+|-heal|p2a: Noivern|141/374 brn|[from] drain|[of] p1a: Volcarona
+|
+|-damage|p2a: Noivern|118/374 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1786077373
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Noivern
+|-fail|p2a: Noivern|brn
+|debug|move failed because it did nothing
+|move|p2a: Noivern|Super Fang|p1a: Volcarona
+|-damage|p1a: Volcarona|104/311
+|
+|-damage|p2a: Noivern|95/374 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1786077373
+|move|p1a: Volcarona|Skitter Smack|p2a: Noivern
+|-resisted|p2a: Noivern
+|-damage|p2a: Noivern|71/374 brn
+|-unboost|p2a: Noivern|spa|1
+|move|p2a: Noivern|Solar Beam||[still]
+|-prepare|p2a: Noivern|Solar Beam
+|
+|-damage|p2a: Noivern|48/374 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1786077373
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Noivern
+|-fail|p2a: Noivern|brn
+|debug|move failed because it did nothing
+|move|p2a: Noivern|Solar Beam|p1a: Volcarona|[from] lockedmove
+|debug|Negating (sp)atk boost/penalty.
+|debug|Negating (sp)def boost/penalty.
+|-resisted|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|78/311
+|
+|-damage|p2a: Noivern|25/374 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1786077373
+|move|p1a: Volcarona|Skitter Smack|p2a: Noivern|[miss]
+|-miss|p1a: Volcarona|p2a: Noivern
+|move|p2a: Noivern|Solar Beam||[still]
+|-prepare|p2a: Noivern|Solar Beam
+|
+|-damage|p2a: Noivern|2/374 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1786077373
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|0
+|-boost|p1a: Volcarona|spd|0
+|-boost|p1a: Volcarona|spe|0
+|debug|move failed because it did nothing
+|move|p2a: Noivern|Solar Beam|p1a: Volcarona|[from] lockedmove
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|76/311
+|
+|-damage|p2a: Noivern|0 fnt|[from] brn
+|faint|p2a: Noivern
+|upkeep
+|
+|t:|1786077373
+|switch|p2a: Tapu Koko|Tapu Koko|167/281 brn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Tapu Koko
+|turn|46
+|
+|t:|1786077373
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Tapu Koko
+|-fail|p2a: Tapu Koko|brn
+|debug|move failed because it did nothing
+|move|p2a: Tapu Koko|Volt Switch|p1a: Volcarona
+|debug|electric terrain boost
+|-damage|p1a: Volcarona|51/311
+|
+|-damage|p2a: Tapu Koko|150/281 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1786077373
+|move|p1a: Volcarona|Will-O-Wisp|p2a: Tapu Koko
+|-fail|p2a: Tapu Koko|brn
+|debug|move failed because it did nothing
+|move|p2a: Tapu Koko|Dazzling Gleam|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|39/311
+|
+|-damage|p2a: Tapu Koko|133/281 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1786077373
+|move|p1a: Volcarona|Air Cutter|p2a: Tapu Koko
+|-resisted|p2a: Tapu Koko
+|-crit|p2a: Tapu Koko
+|-damage|p2a: Tapu Koko|0 fnt
+|faint|p2a: Tapu Koko
+|
+|win|Collin</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Daniel vs Rey - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="cursim-Daniel-vs-Rey-20260806-233615" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786077375
+|gametype|singles
+|player|p1|Daniel|unknown|
+|player|p2|Rey|swimmerf|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Custom Game
+|clearpoke
+|poke|p1|Metang|
+|poke|p1|Sneasel, F|
+|poke|p1|Infernape, F|
+|poke|p1|Centiskorch, M|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Zygarde|
+|poke|p2|Tapu Fini|
+|poke|p2|Chi-Yu|
+|poke|p2|Iron Moth|
+|poke|p2|Empoleon, F|
+|poke|p2|Tapu Bulu|
+|poke|p2|Corviknight, M|
+|teampreview
+|
+|t:|1786077375
+|start
+|switch|p1a: Metang|Metang|262/262
+|switch|p2a: Tapu Fini|Tapu Fini|344/344
+|turn|1
+|
+|t:|1786077375
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-fail|p2a: Tapu Fini|heal
+|move|p1a: Metang|Trailblaze|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|302/344
+|-boost|p1a: Metang|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1786077375
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-enditem|p2a: Tapu Fini|Lum Berry|[eat]
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|-heal|p2a: Tapu Fini|344/344|[silent]
+|move|p1a: Metang|Trailblaze|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|302/344
+|-boost|p1a: Metang|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1786077375
+|move|p1a: Metang|Trailblaze|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|262/344
+|-boost|p1a: Metang|spe|1
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-heal|p2a: Tapu Fini|344/344 slp|[silent]
+|
+|upkeep
+|turn|4
+|
+|t:|1786077375
+|move|p1a: Metang|Trailblaze|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|306/344 slp
+|-boost|p1a: Metang|spe|1
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1786077375
+|move|p1a: Metang|Bulldoze|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|282/344 slp
+|-unboost|p2a: Tapu Fini|spe|1
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|6
+|
+|t:|1786077375
+|move|p1a: Metang|Bulldoze|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|258/344 slp
+|-unboost|p2a: Tapu Fini|spe|1
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-heal|p2a: Tapu Fini|344/344 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1786077375
+|move|p1a: Metang|Confusion|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|305/344 slp
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1786077375
+|move|p1a: Metang|Bulldoze|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|282/344 slp
+|-unboost|p2a: Tapu Fini|spe|1
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1786077375
+|move|p1a: Metang|Bulldoze|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|255/344 slp
+|-unboost|p2a: Tapu Fini|spe|1
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1786077375
+|move|p1a: Metang|Giga Impact|p2a: Tapu Fini|[miss]
+|-miss|p1a: Metang|p2a: Tapu Fini
+|move|p2a: Tapu Fini|Scald|p1a: Metang
+|-damage|p1a: Metang|118/262
+|
+|upkeep
+|turn|11
+|
+|t:|1786077375
+|move|p1a: Metang|Confusion|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|227/344
+|-start|p2a: Tapu Fini|confusion
+|-activate|p2a: Tapu Fini|confusion
+|move|p2a: Tapu Fini|Scald|p1a: Metang
+|-damage|p1a: Metang|0 fnt
+|debug|move failed because it did nothing
+|faint|p1a: Metang
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p1a: Muk|Muk-Alola, M|351/351
+|turn|12
+|
+|t:|1786077375
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|-activate|p2a: Tapu Fini|confusion
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-heal|p2a: Tapu Fini|344/344 slp|[silent]
+|
+|upkeep
+|turn|13
+|
+|t:|1786077375
+|move|p1a: Muk|Protect|p1a: Muk
+|debug|Success chance: 33%
+|-singleturn|p1a: Muk|Protect
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|14
+|
+|t:|1786077375
+|move|p1a: Muk|Protect||[still]
+|debug|Success chance: 11%
+|-fail|p1a: Muk
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|15
+|
+|t:|1786077375
+|move|p1a: Muk|Drain Punch|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|322/344 slp
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|-activate|p2a: Tapu Fini|confusion
+|-damage|p2a: Tapu Fini|303/344|[from] confusion
+|
+|upkeep
+|turn|16
+|
+|t:|1786077375
+|move|p1a: Muk|Giga Drain|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|255/344
+|-activate|p2a: Tapu Fini|confusion
+|-damage|p2a: Tapu Fini|235/344|[from] confusion
+|
+|upkeep
+|turn|17
+|
+|t:|1786077375
+|move|p1a: Muk|Sludge Wave|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|133/344
+|-end|p2a: Tapu Fini|confusion
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-heal|p2a: Tapu Fini|344/344 slp|[silent]
+|
+|upkeep
+|turn|18
+|
+|t:|1786077375
+|move|p1a: Muk|Sludge Wave|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|242/344 slp
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|19
+|
+|t:|1786077375
+|move|p1a: Muk|Drain Punch|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|218/344 slp
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|20
+|
+|t:|1786077375
+|move|p1a: Muk|Sludge Wave|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|116/344 slp
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-heal|p2a: Tapu Fini|344/344 slp|[silent]
+|
+|upkeep
+|turn|21
+|
+|t:|1786077375
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|22
+|
+|t:|1786077375
+|move|p1a: Muk|Drain Punch|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|321/344 slp
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|23
+|
+|t:|1786077375
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|move|p2a: Tapu Fini|Rest|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|slp|[from] move: Rest
+|-heal|p2a: Tapu Fini|344/344 slp|[silent]
+|
+|upkeep
+|turn|24
+|
+|t:|1786077375
+|move|p1a: Muk|Sludge Wave|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|254/344 slp
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|25
+|
+|t:|1786077375
+|move|p1a: Muk|Sludge Wave|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|170/344 slp
+|cant|p2a: Tapu Fini|slp
+|
+|upkeep
+|turn|26
+|
+|t:|1786077375
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|-curestatus|p2a: Tapu Fini|slp|[msg]
+|move|p2a: Tapu Fini|Draining Kiss|p1a: Muk
+|-activate|p1a: Muk|move: Protect
+|
+|upkeep
+|turn|27
+|
+|t:|1786077375
+|move|p1a: Muk|Sludge Wave|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|68/344
+|move|p2a: Tapu Fini|Scald|p1a: Muk
+|-damage|p1a: Muk|222/351
+|-status|p1a: Muk|brn
+|
+|-damage|p1a: Muk|201/351 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1786077375
+|move|p1a: Muk|Protect|p1a: Muk
+|-singleturn|p1a: Muk|Protect
+|move|p2a: Tapu Fini|Scald|p1a: Muk
+|-activate|p1a: Muk|move: Protect
+|
+|-damage|p1a: Muk|180/351 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1786077375
+|move|p1a: Muk|Protect||[still]
+|debug|Success chance: 33%
+|-fail|p1a: Muk
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|-damage|p1a: Muk|159/351 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1786077375
+|move|p1a: Muk|Drain Punch|p2a: Tapu Fini
+|-resisted|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|57/344
+|-heal|p1a: Muk|165/351 brn|[from] drain|[of] p2a: Tapu Fini
+|move|p2a: Tapu Fini|Draining Kiss|p1a: Muk
+|-damage|p1a: Muk|45/351 brn
+|-heal|p2a: Tapu Fini|147/344|[from] drain|[of] p1a: Muk
+|
+|-damage|p1a: Muk|24/351 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1786077375
+|move|p1a: Muk|Giga Drain|p2a: Tapu Fini
+|-supereffective|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|109/344
+|-heal|p1a: Muk|43/351 brn|[from] drain|[of] p2a: Tapu Fini
+|move|p2a: Tapu Fini|Scald|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p1a: Zygarde|Zygarde|420/420
+|turn|32
+|
+|t:|1786077375
+|move|p1a: Zygarde|Land's Wrath|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|7/344
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|upkeep
+|turn|33
+|
+|t:|1786077375
+|move|p1a: Zygarde|Glare|p2a: Tapu Fini
+|-status|p2a: Tapu Fini|par
+|move|p2a: Tapu Fini|Calm Mind|p2a: Tapu Fini
+|-boost|p2a: Tapu Fini|spa|1
+|-boost|p2a: Tapu Fini|spd|1
+|
+|upkeep
+|turn|34
+|
+|t:|1786077375
+|move|p1a: Zygarde|Sludge Wave|p2a: Tapu Fini
+|debug|Negating (sp)def boost/penalty.
+|-supereffective|p2a: Tapu Fini
+|-crit|p2a: Tapu Fini
+|-damage|p2a: Tapu Fini|0 fnt
+|faint|p2a: Tapu Fini
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p2a: Iron Moth|Iron Moth|364/364
+|turn|35
+|
+|t:|1786077375
+|move|p2a: Iron Moth|Sludge Wave|p1a: Zygarde
+|-resisted|p1a: Zygarde
+|-damage|p1a: Zygarde|335/420
+|move|p1a: Zygarde|Land's Wrath|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p2a: Chi-Yu|Chi-Yu|251/251
+|-ability|p2a: Chi-Yu|Beads of Ruin
+|turn|36
+|
+|t:|1786077375
+|move|p2a: Chi-Yu|Crunch|p1a: Zygarde
+|-damage|p1a: Zygarde|269/420
+|-unboost|p1a: Zygarde|def|1
+|move|p1a: Zygarde|Glare|p2a: Chi-Yu
+|-status|p2a: Chi-Yu|par
+|
+|upkeep
+|turn|37
+|
+|t:|1786077375
+|move|p1a: Zygarde|Core Enforcer|p2a: Chi-Yu
+|-crit|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|127/251 par
+|move|p2a: Chi-Yu|Confuse Ray|p1a: Zygarde
+|-start|p1a: Zygarde|confusion
+|
+|upkeep
+|turn|38
+|
+|t:|1786077375
+|-activate|p1a: Zygarde|confusion
+|move|p1a: Zygarde|Core Enforcer|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|37/251 par
+|-enditem|p2a: Chi-Yu|Figy Berry|[eat]
+|-heal|p2a: Chi-Yu|120/251 par|[from] item: Figy Berry
+|move|p2a: Chi-Yu|Fire Spin|p1a: Zygarde
+|debug|Beads of Ruin SpD drop
+|-resisted|p1a: Zygarde
+|-damage|p1a: Zygarde|226/420
+|-activate|p1a: Zygarde|move: Fire Spin|[of] p2a: Chi-Yu
+|
+|-damage|p1a: Zygarde|174/420|[from] move: Fire Spin|[partiallytrapped]
+|-activate|p1a: Zygarde|ability: Power Construct
+|detailschange|p1a: Zygarde|Zygarde-Complete
+|-heal|p1a: Zygarde|390/636|[silent]
+|upkeep
+|turn|39
+|
+|t:|1786077375
+|-activate|p1a: Zygarde|confusion
+|move|p1a: Zygarde|Land's Wrath|p2a: Chi-Yu
+|-supereffective|p2a: Chi-Yu
+|-damage|p2a: Chi-Yu|0 fnt
+|faint|p2a: Chi-Yu
+|
+|-end|p1a: Zygarde|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1786077375
+|switch|p2a: Tapu Bulu|Tapu Bulu|344/344
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Tapu Bulu
+|turn|40
+|
+|t:|1786077375
+|-end|p1a: Zygarde|confusion
+|move|p1a: Zygarde|Land's Wrath|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|294/344
+|move|p2a: Tapu Bulu|Superpower|p1a: Zygarde
+|-damage|p1a: Zygarde|250/636
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|
+|-heal|p1a: Zygarde|289/636|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|315/344|[from] Grassy Terrain
+|upkeep
+|turn|41
+|
+|t:|1786077375
+|move|p1a: Zygarde|Core Enforcer|p2a: Tapu Bulu
+|-immune|p2a: Tapu Bulu
+|move|p2a: Tapu Bulu|Nature Power|p1a: Zygarde
+|move|p2a: Tapu Bulu|Energy Ball|p1a: Zygarde|[from] move: Nature Power
+|debug|grassy terrain boost
+|-damage|p1a: Zygarde|145/636
+|
+|-heal|p1a: Zygarde|184/636|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|336/344|[from] Grassy Terrain
+|upkeep
+|turn|42
+|
+|t:|1786077375
+|move|p1a: Zygarde|Land's Wrath|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|264/344
+|move|p2a: Tapu Bulu|Synthesis|p2a: Tapu Bulu
+|-heal|p2a: Tapu Bulu|344/344
+|
+|-heal|p1a: Zygarde|223/636|[from] Grassy Terrain
+|upkeep
+|turn|43
+|
+|t:|1786077375
+|move|p1a: Zygarde|Land's Wrath|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-crit|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|234/344
+|move|p2a: Tapu Bulu|Superpower|p1a: Zygarde
+|-damage|p1a: Zygarde|134/636
+|-unboost|p2a: Tapu Bulu|atk|1
+|-unboost|p2a: Tapu Bulu|def|1
+|
+|-heal|p1a: Zygarde|173/636|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|255/344|[from] Grassy Terrain
+|upkeep
+|turn|44
+|
+|t:|1786077375
+|move|p1a: Zygarde|Land's Wrath|p2a: Tapu Bulu
+|-resisted|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|156/344
+|move|p2a: Tapu Bulu|Bullet Seed|p1a: Zygarde
+|debug|grassy terrain boost
+|-damage|p1a: Zygarde|146/636
+|debug|grassy terrain boost
+|-damage|p1a: Zygarde|118/636
+|debug|grassy terrain boost
+|-damage|p1a: Zygarde|93/636
+|debug|grassy terrain boost
+|-damage|p1a: Zygarde|65/636
+|-hitcount|p1a: Zygarde|4
+|
+|-heal|p1a: Zygarde|104/636|[from] Grassy Terrain
+|-heal|p2a: Tapu Bulu|177/344|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|45
+|
+|t:|1786077375
+|move|p1a: Zygarde|Sludge Wave|p2a: Tapu Bulu
+|-supereffective|p2a: Tapu Bulu
+|-damage|p2a: Tapu Bulu|0 fnt
+|faint|p2a: Tapu Bulu
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p2a: Corviknight|Corviknight, M|337/337
+|-ability|p2a: Corviknight|Pressure
+|turn|46
+|
+|t:|1786077375
+|move|p1a: Zygarde|Sludge Wave|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Drill Peck|p1a: Zygarde
+|-damage|p1a: Zygarde|0 fnt
+|faint|p1a: Zygarde
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p1a: Centiskorch|Centiskorch, M|341/341
+|turn|47
+|
+|t:|1786077375
+|move|p2a: Corviknight|Pluck|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|105/341
+|move|p1a: Centiskorch|Heat Crash|p2a: Corviknight
+|debug|BP: 40
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|197/337
+|
+|upkeep
+|turn|48
+|
+|t:|1786077375
+|move|p2a: Corviknight|Pluck|p1a: Centiskorch
+|-supereffective|p1a: Centiskorch
+|-damage|p1a: Centiskorch|0 fnt
+|faint|p1a: Centiskorch
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p1a: Infernape|Infernape, F|294/294
+|turn|49
+|
+|t:|1786077375
+|move|p1a: Infernape|Aerial Ace|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|163/337
+|move|p2a: Corviknight|Pluck|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|72/294
+|
+|upkeep
+|turn|50
+|
+|t:|1786077375
+|move|p1a: Infernape|Aerial Ace|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|130/337
+|move|p2a: Corviknight|Pluck|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|t:|1786077375
+|switch|p1a: Sneasel|Sneasel, F|252/252
+|turn|51
+|
+|t:|1786077375
+|move|p1a: Sneasel|Snarl|p2a: Corviknight
+|-damage|p2a: Corviknight|85/337
+|-unboost|p2a: Corviknight|spa|1
+|move|p2a: Corviknight|Pluck|p1a: Sneasel
+|-damage|p1a: Sneasel|158/252
+|
+|upkeep
+|turn|52
+|
+|t:|1786077375
+|move|p1a: Sneasel|Snarl|p2a: Corviknight
+|-damage|p2a: Corviknight|31/337
+|-unboost|p2a: Corviknight|spa|1
+|move|p2a: Corviknight|Dual Wingbeat|p1a: Sneasel
+|-damage|p1a: Sneasel|98/252
+|-damage|p1a: Sneasel|40/252
+|-hitcount|p1a: Sneasel|2
+|
+|upkeep
+|turn|53
+|
+|t:|1786077375
+|move|p1a: Sneasel|X-Scissor|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|9/337
+|move|p2a: Corviknight|Dual Wingbeat|p1a: Sneasel
+|-damage|p1a: Sneasel|0 fnt
+|faint|p1a: Sneasel
+|-hitcount|p1: Sneasel|1
+|
+|win|Rey</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
