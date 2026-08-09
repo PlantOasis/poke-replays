@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>Rey vs Cum Goblins - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="tournament-Rey-vs-Cum-Goblins-20260808-200002" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786237202
+|gametype|doubles
+|player|p1|Rey|swimmerf|
+|player|p2|Cum Goblins|hiker|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Tapu Fini|
+|poke|p1|Chi-Yu|
+|poke|p1|Iron Moth|
+|poke|p1|Reshiram|
+|poke|p1|Tapu Bulu|
+|poke|p1|Corviknight, M|
+|poke|p2|Zacian-*|
+|poke|p2|Cofagrigus, F|
+|poke|p2|Palkia|
+|poke|p2|Dondozo, F|
+|poke|p2|Zapdos|
+|poke|p2|Brute Bonnet|
+|teampreview
+|
+|t:|1786237202
+|start
+|debug|Start handler suppressed by Gastro Acid or Neutralizing Gas
+|switch|p1a: Tapu Fini|Tapu Fini|344/344
+|switch|p1b: Chi-Yu|Chi-Yu|251/251
+|switch|p2a: Zacian|Zacian-Crowned|388/388
+|switch|p2b: Cofagrigus|Cofagrigus, F|257/257
+|-ability|p2a: Zacian|Intrepid Sword|boost
+|-boost|p2a: Zacian|atk|1
+|-ability|p1b: Chi-Yu|Beads of Ruin
+|turn|1
+|
+|t:|1786237202
+|move|p2a: Zacian|Body Slam|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|95/251
+|move|p1b: Chi-Yu|Crunch|p2b: Cofagrigus
+|-supereffective|p2b: Cofagrigus
+|-damage|p2b: Cofagrigus|147/257
+|-activate|p2b: Cofagrigus|ability: Mummy|Beads of Ruin|[of] p1b: Chi-Yu
+|move|p1a: Tapu Fini|Draining Kiss|p2b: Cofagrigus
+|-damage|p2b: Cofagrigus|104/257
+|-activate|p2b: Cofagrigus|ability: Mummy|Telepathy|[of] p1a: Tapu Fini
+|move|p2b: Cofagrigus|Infestation|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|82/251
+|-activate|p1b: Chi-Yu|move: Infestation|[of] p2b: Cofagrigus
+|
+|-damage|p1b: Chi-Yu|51/251|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1786237202
+|move|p2a: Zacian|Reversal|p1b: Chi-Yu
+|debug|BP: 20
+|-supereffective|p1b: Chi-Yu
+|-damage|p1b: Chi-Yu|0 fnt
+|-activate|p1b: Chi-Yu|ability: Mummy|Intrepid Sword|[of] p2a: Zacian
+|faint|p1b: Chi-Yu
+|move|p1a: Tapu Fini|Draining Kiss|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|364/388
+|move|p2b: Cofagrigus|Infestation|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|336/344
+|-activate|p1a: Tapu Fini|move: Infestation|[of] p2b: Cofagrigus
+|
+|-damage|p1a: Tapu Fini|293/344|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1786237202
+|switch|p1b: Corviknight|Corviknight, M|337/337
+|-ability|p1b: Corviknight|Pressure
+|turn|3
+|
+|t:|1786237202
+|move|p2a: Zacian|Crunch|p1b: Corviknight
+|-damage|p1b: Corviknight|196/337
+|move|p1a: Tapu Fini|Rest|p1a: Tapu Fini
+|-status|p1a: Tapu Fini|slp|[from] move: Rest
+|-enditem|p1a: Tapu Fini|Lum Berry|[eat]
+|-curestatus|p1a: Tapu Fini|slp|[msg]
+|-heal|p1a: Tapu Fini|344/344|[silent]
+|move|p1b: Corviknight|Drill Peck|p2a: Zacian
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|317/388
+|-activate|p2a: Zacian|ability: Mummy|Pressure|[of] p1b: Corviknight
+|move|p2b: Cofagrigus|Infestation|p1b: Corviknight
+|-resisted|p1b: Corviknight
+|-damage|p1b: Corviknight|191/337
+|-activate|p1b: Corviknight|move: Infestation|[of] p2b: Cofagrigus
+|
+|-damage|p1a: Tapu Fini|301/344|[from] move: Infestation|[partiallytrapped]
+|-damage|p1b: Corviknight|149/337|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1786237202
+|move|p2a: Zacian|Body Slam|p1b: Corviknight
+|-resisted|p1b: Corviknight
+|-damage|p1b: Corviknight|73/337
+|move|p1a: Tapu Fini|Rest|p1a: Tapu Fini
+|-status|p1a: Tapu Fini|slp|[from] move: Rest
+|-heal|p1a: Tapu Fini|344/344 slp|[silent]
+|move|p1b: Corviknight|Iron Defense|p1b: Corviknight
+|-boost|p1b: Corviknight|def|2
+|move|p2b: Cofagrigus|Substitute|p2b: Cofagrigus
+|-start|p2b: Cofagrigus|Substitute
+|-damage|p2b: Cofagrigus|40/257
+|
+|-damage|p1a: Tapu Fini|301/344 slp|[from] move: Infestation|[partiallytrapped]
+|-damage|p1b: Corviknight|31/337|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1786237202
+|move|p2a: Zacian|Body Slam|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|203/344 slp
+|cant|p1a: Tapu Fini|slp
+|move|p1b: Corviknight|Iron Defense|p1b: Corviknight
+|-boost|p1b: Corviknight|def|2
+|move|p2b: Cofagrigus|Infestation|p1b: Corviknight
+|-resisted|p1b: Corviknight
+|-damage|p1b: Corviknight|26/337
+|
+|-damage|p1a: Tapu Fini|160/344 slp|[from] move: Infestation|[partiallytrapped]
+|-damage|p1b: Corviknight|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1b: Corviknight
+|upkeep
+|
+|t:|1786237202
+|switch|p1b: Tapu Bulu|Tapu Bulu|344/344
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Tapu Bulu
+|turn|6
+|
+|t:|1786237202
+|move|p2a: Zacian|Crunch|p1b: Tapu Bulu
+|-resisted|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|295/344
+|-unboost|p1b: Tapu Bulu|def|1
+|cant|p1a: Tapu Fini|slp
+|move|p1b: Tapu Bulu|Bullet Seed|p2a: Zacian
+|debug|grassy terrain boost
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|297/388
+|debug|grassy terrain boost
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|278/388
+|debug|grassy terrain boost
+|-resisted|p2a: Zacian
+|-damage|p2a: Zacian|257/388
+|-hitcount|p2a: Zacian|3
+|move|p2b: Cofagrigus|Shadow Ball|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|178/344
+|
+|-heal|p2a: Zacian|281/388|[from] Grassy Terrain
+|-heal|p1a: Tapu Fini|181/344 slp|[from] Grassy Terrain
+|-heal|p1b: Tapu Bulu|199/344|[from] Grassy Terrain
+|-heal|p2b: Cofagrigus|56/257|[from] Grassy Terrain
+|-damage|p1a: Tapu Fini|138/344 slp|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1786237202
+|move|p2a: Zacian|Solar Blade||[still]
+|-prepare|p2a: Zacian|Solar Blade
+|-curestatus|p1a: Tapu Fini|slp|[msg]
+|move|p1a: Tapu Fini|Rest|p1a: Tapu Fini
+|-status|p1a: Tapu Fini|slp|[from] move: Rest
+|-heal|p1a: Tapu Fini|344/344 slp|[silent]
+|move|p1b: Tapu Bulu|Bullet Seed|p2b: Cofagrigus
+|debug|grassy terrain boost
+|-activate|p2b: Cofagrigus|move: Substitute|[damage]
+|debug|grassy terrain boost
+|-end|p2b: Cofagrigus|Substitute
+|debug|grassy terrain boost
+|-crit|p2b: Cofagrigus
+|-damage|p2b: Cofagrigus|11/257
+|-hitcount|p2b: Cofagrigus|3
+|move|p2b: Cofagrigus|Infestation|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|180/344
+|-activate|p1b: Tapu Bulu|move: Infestation|[of] p2b: Cofagrigus
+|
+|-heal|p2a: Zacian|305/388|[from] Grassy Terrain
+|-heal|p1b: Tapu Bulu|201/344|[from] Grassy Terrain
+|-heal|p2b: Cofagrigus|27/257|[from] Grassy Terrain
+|-end|p1a: Tapu Fini|Infestation|[partiallytrapped]
+|-damage|p1b: Tapu Bulu|158/344|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1786237202
+|move|p2a: Zacian|Solar Blade|p1b: Tapu Bulu|[from] lockedmove
+|debug|grassy terrain boost
+|-resisted|p1b: Tapu Bulu
+|-damage|p1b: Tapu Bulu|19/344
+|cant|p1a: Tapu Fini|slp
+|move|p1b: Tapu Bulu|Superpower|p2a: Zacian
+|-damage|p2a: Zacian|218/388
+|-unboost|p1b: Tapu Bulu|atk|1
+|-unboost|p1b: Tapu Bulu|def|1
+|-activate|p2a: Zacian|ability: Mummy
+|-activate|p1b: Tapu Bulu|item: Protective Pads
+|move|p2b: Cofagrigus|Shadow Ball|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|254/344 slp
+|
+|-heal|p2a: Zacian|242/388|[from] Grassy Terrain
+|-heal|p1a: Tapu Fini|275/344 slp|[from] Grassy Terrain
+|-heal|p1b: Tapu Bulu|40/344|[from] Grassy Terrain
+|-heal|p2b: Cofagrigus|43/257|[from] Grassy Terrain
+|-damage|p1b: Tapu Bulu|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1b: Tapu Bulu
+|upkeep
+|
+|t:|1786237202
+|switch|p1b: Iron Moth|Iron Moth|364/364
+|turn|9
+|
+|t:|1786237202
+|move|p2a: Zacian|Crunch|p1b: Iron Moth
+|-damage|p1b: Iron Moth|172/364
+|move|p1b: Iron Moth|Rest|p1b: Iron Moth
+|-status|p1b: Iron Moth|slp|[from] move: Rest
+|-heal|p1b: Iron Moth|364/364 slp|[silent]
+|cant|p1a: Tapu Fini|slp
+|move|p2b: Cofagrigus|Infestation|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|267/344 slp
+|-activate|p1a: Tapu Fini|move: Infestation|[of] p2b: Cofagrigus
+|
+|-heal|p2a: Zacian|266/388|[from] Grassy Terrain
+|-heal|p1a: Tapu Fini|288/344 slp|[from] Grassy Terrain
+|-heal|p2b: Cofagrigus|59/257|[from] Grassy Terrain
+|-damage|p1a: Tapu Fini|245/344 slp|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1786237202
+|move|p2a: Zacian|Body Slam|p1b: Iron Moth
+|-damage|p1b: Iron Moth|143/364 slp
+|debug|move failed because it did nothing
+|cant|p1b: Iron Moth|slp
+|-curestatus|p1a: Tapu Fini|slp|[msg]
+|move|p1a: Tapu Fini|Scald|p2b: Cofagrigus
+|-damage|p2b: Cofagrigus|0 fnt
+|faint|p2b: Cofagrigus
+|
+|-heal|p2a: Zacian|290/388|[from] Grassy Terrain
+|-heal|p1b: Iron Moth|165/364 slp|[from] Grassy Terrain
+|-heal|p1a: Tapu Fini|266/344|[from] Grassy Terrain
+|-end|p1a: Tapu Fini|Infestation|[partiallytrapped]|[silent]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1786237202
+|switch|p2b: Dondozo|Dondozo, F|442/442
+|turn|11
+|
+|t:|1786237202
+|move|p2a: Zacian|Solar Blade||[still]
+|-prepare|p2a: Zacian|Solar Blade
+|cant|p1b: Iron Moth|slp
+|move|p1a: Tapu Fini|Scald|p2a: Zacian
+|-damage|p2a: Zacian|221/388
+|move|p2b: Dondozo|Waterfall|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|224/344
+|-activate|p1a: Tapu Fini|ability: Mummy|Unaware|[of] p2b: Dondozo
+|
+|upkeep
+|turn|12
+|
+|t:|1786237202
+|move|p2a: Zacian|Solar Blade|p1b: Iron Moth|[from] lockedmove
+|-resisted|p1b: Iron Moth
+|-damage|p1b: Iron Moth|85/364 slp
+|-curestatus|p1b: Iron Moth|slp|[msg]
+|move|p1b: Iron Moth|Meteor Beam||[still]
+|-prepare|p1b: Iron Moth|Meteor Beam
+|-boost|p1b: Iron Moth|spa|1
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|move|p2b: Dondozo|Zen Headbutt|p1b: Iron Moth
+|-supereffective|p1b: Iron Moth
+|-damage|p1b: Iron Moth|0 fnt
+|debug|move failed because it did nothing
+|faint|p1b: Iron Moth
+|-end|p1b: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1786237202
+|switch|p1b: Reshiram|Reshiram|342/342
+|-ability|p1b: Reshiram|Turboblaze
+|turn|13
+|
+|t:|1786237202
+|move|p2a: Zacian|Solar Blade||[still]
+|-prepare|p2a: Zacian|Solar Blade
+|move|p1b: Reshiram|Fire Spin|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|135/388
+|-activate|p2a: Zacian|move: Fire Spin|[of] p1b: Reshiram
+|move|p1a: Tapu Fini|Draining Kiss|p2b: Dondozo
+|-damage|p2b: Dondozo|328/442
+|-heal|p1a: Tapu Fini|310/344|[from] drain|[of] p2b: Dondozo
+|move|p2b: Dondozo|Outrage|p1a: Tapu Fini
+|-immune|p1a: Tapu Fini
+|
+|-damage|p2a: Zacian|87/388|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1786237202
+|move|p1b: Reshiram|Endure|p1b: Reshiram
+|-singleturn|p1b: Reshiram|move: Endure
+|move|p2a: Zacian|Solar Blade|p1a: Tapu Fini|[from] lockedmove
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|24/344
+|move|p1a: Tapu Fini|Rest|p1a: Tapu Fini
+|-status|p1a: Tapu Fini|slp|[from] move: Rest
+|-heal|p1a: Tapu Fini|344/344 slp|[silent]
+|move|p2b: Dondozo|Zen Headbutt|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|283/344 slp
+|
+|-damage|p2a: Zacian|39/388|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1786237202
+|move|p2a: Zacian|Crunch|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|234/344 slp
+|-unboost|p1a: Tapu Fini|def|1
+|move|p1b: Reshiram|Fire Spin|p2a: Zacian
+|-supereffective|p2a: Zacian
+|-damage|p2a: Zacian|0 fnt
+|faint|p2a: Zacian
+|cant|p1a: Tapu Fini|slp
+|move|p2b: Dondozo|Waterfall|p1b: Reshiram
+|-damage|p1b: Reshiram|239/342
+|
+|upkeep
+|
+|t:|1786237202
+|switch|p2a: Zapdos|Zapdos|384/384
+|turn|16
+|
+|t:|1786237202
+|move|p2a: Zapdos|Hyper Beam|p1b: Reshiram
+|-damage|p1b: Reshiram|164/342
+|-mustrecharge|p2a: Zapdos
+|move|p1b: Reshiram|Fire Spin|p2b: Dondozo
+|-resisted|p2b: Dondozo
+|-damage|p2b: Dondozo|288/442
+|-activate|p2b: Dondozo|move: Fire Spin|[of] p1b: Reshiram
+|cant|p1a: Tapu Fini|slp
+|move|p2b: Dondozo|Zen Headbutt|p1b: Reshiram
+|-damage|p1b: Reshiram|98/342
+|
+|-damage|p2b: Dondozo|233/442|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1786237202
+|move|p1b: Reshiram|Endure|p1b: Reshiram
+|-singleturn|p1b: Reshiram|move: Endure
+|cant|p2a: Zapdos|recharge
+|-curestatus|p1a: Tapu Fini|slp|[msg]
+|move|p1a: Tapu Fini|Scald|p2a: Zapdos
+|-damage|p2a: Zapdos|275/384
+|-status|p2a: Zapdos|brn
+|move|p2b: Dondozo|Outrage|p1b: Reshiram
+|-supereffective|p1b: Reshiram
+|-activate|p1b: Reshiram|move: Endure
+|-damage|p1b: Reshiram|1/342
+|
+|-damage|p2a: Zapdos|251/384 brn|[from] brn
+|-damage|p2b: Dondozo|178/442|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|t:|1786237202
+|move|p2a: Zapdos|Hyper Beam|p1b: Reshiram
+|-damage|p1b: Reshiram|0 fnt
+|-mustrecharge|p2a: Zapdos
+|faint|p1b: Reshiram
+|move|p1a: Tapu Fini|Calm Mind|p1a: Tapu Fini
+|-boost|p1a: Tapu Fini|spa|1
+|-boost|p1a: Tapu Fini|spd|1
+|move|p2b: Dondozo|Outrage|p1a: Tapu Fini|[from] lockedmove
+|-immune|p1a: Tapu Fini
+|
+|-damage|p2a: Zapdos|227/384 brn|[from] brn
+|-end|p2b: Dondozo|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|turn|19
+|
+|t:|1786237202
+|cant|p2a: Zapdos|recharge
+|move|p1a: Tapu Fini|Draining Kiss|p2b: Dondozo
+|-damage|p2b: Dondozo|22/442
+|-heal|p1a: Tapu Fini|344/344|[from] drain|[of] p2b: Dondozo
+|move|p2b: Dondozo|Waterfall|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|282/344
+|
+|-damage|p2a: Zapdos|203/384 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1786237202
+|move|p2a: Zapdos|Rock Smash|p1a: Tapu Fini
+|-resisted|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|274/344
+|-unboost|p1a: Tapu Fini|def|1
+|-activate|p1a: Tapu Fini|ability: Mummy|Static|[of] p2a: Zapdos
+|move|p1a: Tapu Fini|Draining Kiss|p2b: Dondozo
+|-damage|p2b: Dondozo|0 fnt
+|-heal|p1a: Tapu Fini|291/344|[from] drain|[of] p2b: Dondozo
+|faint|p2b: Dondozo
+|
+|-damage|p2a: Zapdos|179/384 brn|[from] brn
+|upkeep
+|
+|t:|1786237202
+|switch|p2b: Brute Bonnet|Brute Bonnet|426/426
+|turn|21
+|
+|t:|1786237202
+|move|p2a: Zapdos|Hyper Beam|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|243/344
+|-mustrecharge|p2a: Zapdos
+|move|p1a: Tapu Fini|Scald|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|351/426
+|move|p2b: Brute Bonnet|Outrage|p1a: Tapu Fini
+|-immune|p1a: Tapu Fini
+|
+|-damage|p2a: Zapdos|155/384 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1786237202
+|cant|p2a: Zapdos|recharge
+|move|p1a: Tapu Fini|Scald|p2b: Brute Bonnet
+|-resisted|p2b: Brute Bonnet
+|-damage|p2b: Brute Bonnet|264/426
+|move|p2b: Brute Bonnet|Seed Bomb|p1a: Tapu Fini
+|-supereffective|p1a: Tapu Fini
+|-damage|p1a: Tapu Fini|0 fnt
+|faint|p1a: Tapu Fini
+|
+|win|Cum Goblins</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
