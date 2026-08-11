@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<!-- version 1 -->
+<title>dontae vs gbelay - Pokemon Tournament Replay</title>
+<style>
+html,body {font-family:Verdana, sans-serif;font-size:10pt;margin:0;padding:0;}
+body{padding:12px 0;} .battle-log {font-family:Verdana, sans-serif;font-size:10pt;}
+.battle-log-inline {border:1px solid #AAAAAA;background:#EEF2F5;color:black;max-width:640px;margin:0 auto 80px;padding-bottom:5px;}
+.battle-log .inner {padding:4px 8px 0px 8px;}
+.battle-log .inner-preempt {padding:0 8px 4px 8px;}
+.battle-log .inner-after {margin-top:0.5em;}
+.battle-log h2 {margin:0.5em -8px;padding:4px 8px;border:1px solid #AAAAAA;background:#E0E7EA;border-left:0;border-right:0;font-family:Verdana, sans-serif;font-size:13pt;}
+.battle-log .chat {vertical-align:middle;padding:3px 0 3px 0;font-size:8pt;}
+.battle-log .chat strong {color:#40576A;}
+.battle-log .chat em {padding:1px 4px 1px 3px;color:#000000;font-style:normal;}
+.chat.mine {background:rgba(0,0,0,0.05);margin-left:-8px;margin-right:-8px;padding-left:8px;padding-right:8px;}
+.spacer {margin-top:0.5em;}
+.message-announce {background:#6688AA;color:white;padding:1px 4px 2px;}
+.message-announce a, .broadcast-green a, .broadcast-blue a, .broadcast-red a {color:#DDEEFF;}
+.broadcast-green {background-color:#559955;color:white;padding:2px 4px;}
+.broadcast-blue {background-color:#6688AA;color:white;padding:2px 4px;}
+.infobox {border:1px solid #6688AA;padding:2px 4px;}
+.infobox-limited {max-height:200px;overflow:auto;overflow-x:hidden;}
+.broadcast-red {background-color:#AA5544;color:white;padding:2px 4px;}
+.message-learn-canlearn {font-weight:bold;color:#228822;text-decoration:underline;}
+.message-learn-cannotlearn {font-weight:bold;color:#CC2222;text-decoration:underline;}
+.message-effect-weak {font-weight:bold;color:#CC2222;}
+.message-effect-resist {font-weight:bold;color:#6688AA;}
+.message-effect-immune {font-weight:bold;color:#666666;}
+.message-learn-list {margin-top:0;margin-bottom:0;}
+.message-throttle-notice, .message-error {color:#992222;}
+.message-overflow, .chat small.message-overflow {font-size:0pt;}
+.message-overflow::before {font-size:9pt;content:'...';}
+.subtle {color:#3A4A66;}
+</style>
+<div class="wrapper replay-wrapper" style="max-width:1180px;margin:0 auto">
+<input type="hidden" name="replayid" value="playoff-dontae-vs-gbelay-20260811-162639" />
+<div class="battle"></div><div class="battle-log"></div><div class="replay-controls"></div><p class="replay-download"><a href="#" class="button" onclick="document.location.reload();return false"><i class="fa fa-refresh"></i> Restart</a></p>
+<script type="text/plain" class="battle-log-data">|t:|1786483599
+|gametype|doubles
+|player|p1|dontae|miku-ghost|
+|player|p2|gbelay|rocker-gen1rb|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] Doubles Custom Game
+|clearpoke
+|poke|p1|Dialga|
+|poke|p1|Melmetal|
+|poke|p1|Great Tusk|
+|poke|p1|Darkrai|
+|poke|p1|Iron Treads|
+|poke|p1|Zygarde|
+|poke|p2|Archeops, F|
+|poke|p2|Nickit, F|
+|poke|p2|Miltank, F|
+|poke|p2|Shelgon, M|
+|poke|p2|Chien-Pao|
+|poke|p2|Marowak-Alola, F|
+|teampreview
+|
+|t:|1786483599
+|start
+|switch|p1a: Dialga|Dialga|404/404
+|switch|p1b: Melmetal|Melmetal|411/411
+|switch|p2a: Archeops|Archeops, F|291/291
+|switch|p2b: Nickit|Nickit, F|221/221
+|turn|1
+|
+|t:|1786483599
+|move|p2a: Archeops|Torment|p1b: Melmetal
+|debug|brightpowder - decreasing accuracy
+|-start|p1b: Melmetal|Torment
+|move|p1a: Dialga|Tera Blast|p2b: Nickit
+|-damage|p2b: Nickit|118/221
+|move|p2b: Nickit|Knock Off|p1a: Dialga
+|-damage|p1a: Dialga|329/404
+|-enditem|p1a: Dialga|Adamant Orb|[from] move: Knock Off|[of] p2b: Nickit
+|move|p1b: Melmetal|Double Iron Bash|p2a: Archeops
+|debug|Iron Fist boost
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|51/291
+|debug|Iron Fist boost
+|-supereffective|p2a: Archeops
+|-damage|p2a: Archeops|0 fnt
+|debug|move failed because it did nothing
+|faint|p2a: Archeops
+|-hitcount|p2: Archeops|2
+|
+|upkeep
+|
+|t:|1786483599
+|switch|p2a: Chien-Pao|Chien-Pao|301/301
+|-ability|p2a: Chien-Pao|Sword of Ruin
+|turn|2
+|
+|t:|1786483599
+|move|p2a: Chien-Pao|Scary Face|p1a: Dialga
+|-unboost|p1a: Dialga|spe|2
+|move|p2b: Nickit|Knock Off|p1b: Melmetal
+|debug|brightpowder - decreasing accuracy
+|debug|Sword of Ruin Def drop
+|-damage|p1b: Melmetal|327/411
+|-enditem|p1b: Melmetal|Bright Powder|[from] move: Knock Off|[of] p2b: Nickit
+|move|p1a: Dialga|Dragon Claw|p2b: Nickit
+|debug|Sword of Ruin Def drop
+|-damage|p2b: Nickit|0 fnt
+|faint|p2b: Nickit
+|move|p1b: Melmetal|Iron Defense|p1b: Melmetal
+|-boost|p1b: Melmetal|def|2
+|
+|upkeep
+|
+|t:|1786483599
+|switch|p2b: Marowak|Marowak-Alola, F|324/324
+|turn|3
+|
+|t:|1786483599
+|move|p2a: Chien-Pao|Ruination|p1a: Dialga
+|-damage|p1a: Dialga|165/404
+|move|p1a: Dialga|Bulldoze|p2b: Marowak|[spread] p1b,p2a,p2b
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Melmetal
+|debug|Spread modifier: 0.75
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Marowak
+|-damage|p1b: Melmetal|289/411
+|-damage|p2a: Chien-Pao|251/301
+|-damage|p2b: Marowak|232/324
+|-unboost|p1b: Melmetal|spe|1
+|-unboost|p2a: Chien-Pao|spe|1
+|-unboost|p2b: Marowak|spe|1
+|move|p2b: Marowak|Flare Blitz|p1b: Melmetal
+|debug|Sword of Ruin Def drop
+|-supereffective|p1b: Melmetal
+|-damage|p1b: Melmetal|173/411
+|-damage|p2b: Marowak|194/324|[from] Recoil
+|move|p1b: Melmetal|Brutal Swing|p2b: Marowak|[spread] p2a,p2b
+|-activate|p1a: Dialga|ability: Telepathy
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Chien-Pao
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Marowak
+|-damage|p2a: Chien-Pao|217/301
+|-damage|p2b: Marowak|50/324
+|
+|upkeep
+|turn|4
+|
+|t:|1786483599
+|move|p2a: Chien-Pao|Snowscape|p2a: Chien-Pao
+|-weather|Snowscape
+|move|p1a: Dialga|Tera Blast|p2b: Marowak
+|-immune|p2b: Marowak
+|move|p2b: Marowak|Flare Blitz|p1b: Melmetal
+|debug|Sword of Ruin Def drop
+|-supereffective|p1b: Melmetal
+|-damage|p1b: Melmetal|65/411
+|-damage|p2b: Marowak|14/324|[from] Recoil
+|move|p1b: Melmetal|Iron Defense|p1b: Melmetal
+|-boost|p1b: Melmetal|def|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1786483599
+|move|p2a: Chien-Pao|Scary Face|p1b: Melmetal
+|-unboost|p1b: Melmetal|spe|2
+|move|p1a: Dialga|Bulldoze|p2b: Marowak|[spread] p1b,p2a,p2b
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Melmetal
+|debug|Spread modifier: 0.75
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-supereffective|p2b: Marowak
+|-damage|p1b: Melmetal|35/411
+|-damage|p2a: Chien-Pao|182/301
+|-damage|p2b: Marowak|0 fnt
+|-unboost|p1b: Melmetal|spe|1
+|-unboost|p2a: Chien-Pao|spe|1
+|faint|p2b: Marowak
+|move|p1b: Melmetal|Brutal Swing|p2a: Chien-Pao|[spread] p2a
+|-activate|p1a: Dialga|ability: Telepathy
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|161/301
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1786483599
+|switch|p2b: Miltank|Miltank, F|331/331
+|turn|6
+|
+|t:|1786483599
+|move|p2b: Miltank|Curse|p2b: Miltank
+|-unboost|p2b: Miltank|spe|1
+|-boost|p2b: Miltank|atk|1
+|-boost|p2b: Miltank|def|1
+|move|p2a: Chien-Pao|Ruination|p1b: Melmetal
+|-damage|p1b: Melmetal|18/411
+|move|p1a: Dialga|Bulldoze|p2a: Chien-Pao|[spread] p1b,p2a,p2b
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-supereffective|p1b: Melmetal
+|debug|Spread modifier: 0.75
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-damage|p1b: Melmetal|0 fnt
+|-damage|p2a: Chien-Pao|127/301
+|-damage|p2b: Miltank|303/331
+|-unboost|p2a: Chien-Pao|spe|1
+|-unboost|p2b: Miltank|spe|1
+|faint|p1b: Melmetal
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1786483599
+|switch|p1b: Darkrai|Darkrai|344/344
+|turn|7
+|
+|t:|1786483599
+|move|p1b: Darkrai|Giga Impact|p2b: Miltank
+|debug|Sword of Ruin Def drop
+|-damage|p2b: Miltank|235/331
+|-mustrecharge|p1b: Darkrai
+|move|p2a: Chien-Pao|Snarl|p1a: Dialga|[spread] p1a,p1b
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|-resisted|p1b: Darkrai
+|-damage|p1a: Dialga|119/404
+|-damage|p1b: Darkrai|319/344
+|-unboost|p1a: Dialga|spa|1
+|-unboost|p1b: Darkrai|spa|1
+|move|p2b: Miltank|Rollout|p1a: Dialga
+|debug|BP: 30
+|debug|Sword of Ruin Def drop
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|96/404
+|move|p1a: Dialga|Bulldoze|p2a: Chien-Pao|[spread] p1b,p2a,p2b
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|debug|Spread modifier: 0.75
+|debug|Sword of Ruin Def drop
+|debug|Spread modifier: 0.75
+|-damage|p1b: Darkrai|272/344
+|-damage|p2a: Chien-Pao|92/301
+|-damage|p2b: Miltank|208/331
+|-unboost|p1b: Darkrai|spe|1
+|-unboost|p2a: Chien-Pao|spe|1
+|-unboost|p2b: Miltank|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1786483599
+|cant|p1b: Darkrai|recharge
+|move|p2a: Chien-Pao|Scary Face|p1a: Dialga
+|-unboost|p1a: Dialga|spe|2
+|move|p2b: Miltank|Rollout|p1a: Dialga|[from] lockedmove
+|debug|BP: 60
+|debug|Sword of Ruin Def drop
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|55/404
+|move|p1a: Dialga|Substitute|p1a: Dialga
+|-fail|p1a: Dialga|move: Substitute|[weak]
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1786483599
+|move|p1b: Darkrai|Blizzard|p2b: Miltank|[spread] p2a
+|-miss|p1b: Darkrai|p2b: Miltank
+|debug|Spread modifier: 0.75
+|-resisted|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|51/301
+|move|p2a: Chien-Pao|Scary Face|p1a: Dialga
+|-unboost|p1a: Dialga|spe|2
+|move|p2b: Miltank|Rollout|p1a: Dialga|[from] lockedmove
+|debug|BP: 120
+|debug|Sword of Ruin Def drop
+|-resisted|p1a: Dialga
+|-damage|p1a: Dialga|0 fnt
+|faint|p1a: Dialga
+|
+|upkeep
+|
+|t:|1786483599
+|switch|p1a: Great Tusk|Great Tusk|434/434
+|turn|10
+|
+|t:|1786483599
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-fail|p1a: Great Tusk|heal
+|move|p1b: Darkrai|X-Scissor|p2b: Miltank
+|debug|Sword of Ruin Def drop
+|-damage|p2b: Miltank|175/331
+|move|p2a: Chien-Pao|Snowscape|p2a: Chien-Pao
+|-weather|Snowscape
+|move|p2b: Miltank|Rollout|p1a: Great Tusk|[from] lockedmove
+|debug|BP: 240
+|debug|Sword of Ruin Def drop
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|356/434
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1786483599
+|move|p1a: Great Tusk|Throat Chop|p2b: Miltank
+|debug|Sword of Ruin Def drop
+|-damage|p2b: Miltank|109/331
+|-start|p2b: Miltank|Throat Chop|[silent]
+|move|p1b: Darkrai|X-Scissor|p2b: Miltank
+|debug|Sword of Ruin Def drop
+|-damage|p2b: Miltank|76/331
+|move|p2a: Chien-Pao|Ruination|p1b: Darkrai
+|-damage|p1b: Darkrai|136/344
+|move|p2b: Miltank|Rollout|p1a: Great Tusk|[from] lockedmove
+|debug|BP: 480
+|debug|Sword of Ruin Def drop
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|202/434
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1786483599
+|move|p1a: Great Tusk|Rest|p1a: Great Tusk
+|-status|p1a: Great Tusk|slp|[from] move: Rest
+|-heal|p1a: Great Tusk|434/434 slp|[silent]
+|move|p1b: Darkrai|X-Scissor|p2a: Chien-Pao
+|-supereffective|p2a: Chien-Pao
+|-damage|p2a: Chien-Pao|0 fnt
+|faint|p2a: Chien-Pao
+|move|p2b: Miltank|Rollout|p1a: Great Tusk
+|debug|BP: 30
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|427/434 slp
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2b: Miltank|Throat Chop|[silent]
+|upkeep
+|
+|t:|1786483599
+|switch|p2a: Shelgon|Shelgon, M|334/334
+|turn|13
+|
+|t:|1786483599
+|cant|p1a: Great Tusk|slp
+|move|p1b: Darkrai|Blizzard|p2b: Miltank|[spread] p2a,p2b
+|debug|Spread modifier: 0.75
+|-supereffective|p2a: Shelgon
+|debug|Spread modifier: 0.75
+|-damage|p2a: Shelgon|136/334
+|-damage|p2b: Miltank|0 fnt
+|debug|move failed because it did nothing
+|faint|p2b: Miltank
+|move|p2a: Shelgon|Dragon Breath|p1a: Great Tusk
+|-damage|p1a: Great Tusk|318/434 slp
+|debug|move failed because it did nothing
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1786483599
+|cant|p1a: Great Tusk|slp
+|move|p1b: Darkrai|Foul Play|p2a: Shelgon
+|-damage|p2a: Shelgon|36/334
+|move|p2a: Shelgon|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|202/434 slp
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1786483599
+|-curestatus|p1a: Great Tusk|slp|[msg]
+|move|p1a: Great Tusk|Supercell Slam|p2a: Shelgon
+|-resisted|p2a: Shelgon
+|-damage|p2a: Shelgon|0 fnt
+|faint|p2a: Shelgon
+|
+|win|dontae</script>
+</div>
+<script src="https://play.pokemonshowdown.com/js/replay-embed.js"></script>
